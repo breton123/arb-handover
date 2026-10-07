@@ -1,0 +1,265 @@
+SWQOS-BENCH  payer HHNzjTABPAbPY5uEXU7NTvfmcD9RYTdXtLntyKAtpXLX  wallet 20869942  swqos 10000000  tsc_hz 4194040036
+  memo-only  cu_price=10000  warm=200  cold=8
+swqos account enabled=true balance_lamports=10000000
+swqos cert_len=267
+swqos quic up  dest=64.130.40.90:11000 pool=2 alpn=ultrasend/1
+  warm 0  send=40.7µs  seen=y  land=1
+  warm 1  send=0.0µs  seen=n  land=0
+  warm 2  send=55.8µs  seen=y  land=1
+  warm 3  send=53.6µs  seen=n  land=0
+  warm 4  send=60.3µs  seen=n  land=0
+  warm 5  send=74.1µs  seen=n  land=0
+  warm 6  send=41.4µs  seen=n  land=0
+  warm 7  send=37.8µs  seen=n  land=0
+  warm 8  send=46.1µs  seen=n  land=0
+  warm 9  send=35.1µs  seen=n  land=0
+  warm 10  send=54.8µs  seen=n  land=0
+  warm 11  send=48.2µs  seen=n  land=0
+  warm 12  send=37.0µs  seen=n  land=0
+  warm 13  send=29.4µs  seen=n  land=0
+  warm 14  send=59.3µs  seen=n  land=0
+  warm 15  send=43.4µs  seen=n  land=0
+  warm 16  send=42.0µs  seen=n  land=0
+  warm 17  send=47.1µs  seen=n  land=0
+  warm 18  send=40.1µs  seen=n  land=0
+  warm 19  send=35.0µs  seen=n  land=0
+  warm 20  send=49.1µs  seen=n  land=0
+  warm 21  send=45.7µs  seen=n  land=0
+  warm 22  send=40.0µs  seen=n  land=0
+  warm 23  send=47.8µs  seen=n  land=0
+  warm 24  send=46.6µs  seen=n  land=0
+  warm 25  send=47.2µs  seen=n  land=0
+  warm 26  send=51.4µs  seen=n  land=0
+  warm 27  send=50.2µs  seen=n  land=0
+  warm 28  send=43.3µs  seen=n  land=0
+  warm 29  send=51.4µs  seen=n  land=0
+  warm 30  send=44.5µs  seen=n  land=0
+  warm 31  send=43.9µs  seen=n  land=0
+  warm 32  send=42.1µs  seen=n  land=0
+  warm 33  send=45.8µs  seen=n  land=0
+  warm 34  send=46.5µs  seen=n  land=0
+  warm 35  send=42.2µs  seen=n  land=0
+  warm 36  send=50.8µs  seen=n  land=0
+  warm 37  send=46.0µs  seen=n  land=0
+  warm 38  send=56.5µs  seen=n  land=0
+  warm 39  send=44.5µs  seen=n  land=0
+  warm 40  send=36.4µs  seen=n  land=0
+  warm 41  send=43.4µs  seen=n  land=0
+  warm 42  send=44.4µs  seen=n  land=0
+  warm 43  send=40.4µs  seen=n  land=0
+  warm 44  send=52.1µs  seen=n  land=0
+  warm 45  send=45.7µs  seen=n  land=0
+  warm 46  send=40.0µs  seen=n  land=0
+  warm 47  send=47.9µs  seen=n  land=0
+  warm 48  send=42.8µs  seen=n  land=0
+  warm 49  send=45.0µs  seen=n  land=0
+  warm 50  send=44.8µs  seen=n  land=0
+  warm 51  send=40.2µs  seen=n  land=0
+  warm 52  send=42.0µs  seen=n  land=0
+  warm 53  send=41.1µs  seen=n  land=0
+  warm 54  send=40.0µs  seen=n  land=0
+  warm 55  send=31.2µs  seen=n  land=0
+  warm 56  send=49.0µs  seen=n  land=0
+  warm 57  send=46.0µs  seen=n  land=0
+  warm 58  send=43.8µs  seen=n  land=0
+  warm 59  send=42.1µs  seen=n  land=0
+  warm 60  send=36.2µs  seen=n  land=0
+  warm 61  send=35.1µs  seen=n  land=0
+  warm 62  send=45.1µs  seen=n  land=0
+  warm 63  send=51.7µs  seen=n  land=0
+  warm 64  send=39.4µs  seen=n  land=0
+  warm 65  send=38.0µs  seen=n  land=0
+  warm 66  send=41.1µs  seen=n  land=0
+  warm 67  send=34.4µs  seen=n  land=0
+  warm 68  send=37.3µs  seen=n  land=0
+  warm 69  send=45.5µs  seen=n  land=0
+  warm 70  send=42.5µs  seen=n  land=0
+  warm 71  send=50.5µs  seen=n  land=0
+  warm 72  send=48.7µs  seen=n  land=0
+  warm 73  send=44.1µs  seen=n  land=0
+  warm 74  send=35.4µs  seen=n  land=0
+  warm 75  send=41.2µs  seen=n  land=0
+  warm 76  send=48.7µs  seen=n  land=0
+  warm 77  send=39.8µs  seen=n  land=0
+  warm 78  send=36.6µs  seen=n  land=0
+  warm 79  send=46.5µs  seen=n  land=0
+  warm 80  send=36.7µs  seen=n  land=0
+  warm 81  send=53.6µs  seen=n  land=0
+  warm 82  send=46.5µs  seen=n  land=0
+  warm 83  send=46.5µs  seen=n  land=0
+  warm 84  send=37.6µs  seen=n  land=0
+  warm 85  send=45.2µs  seen=n  land=0
+  warm 86  send=45.4µs  seen=n  land=0
+  warm 87  send=40.7µs  seen=n  land=0
+  warm 88  send=44.0µs  seen=n  land=0
+  warm 89  send=30.3µs  seen=n  land=0
+  warm 90  send=41.8µs  seen=n  land=0
+  warm 91  send=54.3µs  seen=n  land=0
+  warm 92  send=41.6µs  seen=n  land=0
+  warm 93  send=39.4µs  seen=n  land=0
+  warm 94  send=37.0µs  seen=n  land=0
+  warm 95  send=37.1µs  seen=n  land=0
+  warm 96  send=35.2µs  seen=n  land=0
+  warm 97  send=53.1µs  seen=n  land=0
+  warm 98  send=34.3µs  seen=n  land=0
+  warm 99  send=41.7µs  seen=n  land=0
+  warm 100  send=38.0µs  seen=n  land=0
+  warm 101  send=27.5µs  seen=n  land=0
+  warm 102  send=46.4µs  seen=n  land=0
+  warm 103  send=48.3µs  seen=n  land=0
+  warm 104  send=39.6µs  seen=n  land=0
+  warm 105  send=43.0µs  seen=n  land=0
+  warm 106  send=39.2µs  seen=n  land=0
+  warm 107  send=40.3µs  seen=n  land=0
+  warm 108  send=41.8µs  seen=n  land=0
+  warm 109  send=57.2µs  seen=n  land=0
+  warm 110  send=37.0µs  seen=n  land=0
+  warm 111  send=48.3µs  seen=n  land=0
+  warm 112  send=46.8µs  seen=n  land=0
+  warm 113  send=42.1µs  seen=n  land=0
+  warm 114  send=38.1µs  seen=n  land=0
+  warm 115  send=33.4µs  seen=n  land=0
+  warm 116  send=38.1µs  seen=n  land=0
+  warm 117  send=46.1µs  seen=n  land=0
+  warm 118  send=43.0µs  seen=n  land=0
+  warm 119  send=40.9µs  seen=n  land=0
+  warm 120  send=47.8µs  seen=n  land=0
+  warm 121  send=33.8µs  seen=n  land=0
+  warm 122  send=49.3µs  seen=n  land=0
+  warm 123  send=41.9µs  seen=n  land=0
+  warm 124  send=38.0µs  seen=n  land=0
+  warm 125  send=32.1µs  seen=n  land=0
+  warm 126  send=45.1µs  seen=n  land=0
+  warm 127  send=35.1µs  seen=n  land=0
+  warm 128  send=45.4µs  seen=n  land=0
+  warm 129  send=31.9µs  seen=n  land=0
+  warm 130  send=34.3µs  seen=n  land=0
+  warm 131  send=47.9µs  seen=n  land=0
+  warm 132  send=42.6µs  seen=n  land=0
+  warm 133  send=36.6µs  seen=n  land=0
+  warm 134  send=35.6µs  seen=n  land=0
+  warm 135  send=44.9µs  seen=n  land=0
+  warm 136  send=36.9µs  seen=n  land=0
+  warm 137  send=45.6µs  seen=n  land=0
+  warm 138  send=40.3µs  seen=n  land=0
+  warm 139  send=37.3µs  seen=n  land=0
+  warm 140  send=51.5µs  seen=n  land=0
+  warm 141  send=42.1µs  seen=n  land=0
+  warm 142  send=37.0µs  seen=n  land=0
+  warm 143  send=43.4µs  seen=n  land=0
+  warm 144  send=38.3µs  seen=n  land=0
+  warm 145  send=39.7µs  seen=n  land=0
+  warm 146  send=40.2µs  seen=n  land=0
+  warm 147  send=49.2µs  seen=n  land=0
+  warm 148  send=34.2µs  seen=n  land=0
+  warm 149  send=35.0µs  seen=n  land=0
+  warm 150  send=108.4µs  seen=n  land=0
+  warm 151  send=46.8µs  seen=n  land=0
+  warm 152  send=40.1µs  seen=n  land=0
+  warm 153  send=47.6µs  seen=n  land=0
+  warm 154  send=43.6µs  seen=n  land=0
+  warm 155  send=45.6µs  seen=n  land=0
+  warm 156  send=32.6µs  seen=n  land=0
+  warm 157  send=35.5µs  seen=n  land=0
+  warm 158  send=37.7µs  seen=n  land=0
+  warm 159  send=29.8µs  seen=n  land=0
+  warm 160  send=32.6µs  seen=n  land=0
+  warm 161  send=43.7µs  seen=n  land=0
+  warm 162  send=38.2µs  seen=n  land=0
+  warm 163  send=40.3µs  seen=n  land=0
+  warm 164  send=27.5µs  seen=n  land=0
+  warm 165  send=41.8µs  seen=n  land=0
+  warm 166  send=34.5µs  seen=n  land=0
+  warm 167  send=43.0µs  seen=n  land=0
+  warm 168  send=36.1µs  seen=n  land=0
+  warm 169  send=44.4µs  seen=n  land=0
+  warm 170  send=49.0µs  seen=n  land=0
+  warm 171  send=44.1µs  seen=n  land=0
+  warm 172  send=40.2µs  seen=n  land=0
+  warm 173  send=33.4µs  seen=n  land=0
+  warm 174  send=25.6µs  seen=n  land=0
+  warm 175  send=43.7µs  seen=n  land=0
+  warm 176  send=42.0µs  seen=n  land=0
+  warm 177  send=50.4µs  seen=n  land=0
+  warm 178  send=36.6µs  seen=n  land=0
+  warm 179  send=64.9µs  seen=n  land=0
+  warm 180  send=46.6µs  seen=n  land=0
+  warm 181  send=45.5µs  seen=n  land=0
+  warm 182  send=44.5µs  seen=n  land=0
+  warm 183  send=56.8µs  seen=n  land=0
+  warm 184  send=28.8µs  seen=n  land=0
+  warm 185  send=49.8µs  seen=n  land=0
+  warm 186  send=43.3µs  seen=n  land=0
+  warm 187  send=44.2µs  seen=n  land=0
+  warm 188  send=36.8µs  seen=n  land=0
+  warm 189  send=39.4µs  seen=n  land=0
+  warm 190  send=49.5µs  seen=n  land=0
+  warm 191  send=44.6µs  seen=n  land=0
+  warm 192  send=40.5µs  seen=n  land=0
+  warm 193  send=48.5µs  seen=n  land=0
+  warm 194  send=43.9µs  seen=n  land=0
+  warm 195  send=38.1µs  seen=n  land=0
+  warm 196  send=45.3µs  seen=n  land=0
+  warm 197  send=36.3µs  seen=n  land=0
+  warm 198  send=40.6µs  seen=n  land=0
+  warm 199  send=39.2µs  seen=n  land=0
+COLD CONTROL  reconnect per send
+swqos account enabled=true balance_lamports=9400000
+swqos cert_len=267
+swqos quic up  dest=64.130.40.90:11000 pool=2 alpn=ultrasend/1
+  cold 0  send=31.6µs  seen=y  land=1
+swqos account enabled=true balance_lamports=9250000
+swqos cert_len=267
+swqos quic up  dest=64.130.40.90:11000 pool=2 alpn=ultrasend/1
+  cold 1  send=38.4µs  seen=y  land=1
+swqos account enabled=true balance_lamports=9100000
+swqos cert_len=267
+swqos quic up  dest=64.130.40.90:11000 pool=2 alpn=ultrasend/1
+  cold 2  send=35.8µs  seen=y  land=1
+swqos account enabled=true balance_lamports=8950000
+swqos cert_len=267
+swqos quic up  dest=64.130.40.90:11000 pool=2 alpn=ultrasend/1
+  cold 3  send=45.2µs  seen=y  land=1
+swqos account enabled=true balance_lamports=8800000
+swqos cert_len=267
+swqos quic up  dest=64.130.40.90:11000 pool=2 alpn=ultrasend/1
+  cold 4  send=46.6µs  seen=y  land=1
+swqos account enabled=true balance_lamports=8650000
+swqos cert_len=267
+swqos quic up  dest=64.130.40.90:11000 pool=2 alpn=ultrasend/1
+  cold 5  send=52.8µs  seen=y  land=1
+swqos account enabled=true balance_lamports=8500000
+swqos cert_len=267
+swqos quic up  dest=64.130.40.90:11000 pool=2 alpn=ultrasend/1
+  cold 6  send=46.9µs  seen=y  land=1
+swqos account enabled=true balance_lamports=8350000
+swqos cert_len=267
+swqos quic up  dest=64.130.40.90:11000 pool=2 alpn=ultrasend/1
+  cold 7  send=49.1µs  seen=y  land=1
+
+WARM  n=200
+                     p50      p90      p99      min      max   (µs)
+  sign                       17.5     20.7     28.1     13.7     40.6
+  signed→SWQOS return      55.8     60.3     60.3     40.7     60.3
+  sign→SWQOS return        73.2     77.5     77.5     57.8     77.5
+  SWQOS return→RPC seen 7660231.0 7660231.0 7660231.0 3330195.5 7660231.0
+  sign→RPC seen        7660304.2 7660304.2 7660304.2 3330253.3 7660304.2
+  sent 4  landed 2  not_landed 2  landing 50.0%
+  conn0 2  conn1 197
+  errors sign=0 send=195 not_seen=2 expired=0 tx_err=0 other=1
+
+COLD CONTROL  n=8
+                     p50      p90      p99      min      max   (µs)
+  sign                       21.1     21.3     21.4     17.5     21.4
+  signed→SWQOS return      46.6     49.1     52.8     31.6     52.8
+  sign→SWQOS return        65.6     67.7     71.4     53.0     71.4
+  SWQOS return→RPC seen 644881.0 949827.0 2598395.9 249583.3 2598395.9
+  sign→RPC seen        644943.7 949880.1 2598453.0 249651.1 2598453.0
+  sent 8  landed 8  not_landed 0  landing 100.0%
+  conn0 4  conn1 4
+  errors sign=0 send=0 not_seen=0 expired=0 tx_err=0 other=0
+  wallet Δ -55000 lamports  (-0.000055 SOL)
+  swqos prepaid Δ -1800000 lamports  (-0.001800 SOL)
+  recovered tx fees 55000 lamports
+  wrote /home/louis/arb-cap/swqos_bench/warm.jsonl /home/louis/arb-cap/swqos_bench/cold.jsonl
+EXIT:0

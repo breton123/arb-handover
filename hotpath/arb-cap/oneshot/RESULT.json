@@ -1,0 +1,158 @@
+{
+  "why": "stale_custom6",
+  "ts": 1790353309.4458582,
+  "opp": {
+    "kind": "opp_synced",
+    "sig_hex": "68778943fbdb3dbd6242b4ead4c1e4c2a5b5ccda0b2294da2a91adeba6bcbcb96f024aad6c7ff1662d5911c25ba624a7b5aa7accb7a3a999afdc3196d65f250e",
+    "pool": "d66a62ff39c28ce6cc41d940211a9adb26468f13e0be4a60b4b93ebc4b2fe863",
+    "state_version_before": 450377812,
+    "auth_slot": 450400993,
+    "auth_ns": 1291232249137555,
+    "n": {
+      "pool_idx": 97,
+      "proto": 1,
+      "direction": 1,
+      "amount_in": 1988425300539
+    },
+    "s_prime": {
+      "active_id": -469,
+      "active_after": -469,
+      "reserve_x": 7580022224463,
+      "reserve_y": 56267834497,
+      "vol_acc": 150000,
+      "vol_ref": 18750,
+      "idx_ref": -570,
+      "last_upd": 1790352239,
+      "fee": 93207435965,
+      "protocol_fee": 9320743595,
+      "touched": [
+        {
+          "id": -469,
+          "x": 395310534837,
+          "y": 326077735
+        },
+        {
+          "id": -468,
+          "x": 431730505469,
+          "y": 0
+        },
+        {
+          "id": -467,
+          "x": 424724697928,
+          "y": 0
+        },
+        {
+          "id": -466,
+          "x": 420710881483,
+          "y": 0
+        },
+        {
+          "id": -465,
+          "x": 411533587477,
+          "y": 0
+        }
+      ]
+    },
+    "n_ix": {
+      "min_out": 14394562277,
+      "variant": 1
+    },
+    "shred": {
+      "slot": 450404968,
+      "index": 916,
+      "fec": 896,
+      "type": 150
+    },
+    "send_quote": {
+      "cap": 50000000,
+      "cap_ok": 1,
+      "cap_final": 126365832,
+      "cap_gross": 76365832,
+      "tiny": 10000000,
+      "tiny_ok": 1,
+      "tiny_final": 25277036,
+      "tiny_gross": 15277036
+    },
+    "arb": {
+      "direction": 1,
+      "amount_in": 23333333333,
+      "intermediate": 6040375693346,
+      "final": 50894459699,
+      "gross": 27561126366
+    },
+    "frame": {
+      "class": "framed",
+      "t0_ns": 1291727446107519,
+      "framed_ns": 1291727447738307,
+      "delay_ns": 1630788,
+      "nsig": 1,
+      "nkeys": 23,
+      "ninstr": 7
+    },
+    "race_ready": 1,
+    "timing": {
+      "actionable_ns": 1291727446107519,
+      "decision_ns": 286031,
+      "signed_ready_ns": 304567
+    }
+  },
+  "fire": {
+    "dlmm": "FRzLWC7LPGAAgDeuWXn7gEwpMyueDe5XN7eAU7fGu2Qz",
+    "pump": "Ftjga524YrS7RPzGCcezMuQnFDYa8PcvWDY5mFmZk5dy",
+    "token": "5g9PWcRUHpmqm5uKycpShKXJB18sGLeCEzgB3qrRpump",
+    "direction": 1,
+    "send_lamports": 50000000,
+    "est_gp": 76365832,
+    "min_profit": 525000,
+    "cu_price": 800000,
+    "tx_len": 626,
+    "sig": "5FdNDoD9aqSJcxFQk9d2quNq893X12vrsSsoxxVBjhWmrnTAHRFniwDhVaMnK8PbcG4pr98EwRK2mgXggHn43Yss",
+    "alt": "J6jmHvnetqmzmBxpWyKDYmWEnTU77Dmcd7Le2sLyAfwu",
+    "timing": {
+      "T_decision_mono_ns": 1291751113406896,
+      "T_signed_mono_ns": 1291753158158888,
+      "T_SWQOS_return_mono_ns": 1291755069838387,
+      "T_SWQOS_return_send_ns": null,
+      "send_wall_ms": 977.8623580932617
+    },
+    "swqos_rc": 0,
+    "swqos_out": "ONESHOT_SWQOS rc=0 send_ns=6580 ready=4 conn=0 len=626",
+    "send_wall_ms": 977.8623580932617,
+    "status": {
+      "slot": 450404980,
+      "confirmations": 1,
+      "status": {
+        "Err": {
+          "InstructionError": [
+            2,
+            {
+              "Custom": 6
+            }
+          ]
+        }
+      },
+      "err": {
+        "InstructionError": [
+          2,
+          {
+            "Custom": 6
+          }
+        ]
+      },
+      "confirmationStatus": "confirmed"
+    }
+  },
+  "trigger": {
+    "n_sig": "3699XKMRSEkz3uxqVaUBqGdab6WK6LUM4UMexwVP17NiVjy3MQgiTeBYfQvFcZ6yGdcfiQ9SPT3oUECWAUjNNzTF",
+    "n_status": {
+      "slot": 450404968,
+      "confirmations": 14,
+      "status": {
+        "Ok": null
+      },
+      "err": null,
+      "confirmationStatus": "confirmed"
+    },
+    "n_outcome": "landed-success"
+  }
+}

@@ -1,0 +1,19 @@
+Vendored from the official Flowra searcher surface. Do not invent fields.
+
+Docs (2026-09-24):
+  https://docs.flowra.wtf/searchers/getting-started.md
+  https://docs.flowra.wtf/searchers/orderflow-stream.md
+  https://docs.flowra.wtf/searchers/api-reference.md
+  https://docs.flowra.wtf/endpoints.md
+
+Protos: https://github.com/flowrawtf/mev-protos (branch main)
+  auth.proto      sha da67b4db8de96821a2246bd091e525a9b3ede786
+  searcher.proto  sha 13d1e018d84925cb0e96b0e9665ba5f74cdec2af
+  packet.proto    sha 23042a3c649b6e369e09b113e2cb168a562d7ed1
+  bundle.proto    sha 3852507b04d30b33022594fbbe5d89cbef766e87
+  shared.proto    sha c6e444d907796a10f8b12553e9435068a956412a
+
+Searcher observe RPC: searcher.SearcherService/SubscribePendingTransactions
+Auth: auth.AuthService challenge-response (role SEARCHER)
+Frankfurt Block Engine: https://frankfurt.mainnet.blockengine.flowra.wtf
+Transport: gRPC over TLS port 443

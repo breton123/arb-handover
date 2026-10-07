@@ -1,0 +1,182 @@
+UNIV-JSON  n=645 dlmm=242 pump=403 mints_from_bin=1 missing=0
+UNIV-JSON  wrote /home/louis/captures/paper_orbit/liveuniv.json
+  wsol 50000000
+  raw=964 b64=1288 wire=1232 margin=268
+  simulate err={'InstructionError': [2, {'Custom': 3005}]} cu=21612 logs=12
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt invoke [1]
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo invoke [2]
+    Program log: Instruction: Swap2
+    Program log: AnchorError caused by account: bin_array. Error Code: AccountNotEnoughKeys. Error Number: 3005. Error Message: Not enough account keys given to the instruction.
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo consumed 17020 of 395408 compute units
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo failed: custom program error: 0xbbd
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt consumed 21312 of 399700 compute units
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt failed: custom program error: 0xbbd
+RECOVER  dlmm-dlmm id=0 custom6=False cu=21612 raw=964 alt=False err={'InstructionError': [2, {'Custom': 3005}]}
+  created ATA FhX39zzC.. 2tf2sqNMfVQo..
+RECOVER  dlmm-dlmm id=2 VECTOR_FAIL n=3
+  VECTOR_FAIL route=2 hop=0 role=user1 expected_program=TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb expected_mint=HSUMi4rMgjrx7zRUabw3ogGu1pa5hmF2eVcXj9Apump got=FhX39zzCC33AQ6gx27wBzqjE9GakhKjP5cUdGL7ZqYPW
+  VECTOR_FAIL route=2 hop=0 role=user1 expected_mint=HSUMi4rMgjrx7zRUabw3ogGu1pa5hmF2eVcXj9Apump got=FhX39zzCC33AQ6gx27wBzqjE9GakhKjP5cUdGL7ZqYPW
+  VECTOR_FAIL route=2 hop=0 role=user1 expected_owner=HHNzjTABPAbPY5uEXU7NTvfmcD9RYTdXtLntyKAtpXLX got=FhX39zzCC33AQ6gx27wBzqjE9GakhKjP5cUdGL7ZqYPW
+  created ATA FhX39zzC.. 5P4BwZoaiB2y..
+RECOVER  dlmm-dlmm id=3 VECTOR_FAIL n=3
+  VECTOR_FAIL route=3 hop=0 role=user1 expected_program=TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb expected_mint=HSUMi4rMgjrx7zRUabw3ogGu1pa5hmF2eVcXj9Apump got=FhX39zzCC33AQ6gx27wBzqjE9GakhKjP5cUdGL7ZqYPW
+  VECTOR_FAIL route=3 hop=0 role=user1 expected_mint=HSUMi4rMgjrx7zRUabw3ogGu1pa5hmF2eVcXj9Apump got=FhX39zzCC33AQ6gx27wBzqjE9GakhKjP5cUdGL7ZqYPW
+  VECTOR_FAIL route=3 hop=0 role=user1 expected_owner=HHNzjTABPAbPY5uEXU7NTvfmcD9RYTdXtLntyKAtpXLX got=FhX39zzCC33AQ6gx27wBzqjE9GakhKjP5cUdGL7ZqYPW
+  created ATA 3QDoduuR.. 44zg9vtuuYSj..
+RECOVER  dlmm-dlmm id=4 VECTOR_FAIL n=3
+  VECTOR_FAIL route=4 hop=0 role=user1 expected_program=TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb expected_mint=DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP got=3QDoduuRtCaUMeNKszTA5Dsa844PvQ3GvDiM8nZKo6T9
+  VECTOR_FAIL route=4 hop=0 role=user1 expected_mint=DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP got=3QDoduuRtCaUMeNKszTA5Dsa844PvQ3GvDiM8nZKo6T9
+  VECTOR_FAIL route=4 hop=0 role=user1 expected_owner=HHNzjTABPAbPY5uEXU7NTvfmcD9RYTdXtLntyKAtpXLX got=3QDoduuRtCaUMeNKszTA5Dsa844PvQ3GvDiM8nZKo6T9
+  created ATA 3QDoduuR.. 2M3W4L66pQyW..
+RECOVER  dlmm-dlmm id=5 VECTOR_FAIL n=3
+  VECTOR_FAIL route=5 hop=0 role=user1 expected_program=TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb expected_mint=DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP got=3QDoduuRtCaUMeNKszTA5Dsa844PvQ3GvDiM8nZKo6T9
+  VECTOR_FAIL route=5 hop=0 role=user1 expected_mint=DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP got=3QDoduuRtCaUMeNKszTA5Dsa844PvQ3GvDiM8nZKo6T9
+  VECTOR_FAIL route=5 hop=0 role=user1 expected_owner=HHNzjTABPAbPY5uEXU7NTvfmcD9RYTdXtLntyKAtpXLX got=3QDoduuRtCaUMeNKszTA5Dsa844PvQ3GvDiM8nZKo6T9
+  raw=964 b64=1288 wire=1232 margin=268
+  simulate err={'InstructionError': [2, 'IncorrectProgramId']} cu=34646 logs=22
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt invoke [1]
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo invoke [2]
+    Program log: Instruction: Swap2
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo invoke [3]
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo consumed 772 of 371776 compute units
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo success
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 112 of 368962 compute units
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb invoke [3]
+    Program log: Instruction: TransferChecked
+    Program log: Error: IncorrectProgramId
+    ...
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt failed: incorrect program id for instruction
+RECOVER  dlmm-dlmm id=6 custom6=False cu=34646 raw=964 alt=False err={'InstructionError': [2, 'IncorrectProgramId']}
+  created ATA 3QDoduuR.. 5kgq9dBqS8ne..
+  raw=964 b64=1288 wire=1232 margin=268
+  simulate err={'InstructionError': [2, {'Custom': 6}]} cu=84763 logs=41
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt invoke [1]
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo invoke [2]
+    Program log: Instruction: Swap2
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo invoke [3]
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo consumed 772 of 370902 compute units
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo success
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 112 of 368088 compute units
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb invoke [3]
+    Program log: Instruction: TransferChecked
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb consumed 3432 of 365105 compute units
+    ...
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt failed: custom program error: 0x6
+RECOVER  dlmm-dlmm id=7 custom6=True cu=84763 raw=964 alt=False err={'InstructionError': [2, {'Custom': 6}]}
+RECOVER  dumped VECTOR.json id=1 n_acc=43 fails=0
+  raw=930 b64=1240 wire=1232 margin=302
+  simulate err={'InstructionError': [2, {'Custom': 3005}]} cu=21831 logs=12
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt invoke [1]
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo invoke [2]
+    Program log: Instruction: Swap2
+    Program log: AnchorError caused by account: bin_array. Error Code: AccountNotEnoughKeys. Error Number: 3005. Error Message: Not enough account keys given to the instruction.
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo consumed 17042 of 395211 compute units
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo failed: custom program error: 0xbbd
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt consumed 21531 of 399700 compute units
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt failed: custom program error: 0xbbd
+RECOVER  dlmm-pump id=1 custom6=False cu=21831 raw=930 alt=True err={'InstructionError': [2, {'Custom': 3005}]}
+  raw=620 b64=828 wire=1232 margin=612
+  simulate err={'InstructionError': [2, {'Custom': 6}]} cu=141164 logs=53
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt invoke [1]
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo invoke [2]
+    Program log: Instruction: Swap2
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo invoke [3]
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo consumed 772 of 364715 compute units
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo success
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 112 of 361901 compute units
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb invoke [3]
+    Program log: Instruction: TransferChecked
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb consumed 2442 of 359019 compute units
+    ...
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt failed: custom program error: 0x6
+RECOVER  dlmm-pump id=9 custom6=True cu=141164 raw=620 alt=True err={'InstructionError': [2, {'Custom': 6}]}
+  raw=776 b64=1036 wire=1232 margin=456
+  simulate err={'InstructionError': [2, {'Custom': 2006}]} cu=66081 logs=35
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt invoke [1]
+    Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA invoke [2]
+    Program log: Instruction: BuyExactQuoteIn
+    Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [3]
+    Program log: Create
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [4]
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 179 of 361085 compute units
+    Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+    Program 11111111111111111111111111111111 invoke [4]
+    Program 11111111111111111111111111111111 success
+    Program log: Initialize the associated token account
+    ...
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt failed: custom program error: 0x7d6
+RECOVER  pump-dlmm id=152 custom6=False cu=66081 raw=776 alt=True err={'InstructionError': [2, {'Custom': 2006}]}
+  raw=776 b64=1036 wire=1232 margin=456
+  simulate err={'InstructionError': [2, {'Custom': 2006}]} cu=66081 logs=35
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt invoke [1]
+    Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA invoke [2]
+    Program log: Instruction: BuyExactQuoteIn
+    Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [3]
+    Program log: Create
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [4]
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 179 of 361085 compute units
+    Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+    Program 11111111111111111111111111111111 invoke [4]
+    Program 11111111111111111111111111111111 success
+    Program log: Initialize the associated token account
+    ...
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt failed: custom program error: 0x7d6
+RECOVER  pump-dlmm id=153 custom6=False cu=66081 raw=776 alt=True err={'InstructionError': [2, {'Custom': 2006}]}
+  raw=624 b64=832 wire=1232 margin=608
+  simulate err={'InstructionError': [2, {'Custom': 6}]} cu=149534 logs=55
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt invoke [1]
+    Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA invoke [2]
+    Program log: Instruction: BuyExactQuoteIn
+    Program 11111111111111111111111111111111 invoke [3]
+    Program 11111111111111111111111111111111 success
+    Program pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ invoke [3]
+    Program log: Instruction: GetFeesWithQuoteMint
+    Program pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ consumed 6107 of 343020 compute units
+    Program return: pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ FAAAAAAAAAAFAAAAAAAAAF8AAAAAAAAA
+    Program pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ success
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb invoke [3]
+    Program log: Instruction: TransferChecked
+    ...
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt failed: custom program error: 0x6
+RECOVER  pump-dlmm id=154 custom6=True cu=149534 raw=624 alt=True err={'InstructionError': [2, {'Custom': 6}]}
+RECOVER  proven 3/3 PASS

@@ -1,0 +1,28 @@
+{
+  "kind": "pump",
+  "bucket": "unknown_disc",
+  "direction": 1,
+  "amount_in": 1,
+  "slot": 3,
+  "trigger_sig": "unknown_pump_disc",
+  "declared_ix": 5,
+  "s_before": {
+    "kind": "pump",
+    "reserve_base": 1000000,
+    "reserve_quote": 1000000,
+    "virtual_quote": 0,
+    "lp_fee_bps": 20,
+    "protocol_fee_bps": 5,
+    "creator_fee_bps": 0,
+    "disabled": 0
+  },
+  "published_s": {
+    "kind": "pump",
+    "reserve_base": 1000000,
+    "reserve_quote": 1000000,
+    "lp_fee_bps": 20,
+    "protocol_fee_bps": 5,
+    "creator_fee_bps": 0,
+    "disabled": 0
+  }
+}

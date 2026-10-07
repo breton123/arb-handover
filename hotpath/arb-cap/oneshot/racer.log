@@ -1,0 +1,39 @@
+swqos account enabled=true balance_lamports=99350000
+swqos slot 0 READY
+swqos slot 1 READY
+swqos slot 2 READY
+swqos slot 3 READY
+swqos quic up  dest=64.130.40.90:11000 ready=4/4 alpn=ultrasend/1
+SWQOS_RACER ready=4 sock=/home/louis/arb-cap/oneshot/swqos.sock
+swqos slot 1 DEAD (peer_closed)
+swqos slot 1 READY
+swqos slot 3 DEAD (peer_closed)
+swqos slot 0 DEAD (peer_closed)
+swqos slot 0 READY
+swqos slot 3 READY
+swqos slot 2 DEAD (peer_closed)
+swqos slot 2 READY
+swqos slot 0 DEAD (peer_closed)
+swqos slot 1 DEAD (peer_closed)
+swqos slot 3 DEAD (peer_closed)
+swqos slot 2 DEAD (peer_closed)
+swqos slot 0 READY
+swqos slot 1 READY
+swqos slot 2 READY
+swqos slot 3 READY
+swqos slot 2 DEAD (peer_closed)
+swqos slot 3 DEAD (peer_closed)
+swqos slot 1 DEAD (peer_closed)
+swqos slot 0 DEAD (peer_closed)
+swqos slot 2 READY
+swqos slot 3 READY
+swqos slot 0 READY
+swqos slot 1 READY
+swqos slot 3 DEAD (peer_closed)
+swqos slot 3 READY
+swqos slot 2 DEAD (peer_closed)
+swqos slot 2 READY
+swqos slot 0 DEAD (peer_closed)
+swqos slot 1 DEAD (peer_closed)
+swqos slot 0 READY
+swqos slot 1 READY

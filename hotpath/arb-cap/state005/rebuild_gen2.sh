@@ -1,0 +1,65 @@
+#!/bin/bash
+# Rebuild universe under the route0 mint contract. Restart paper only.
+set -e
+python3 /home/louis/arb-cap/state005/crlf.py \
+  /home/louis/arb-core/src/universe.c \
+  /home/louis/arb-core/src/live.c \
+  /home/louis/arb-core/include/universe.h \
+  /home/louis/arb-core/include/live.h \
+  /home/louis/arb-core/tests/route0_orient.c \
+  /home/louis/arb-core/CMakeLists.txt \
+  /home/louis/arb-feed/src/paper_orbit.c \
+  /home/louis/arb-cap/state005/expand_univ.py \
+  /home/louis/arb-cap/state005/univ_gen_lock.py \
+  /home/louis/arb-cap/state005/route0_cov.py
+set -a
+# shellcheck disable=SC1091
+. /home/louis/.arb-smoke.env
+set +a
+cd /home/louis/arb-core/build
+cmake .. >/dev/null
+cmake --build . --target route0_orient -j
+./route0_orient /home/louis/captures/paper_orbit/liveuniv.bin
+cd /home/louis/arb-feed/build
+cmake --build . --target paper_orbit -j
+LOCK=/home/louis/captures/paper_orbit/UNIV_GEN.lock
+mkdir -p "$(dirname "${LOCK}")"
+exec 9>>"${LOCK}"
+if ! flock -w 600 9; then
+  echo "UNIV_GEN lock timeout"
+  exit 75
+fi
+export UNIV_GEN_LOCKED=1
+FILTER_ONLY=1 python3 /home/louis/arb-cap/state005/expand_univ.py
+python3 /home/louis/arb-cap/state005/route0_cov.py
+cd /home/louis/arb-core/build
+./route0_orient /home/louis/captures/paper_orbit/liveuniv.bin
+: > /home/louis/captures/paper_orbit/pending.jsonl
+: > /home/louis/captures/paper_orbit/opp_synced.jsonl
+rm -f /home/louis/captures/paper_orbit/recon.bin
+python3 -c "import struct,pathlib; pathlib.Path('/home/louis/captures/paper_orbit/recon.bin').write_bytes(struct.pack('<IHH',0x36305453,1,0))"
+pkill -f "/build/paper_orbit " || true
+if pid=$(pgrep -f "python3 /home/louis/arb-cap/state005/state006.py"); then
+  kill $pid || true
+fi
+if pid=$(pgrep -f "python3 /home/louis/arb-cap/state005/watch_first_opp.py"); then
+  kill $pid || true
+fi
+sleep 0.4
+export PAPER_SECONDS=43200
+export PAPER_UNIV=/home/louis/captures/paper_orbit/liveuniv.bin
+export PAPER_SYNC=/home/louis/captures/paper_orbit/sync_state006.bin
+export PAPER_PEND=/home/louis/captures/paper_orbit/pending.jsonl
+export PAPER_RECON=/home/louis/captures/paper_orbit/recon.bin
+export PAPER_AUDIT=/home/louis/captures/paper_orbit/opp_synced.jsonl
+nohup /home/louis/arb-feed/scripts/paper_orbit.sh \
+  >> /home/louis/captures/paper_orbit/paper_state006.log 2>&1 &
+echo "paper_orbit pid $!"
+export STATE006_FROM_START=1
+nohup python3 /home/louis/arb-cap/state005/state006.py \
+  >> /home/louis/captures/paper_orbit/state006.log 2>&1 &
+echo "state006 pid $!"
+sleep 1
+pgrep -c feed_live
+pgrep -af "paper_orbit|state006.py|expand_loop|state005_n|capture.py" || true
+tail -n 8 /home/louis/captures/paper_orbit/paper_state006.log || true

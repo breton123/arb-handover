@@ -1,0 +1,61 @@
+{
+  "letter": "C",
+  "why": "N never landed. Shred-seen Pump swap (0.9 SOL, dir 0) on Ftjga524 is absent from getSignatureStatuses. ONESHOT sent a dependent speculative arb whose trigger did not execute.",
+  "secondary": "B-like mutations in our landing slot before OURS, but no atomic DLMM+Pump competitor (not A).",
+  "T_N_actionable": {
+    "ns": 1287436047976705,
+    "clock": "CLOCK_MONOTONIC_RAW shred rx (OrbitFlare slot.rx_ns)"
+  },
+  "T_decision": {
+    "paper_decision_ns": 45573,
+    "note": "paper_orbit rdtscp delta after shred parse. ONESHOT did not stamp. Fire started after jsonl read + size_gate, then minutes of ATA/ALT/429."
+  },
+  "T_signed": {
+    "paper_signed_ready_ns": 63689,
+    "note": "paper_orbit v0 patch+sign of the unused C template, not the live oneshot Ed25519. Live sign happened after new ALT J6jmHvne confirmed."
+  },
+  "T_SWQOS_return": {
+    "send_ns": 6940,
+    "wall_ms": 658.9584350585938
+  },
+  "N": {
+    "sig": "3WzxXps9gBMijAxsvUcaSwJYwBq385s2wwLwCU23JSSLXvrsoTuJfHUDKAQfmCWYXG89nmjmYxAETyLxw3E8UtmM",
+    "tx_index": null,
+    "slot": null,
+    "landed": false,
+    "status": null,
+    "proto": "pump",
+    "direction": 0,
+    "amount_in": 900000000,
+    "pool": "Ftjga524YrS7RPzGCcezMuQnFDYa8PcvWDY5mFmZk5dy"
+  },
+  "winning_arb_tx_index": null,
+  "intervening_same_slot": [
+    {
+      "tx_index": 165,
+      "kind": "pool_mutation",
+      "leg": "dlmm_only",
+      "sig": "4MSAU6vqWpkGr7KJLFyudZdQLyUEmtPXTiFZH29ZJTsmkhWQhAESBYfbeYCa5axsdvNsbEqHJVQKxNra6ww2kCXo"
+    },
+    {
+      "tx_index": 738,
+      "kind": "pool_mutation",
+      "leg": "pump_only",
+      "sig": "uLE3HxjQ6MUvBnfW9DFDMSE3cw4Yiw3tEfqXBSH9d1TvXPb9xeWZa94Y59M8LF4V8xqLh8ZEkuMVGVmC81RxpEc"
+    },
+    {
+      "tx_index": 1030,
+      "kind": "pool_mutation",
+      "leg": "pump_only",
+      "sig": "5Kvn2GtGiGd1nSPfgv5oajzo6bHjoLUgJDMhmCFcdSCjepQT1amyQ1mEmGkj9Cno2aCrd3f4a8QoLYtDUh5igm1m"
+    }
+  ],
+  "OURS": {
+    "sig": "3q6BM1m6EJkLVvXBbF8haSMnk6msVCY7U1awYoX96ufodD8byML3Nhct2k267cqsrxWafwTeFG2k1HWENbvDg2kr",
+    "slot": 450389301,
+    "tx_index": 1199,
+    "block_time": 1790349108,
+    "err": {"InstructionError": [2, {"Custom": 6}]}
+  },
+  "setup_delay": "ONESHOT created ATA + new ALT (~0.005 SOL) under Helius 429s before sign. That is not a lost micro-race; the trigger was already gone."
+}

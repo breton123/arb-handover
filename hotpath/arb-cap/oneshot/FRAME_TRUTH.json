@@ -1,0 +1,237 @@
+{
+  "n": 400,
+  "landed": 9,
+  "horizons": {
+    "t0": {
+      "table": [
+        {
+          "class": "invalid",
+          "n": 392,
+          "landed_success": 1,
+          "disappeared": 391,
+          "commit_pct": 0.25510204081632654
+        },
+        {
+          "class": "incomplete",
+          "n": 5,
+          "landed_success": 5,
+          "disappeared": 0,
+          "commit_pct": 100.0
+        },
+        {
+          "class": "framed",
+          "n": 3,
+          "landed_success": 3,
+          "disappeared": 0,
+          "commit_pct": 100.0
+        }
+      ],
+      "precision_if_send_framed": 100.0,
+      "recall_of_landed": 33.333333333333336,
+      "framed_us": {
+        "n": 3,
+        "p50": 0,
+        "p90": 0,
+        "max": 0
+      }
+    },
+    "t0_prefix": {
+      "table": [
+        {
+          "class": "invalid",
+          "n": 391,
+          "landed_success": 0,
+          "disappeared": 391,
+          "commit_pct": 0.0
+        },
+        {
+          "class": "incomplete",
+          "n": 5,
+          "landed_success": 5,
+          "disappeared": 0,
+          "commit_pct": 100.0
+        },
+        {
+          "class": "framed",
+          "n": 4,
+          "landed_success": 4,
+          "disappeared": 0,
+          "commit_pct": 100.0
+        }
+      ],
+      "precision_if_send_framed": 100.0,
+      "recall_of_landed": 44.44444444444444,
+      "framed_us": {
+        "n": 4,
+        "p50": 278,
+        "p90": 16910,
+        "max": 19293
+      }
+    },
+    "t1": {
+      "table": [
+        {
+          "class": "invalid",
+          "n": 392,
+          "landed_success": 1,
+          "disappeared": 391,
+          "commit_pct": 0.25510204081632654
+        },
+        {
+          "class": "incomplete",
+          "n": 0,
+          "landed_success": 0,
+          "disappeared": 0,
+          "commit_pct": null
+        },
+        {
+          "class": "framed",
+          "n": 8,
+          "landed_success": 8,
+          "disappeared": 0,
+          "commit_pct": 100.0
+        }
+      ],
+      "precision_if_send_framed": 100.0,
+      "recall_of_landed": 88.88888888888889,
+      "framed_us": {
+        "n": 8,
+        "p50": 0,
+        "p90": 7231,
+        "max": 8191
+      }
+    },
+    "t2": {
+      "table": [
+        {
+          "class": "invalid",
+          "n": 392,
+          "landed_success": 1,
+          "disappeared": 391,
+          "commit_pct": 0.25510204081632654
+        },
+        {
+          "class": "incomplete",
+          "n": 0,
+          "landed_success": 0,
+          "disappeared": 0,
+          "commit_pct": null
+        },
+        {
+          "class": "framed",
+          "n": 8,
+          "landed_success": 8,
+          "disappeared": 0,
+          "commit_pct": 100.0
+        }
+      ],
+      "precision_if_send_framed": 100.0,
+      "recall_of_landed": 88.88888888888889,
+      "framed_us": {
+        "n": 8,
+        "p50": 1793,
+        "p90": 8191,
+        "max": 15012
+      }
+    },
+    "fec": {
+      "table": [
+        {
+          "class": "invalid",
+          "n": 391,
+          "landed_success": 0,
+          "disappeared": 391,
+          "commit_pct": 0.0
+        },
+        {
+          "class": "incomplete",
+          "n": 0,
+          "landed_success": 0,
+          "disappeared": 0,
+          "commit_pct": null
+        },
+        {
+          "class": "framed",
+          "n": 9,
+          "landed_success": 9,
+          "disappeared": 0,
+          "commit_pct": 100.0
+        }
+      ],
+      "precision_if_send_framed": 100.0,
+      "recall_of_landed": 100.0,
+      "framed_us": {
+        "n": 9,
+        "p50": 13829,
+        "p90": 18505,
+        "max": 28915
+      }
+    },
+    "rs": {
+      "table": [
+        {
+          "class": "invalid",
+          "n": 302,
+          "landed_success": 3,
+          "disappeared": 299,
+          "commit_pct": 0.9933774834437086
+        },
+        {
+          "class": "incomplete",
+          "n": 94,
+          "landed_success": 2,
+          "disappeared": 92,
+          "commit_pct": 2.127659574468085
+        },
+        {
+          "class": "framed",
+          "n": 4,
+          "landed_success": 4,
+          "disappeared": 0,
+          "commit_pct": 100.0
+        }
+      ],
+      "precision_if_send_framed": 100.0,
+      "recall_of_landed": 44.44444444444444,
+      "framed_us": {
+        "n": 4,
+        "p50": 205,
+        "p90": 3895,
+        "max": 8498
+      }
+    },
+    "slot": {
+      "table": [
+        {
+          "class": "invalid",
+          "n": 391,
+          "landed_success": 0,
+          "disappeared": 391,
+          "commit_pct": 0.0
+        },
+        {
+          "class": "incomplete",
+          "n": 0,
+          "landed_success": 0,
+          "disappeared": 0,
+          "commit_pct": null
+        },
+        {
+          "class": "framed",
+          "n": 9,
+          "landed_success": 9,
+          "disappeared": 0,
+          "commit_pct": 100.0
+        }
+      ],
+      "precision_if_send_framed": 100.0,
+      "recall_of_landed": 100.0,
+      "framed_us": {
+        "n": 9,
+        "p50": 164297,
+        "p90": 186561,
+        "max": 204481
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "rows": [
+    {
+      "seq": "dlmm-dlmm",
+      "cu": 81777,
+      "cu_limit": 98132,
+      "cu_price": 1000000,
+      "onchain_fee": 103132,
+      "swqos_fee": 150000,
+      "safety": 50000,
+      "min_gross": 303132,
+      "custom6": true
+    },
+    {
+      "seq": "dlmm-pump",
+      "cu": 131550,
+      "cu_limit": 157860,
+      "cu_price": 1000000,
+      "onchain_fee": 162860,
+      "swqos_fee": 150000,
+      "safety": 50000,
+      "min_gross": 362860,
+      "custom6": true
+    },
+    {
+      "seq": "pump-dlmm",
+      "cu": 145414,
+      "cu_limit": 174496,
+      "cu_price": 1000000,
+      "onchain_fee": 179496,
+      "swqos_fee": 150000,
+      "safety": 50000,
+      "min_gross": 379496,
+      "custom6": true
+    },
+    {
+      "seq": "pump-pump",
+      "cu": null,
+      "cu_limit": 200000,
+      "cu_price": 1000000,
+      "onchain_fee": 205000,
+      "swqos_fee": 150000,
+      "safety": 50000,
+      "min_gross": 405000,
+      "custom6": false
+    },
+    {
+      "seq": "dlmm-dlmm-dlmm",
+      "cu": null,
+      "cu_limit": 200000,
+      "cu_price": 1000000,
+      "onchain_fee": 205000,
+      "swqos_fee": 150000,
+      "safety": 50000,
+      "min_gross": 405000,
+      "custom6": false
+    },
+    {
+      "seq": "dlmm-dlmm-pump",
+      "cu": null,
+      "cu_limit": 200000,
+      "cu_price": 1000000,
+      "onchain_fee": 205000,
+      "swqos_fee": 150000,
+      "safety": 50000,
+      "min_gross": 405000,
+      "custom6": false
+    },
+    {
+      "seq": "pump-dlmm-dlmm",
+      "cu": null,
+      "cu_limit": 200000,
+      "cu_price": 1000000,
+      "onchain_fee": 205000,
+      "swqos_fee": 150000,
+      "safety": 50000,
+      "min_gross": 405000,
+      "custom6": false
+    }
+  ]
+}

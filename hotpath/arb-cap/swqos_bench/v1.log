@@ -1,0 +1,130 @@
+swqos account enabled=true balance_lamports=8200000
+swqos slot 0 READY
+swqos slot 1 READY
+swqos slot 2 READY
+swqos slot 3 READY
+swqos quic up  dest=64.130.40.90:11000 ready=4/4 alpn=ultrasend/1
+SWQOS-V1  ready=4/4  wallet 20814942  warm=100
+  warm 0  send=11.4µs  ready=4  -
+  warm 1  send=8.4µs  ready=4  -
+  warm 2  send=20.3µs  ready=4  -
+  warm 3  send=9.3µs  ready=4  -
+  warm 4  send=8.6µs  ready=4  -
+  warm 5  send=9.9µs  ready=4  -
+  warm 6  send=11.3µs  ready=4  -
+  warm 7  send=7.4µs  ready=4  -
+  warm 8  send=12.8µs  ready=4  -
+  warm 9  send=20.0µs  ready=4  -
+  warm 10  send=11.5µs  ready=4  -
+  warm 11  send=10.8µs  ready=4  -
+  warm 12  send=8.8µs  ready=4  -
+  warm 13  send=8.4µs  ready=4  -
+  warm 14  send=9.3µs  ready=4  -
+  warm 15  send=9.2µs  ready=4  -
+  warm 16  send=10.1µs  ready=4  -
+  warm 17  send=10.9µs  ready=4  -
+  warm 18  send=7.6µs  ready=4  -
+  warm 19  send=6.7µs  ready=4  -
+  warm 20  send=8.4µs  ready=4  -
+  warm 21  send=10.1µs  ready=4  -
+  warm 22  send=9.4µs  ready=4  -
+  warm 23  send=10.0µs  ready=4  -
+  warm 24  send=9.1µs  ready=4  -
+  warm 25  send=8.4µs  ready=4  -
+  warm 26  send=8.5µs  ready=4  -
+  warm 27  send=22.0µs  ready=4  -
+  warm 28  send=9.1µs  ready=4  -
+  warm 29  send=6.3µs  ready=4  -
+  warm 30  send=7.2µs  ready=4  -
+  warm 31  send=21.5µs  ready=4  -
+  warm 32  send=10.1µs  ready=4  -
+  warm 33  send=17.1µs  ready=4  -
+  warm 34  send=8.9µs  ready=4  -
+  warm 35  send=8.8µs  ready=4  -
+  warm 36  send=7.0µs  ready=4  -
+  warm 37  send=13.4µs  ready=4  -
+  warm 38  send=8.0µs  ready=4  -
+  warm 39  send=8.5µs  ready=4  -
+  warm 40  send=9.9µs  ready=4  -
+  warm 41  send=11.6µs  ready=4  -
+  warm 42  send=8.2µs  ready=4  -
+  warm 43  send=8.5µs  ready=4  -
+  warm 44  send=20.4µs  ready=4  -
+  warm 45  send=12.6µs  ready=4  -
+  warm 46  send=6.6µs  ready=4  -
+  warm 47  send=9.4µs  ready=4  -
+  warm 48  send=7.0µs  ready=4  -
+  warm 49  send=16.7µs  ready=4  -
+  warm 50  send=10.7µs  ready=4  -
+  warm 51  send=8.2µs  ready=4  -
+  warm 52  send=21.7µs  ready=4  -
+  warm 53  send=9.2µs  ready=4  -
+  warm 54  send=12.9µs  ready=4  -
+  warm 55  send=9.9µs  ready=4  -
+  warm 56  send=11.4µs  ready=4  -
+  warm 57  send=9.6µs  ready=4  -
+  warm 58  send=10.7µs  ready=4  -
+  warm 59  send=22.3µs  ready=4  -
+  warm 60  send=8.6µs  ready=4  -
+  warm 61  send=19.8µs  ready=4  -
+  warm 62  send=21.3µs  ready=4  -
+  warm 63  send=11.6µs  ready=4  -
+  warm 64  send=14.8µs  ready=4  -
+  warm 65  send=8.8µs  ready=4  -
+  warm 66  send=11.5µs  ready=4  -
+  warm 67  send=7.0µs  ready=4  -
+  warm 68  send=13.8µs  ready=4  -
+  warm 69  send=15.1µs  ready=4  -
+  warm 70  send=13.8µs  ready=4  -
+  warm 71  send=12.6µs  ready=4  -
+  warm 72  send=9.6µs  ready=4  -
+  warm 73  send=15.2µs  ready=4  -
+  warm 74  send=13.7µs  ready=4  -
+  warm 75  send=10.9µs  ready=4  -
+  warm 76  send=21.6µs  ready=4  -
+  warm 77  send=9.5µs  ready=4  -
+  warm 78  send=13.6µs  ready=4  -
+  warm 79  send=8.0µs  ready=4  -
+  warm 80  send=7.9µs  ready=4  -
+  warm 81  send=23.8µs  ready=4  -
+  warm 82  send=9.7µs  ready=4  -
+  warm 83  send=9.2µs  ready=4  -
+  warm 84  send=11.5µs  ready=4  -
+  warm 85  send=6.5µs  ready=4  -
+  warm 86  send=21.5µs  ready=4  -
+  warm 87  send=9.3µs  ready=4  -
+  warm 88  send=18.0µs  ready=4  -
+  warm 89  send=8.2µs  ready=4  -
+  warm 90  send=13.7µs  ready=4  -
+  warm 91  send=20.4µs  ready=4  -
+  warm 92  send=11.9µs  ready=4  -
+  warm 93  send=12.6µs  ready=4  -
+  warm 94  send=9.5µs  ready=4  -
+  warm 95  send=19.5µs  ready=4  -
+  warm 96  send=10.2µs  ready=4  -
+  warm 97  send=15.1µs  ready=4  -
+  warm 98  send=11.8µs  ready=4  -
+  warm 99  send=12.6µs  ready=4  -
+
+WARM  ok=100 fail=0
+                     p50      p90      p99      min      max  (µs)
+  sign                  15.5     19.6     23.4     12.8     32.3
+  signed→SWQOS ret      10.1     20.3     22.3      6.3     23.8
+
+IDLE  hold pool, one send after each gap
+  sleep 1s  ready=4
+  idle 1s  send=19.4µs  ready=4  ok
+  sleep 10s  ready=4
+  idle 10s  send=21.6µs  ready=4  ok
+  sleep 30s  ready=4
+  idle 30s  send=20.7µs  ready=4  ok
+  sleep 60s  ready=4
+  idle 60s  send=20.3µs  ready=4  ok
+  sleep 300s  ready=4
+  idle 300s  send=22.2µs  ready=4  ok
+swqos slot 0 DEAD (close)
+swqos slot 1 DEAD (close)
+swqos slot 2 DEAD (close)
+swqos slot 3 DEAD (close)
+V1 PASS  100/100 swqos_send on READY pool, no hot reconnect
+EXIT:0

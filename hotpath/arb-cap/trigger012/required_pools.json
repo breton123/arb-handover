@@ -1,0 +1,3707 @@
+{
+  "current_univ": 171,
+  "required": 528,
+  "missing": 474,
+  "missing_usd": 1462.1482925015714,
+  "in_univ_usd": 760.0758892779575,
+  "over_256": true,
+  "over_171": true,
+  "pools": [
+    {
+      "pool": "9Zach1KuwrxLELAXTciZPuA4hozmzwNYpZr2XyS2LVKj",
+      "proto": "pump",
+      "pred_n": 149,
+      "usd": 306.8673012818671,
+      "in_univ": false
+    },
+    {
+      "pool": "55qFD26HZ8QT6RxBtnwRWmXKEbX24tmeuJkkiaWJusts",
+      "proto": "pump",
+      "pred_n": 110,
+      "usd": 26.233064406478732,
+      "in_univ": false
+    },
+    {
+      "pool": "3yXXas5wQqC6LzV9x22GEqVr9Dgg1VC6yynkVGhRWJWM",
+      "proto": "pump",
+      "pred_n": 93,
+      "usd": 233.47621780193583,
+      "in_univ": true
+    },
+    {
+      "pool": "Dy8JKx7xTX6KnK2rN3zjeTkJYBEAUHo3B9PCANjHcFrv",
+      "proto": "pump",
+      "pred_n": 85,
+      "usd": 35.87354856897319,
+      "in_univ": false
+    },
+    {
+      "pool": "Ax9GpoBxTKb19NMj4eJhNsy163xuUGmFKrLpELeQK7LX",
+      "proto": "pump",
+      "pred_n": 73,
+      "usd": 242.7593908755057,
+      "in_univ": false
+    },
+    {
+      "pool": "6gDVfZe2UxP4Za7DGdRp4q31m7uXXt2T9eSakjPCJzDh",
+      "proto": "pump",
+      "pred_n": 55,
+      "usd": 7.792155769185278,
+      "in_univ": false
+    },
+    {
+      "pool": "Apy5FShcDSLdyYSH4HWgY8zSFj4At8FbKeHZF3D72e9k",
+      "proto": "pump",
+      "pred_n": 52,
+      "usd": 24.46411746874505,
+      "in_univ": false
+    },
+    {
+      "pool": "FBGuALzoYPgo4vLH8hkh9rEBRj1vXEoN5KkAeFa17WU5",
+      "proto": "pump",
+      "pred_n": 43,
+      "usd": 7.676406168037485,
+      "in_univ": false
+    },
+    {
+      "pool": "4AWQCMJLpJbohyrCJ1s6sTn69eTScPEpxbs5T4tRrQ34",
+      "proto": "pump",
+      "pred_n": 40,
+      "usd": 21.438278920037153,
+      "in_univ": false
+    },
+    {
+      "pool": "J94vh4ynv3FP6dfUQSFxXuhmPGHKk2jiSou7XFgTwCKC",
+      "proto": "pump",
+      "pred_n": 39,
+      "usd": 6.292458644513919,
+      "in_univ": false
+    },
+    {
+      "pool": "EF44a8bR16zbmkNvkBR4PgyAwcvdLVVXKZoxMkpgPGuU",
+      "proto": "pump",
+      "pred_n": 38,
+      "usd": 10.091382997816934,
+      "in_univ": false
+    },
+    {
+      "pool": "8Eq2jxtFcVxE5TRhWi8koKUV7AjAKud1pcBUywsJy9M2",
+      "proto": "pump",
+      "pred_n": 36,
+      "usd": 9.621627117309544,
+      "in_univ": false
+    },
+    {
+      "pool": "qzxjktoxvc81rEL8PLo4gy1bwe1gFJPpDfKTyAozvrg",
+      "proto": "pump",
+      "pred_n": 36,
+      "usd": 0.5308703816376673,
+      "in_univ": false
+    },
+    {
+      "pool": "Ftjga524YrS7RPzGCcezMuQnFDYa8PcvWDY5mFmZk5dy",
+      "proto": "pump",
+      "pred_n": 35,
+      "usd": 47.658266146786225,
+      "in_univ": true
+    },
+    {
+      "pool": "H9FZNyUgQg6xHHmTUMFK9J8LAVwipEoBhPuLcjrQLvJc",
+      "proto": "pump",
+      "pred_n": 33,
+      "usd": 5.5554713013324415,
+      "in_univ": false
+    },
+    {
+      "pool": "BRjMA8UALNp3diTKHfdeAn5riQrYPoaYez7KhYWD4oEs",
+      "proto": "pump",
+      "pred_n": 31,
+      "usd": 136.91598027534576,
+      "in_univ": true
+    },
+    {
+      "pool": "86iyfDVYnE1oPxJ2g37w1LCuFoE7DTo88FyJDZMAa36h",
+      "proto": "pump",
+      "pred_n": 29,
+      "usd": 7.843508910906128,
+      "in_univ": false
+    },
+    {
+      "pool": "CWsbPMbpURCwcHsexnhF65m38mkmWksmpMsrXoe9TCEe",
+      "proto": "pump",
+      "pred_n": 22,
+      "usd": 5.600527249177545,
+      "in_univ": false
+    },
+    {
+      "pool": "EmCZ1HvtqK3PYgZaSshCDTRxLtqYTWjYWnQKjaZtB8Ez",
+      "proto": "pump",
+      "pred_n": 22,
+      "usd": 3.262049040158823,
+      "in_univ": false
+    },
+    {
+      "pool": "ECZ5a2rYvfrWUHR6qbNv3NV8Tk584WwEvaNJu3FZtWyn",
+      "proto": "pump",
+      "pred_n": 22,
+      "usd": 1.5124824659468177,
+      "in_univ": false
+    },
+    {
+      "pool": "6UgASSNF2bjh2gWVad74gR4L3kWcsNwdzg9LfXNCk2Ku",
+      "proto": "pump",
+      "pred_n": 21,
+      "usd": 7.225149215236197,
+      "in_univ": false
+    },
+    {
+      "pool": "8WMYhMjRfwaoAEZdcBMHDurwqs9EjibDWFbK8gtd1mTN",
+      "proto": "pump",
+      "pred_n": 21,
+      "usd": 0.20665847429594164,
+      "in_univ": false
+    },
+    {
+      "pool": "BgHqKH7pF5EEDjmwpHSbNwVx13nKsXEynhLDi6HWzthW",
+      "proto": "pump",
+      "pred_n": 19,
+      "usd": 7.986486779694624,
+      "in_univ": false
+    },
+    {
+      "pool": "HnFhnuZP8WT3U2MFG5gWS8Hbkvd45rKcwoHn1i9BjYtk",
+      "proto": "pump",
+      "pred_n": 19,
+      "usd": 12.67551977489119,
+      "in_univ": false
+    },
+    {
+      "pool": "ENiVH49XwRM3Cu9n4Tp6CGynCFXf3Mz6CE3GRmVk1LH4",
+      "proto": "pump",
+      "pred_n": 18,
+      "usd": 103.14358910462383,
+      "in_univ": true
+    },
+    {
+      "pool": "HCAuTnsfym84Wo5R5W9WpVFrbeHXpL3yh3m9cDftq467",
+      "proto": "pump",
+      "pred_n": 17,
+      "usd": 4.187891370931965,
+      "in_univ": false
+    },
+    {
+      "pool": "2HB6nZyCLco7w5AgUERs8igzhdKUwNbZGqHztpAhVqh9",
+      "proto": "pump",
+      "pred_n": 17,
+      "usd": 3.980643792603176,
+      "in_univ": false
+    },
+    {
+      "pool": "ADH8bBKpf6wnbYFdAFBDe3e3vfrhmnRjPoir5YGRH9iM",
+      "proto": "dlmm",
+      "pred_n": 17,
+      "usd": 3.4248740988973285,
+      "in_univ": false
+    },
+    {
+      "pool": "FUHvbshwH4k4B7QccGDXttY6xAEJeKZ1m3XZDNy6fARJ",
+      "proto": "dlmm",
+      "pred_n": 16,
+      "usd": 71.66708678244214,
+      "in_univ": true
+    },
+    {
+      "pool": "G6BTs4M8fU5Fu9taNngfzALczEfgxfzvekRUWwaUr8j3",
+      "proto": "pump",
+      "pred_n": 16,
+      "usd": 10.958692956398092,
+      "in_univ": false
+    },
+    {
+      "pool": "EPkCJ82BRjHPG5jQq1QUaEwom2LTwBGqkDpN5PJFHrt4",
+      "proto": "pump",
+      "pred_n": 16,
+      "usd": 27.854111539237795,
+      "in_univ": false
+    },
+    {
+      "pool": "2iMwKUCGKscu139KNVgNHyi7VukeytqdVeshtrpW1mHp",
+      "proto": "pump",
+      "pred_n": 15,
+      "usd": 1.2253339625870368,
+      "in_univ": false
+    },
+    {
+      "pool": "7G4VdDAD37PqTeTGnTz2Zbu9SSpbAcX4Sx9GiH2XeNNT",
+      "proto": "pump",
+      "pred_n": 15,
+      "usd": 0.47282178853834206,
+      "in_univ": false
+    },
+    {
+      "pool": "2zyru3tiw28K2d76XhbQwUFxyMRgJ5Bd6zyVyupvs7ja",
+      "proto": "pump",
+      "pred_n": 14,
+      "usd": 82.36319088913702,
+      "in_univ": false
+    },
+    {
+      "pool": "HMzvsEEmtzHhvZNw9uwbaG85HCTmFnkbhzUx16cy7ca3",
+      "proto": "pump",
+      "pred_n": 14,
+      "usd": 6.058566216400735,
+      "in_univ": true
+    },
+    {
+      "pool": "FG4JeSMxTb6rhuF5pravoZv7hZApsPdgGyPFf7Fmpw3C",
+      "proto": "pump",
+      "pred_n": 13,
+      "usd": 15.539412847339694,
+      "in_univ": false
+    },
+    {
+      "pool": "6BP57xemygynet3rh9zJLQ6Fig7hRMtNBGkUJDdPsCKx",
+      "proto": "pump",
+      "pred_n": 13,
+      "usd": 13.801981308888735,
+      "in_univ": false
+    },
+    {
+      "pool": "HH6RJPefbmVJqcB11aQR5Vp8t2K8BBMKeVScPzLRs5gm",
+      "proto": "pump",
+      "pred_n": 13,
+      "usd": 5.17088605638037,
+      "in_univ": false
+    },
+    {
+      "pool": "3DUv642pywfDs8xdm9tZGBFo5BtfenSXK1UCDgM9Cpeu",
+      "proto": "pump",
+      "pred_n": 13,
+      "usd": 1.3747852106688647,
+      "in_univ": false
+    },
+    {
+      "pool": "F6chUsPNoAG4QmV8Q93fEu4HVr3fa4dKHP3Frfjn8VS6",
+      "proto": "pump",
+      "pred_n": 12,
+      "usd": 1.57133629037918,
+      "in_univ": false
+    },
+    {
+      "pool": "9aCKXUkgwgawaQ3wQRXzg3wE4Krhuwf8iWLBU2FKfChE",
+      "proto": "dlmm",
+      "pred_n": 11,
+      "usd": 10.238034366041857,
+      "in_univ": false
+    },
+    {
+      "pool": "9ZzXAZFjDBjwTG1jVVkXXcXQfXLUyqNE5cYvhob7qSwu",
+      "proto": "pump",
+      "pred_n": 11,
+      "usd": 4.914335975301143,
+      "in_univ": false
+    },
+    {
+      "pool": "77soR6q2KSnBoJAat7LDNQK12r4xvLZF74Y1sF1YDEz",
+      "proto": "pump",
+      "pred_n": 11,
+      "usd": 3.101754564954229,
+      "in_univ": false
+    },
+    {
+      "pool": "2aMyHQPheU4EaSZQHYbnsNnZz4kxiiUNzyxA6zanbG1C",
+      "proto": "pump",
+      "pred_n": 11,
+      "usd": 0.5191566841610545,
+      "in_univ": false
+    },
+    {
+      "pool": "8NJCbrK1dHkN8KeNiKZTnFv8mmzLGEwVRjV49G7rya8D",
+      "proto": "pump",
+      "pred_n": 11,
+      "usd": 0.4402327147899557,
+      "in_univ": false
+    },
+    {
+      "pool": "EJb32RSbumVusQZTkwspVPXBMoMBeJbaNSq2DhVvCykp",
+      "proto": "pump",
+      "pred_n": 11,
+      "usd": 0.19779467583780852,
+      "in_univ": false
+    },
+    {
+      "pool": "6Z17tKUyMcccX9PYRx4jm9ot6avKDVN8Xdb2dq9gbnwk",
+      "proto": "pump",
+      "pred_n": 10,
+      "usd": 85.10847496475249,
+      "in_univ": false
+    },
+    {
+      "pool": "G8RsvZ14jPy64U599NRVhzKZA1tdKaGNqDuaLAko6zxe",
+      "proto": "pump",
+      "pred_n": 10,
+      "usd": 3.8345198606133817,
+      "in_univ": false
+    },
+    {
+      "pool": "HHnPFk3mLkZH9pPT7oHsFpH9ff6wBjkojMUeVeeSMmrY",
+      "proto": "pump",
+      "pred_n": 10,
+      "usd": 3.3238073488333653,
+      "in_univ": false
+    },
+    {
+      "pool": "CRDBjc4c3t3ad9SRkEkhbWNSYFJyuSLmo8PWSca1iFmU",
+      "proto": "pump",
+      "pred_n": 10,
+      "usd": 0.45485617108547166,
+      "in_univ": false
+    },
+    {
+      "pool": "5w7GU9Ywxu6FHWz2eeTWhKDFvRHHYjyvykDzB8NAXG7u",
+      "proto": "pump",
+      "pred_n": 9,
+      "usd": 3.861181155794052,
+      "in_univ": false
+    },
+    {
+      "pool": "Gf7sXMoP8iRw4iiXmJ1nq4vxcRycbGXy5RL8a8LnTd3v",
+      "proto": "pump",
+      "pred_n": 9,
+      "usd": 1.282276766541463,
+      "in_univ": false
+    },
+    {
+      "pool": "9cPYPptE4SgibxmuvJEmoN1ukJvZw4WcTDpUdwTLik2M",
+      "proto": "pump",
+      "pred_n": 9,
+      "usd": 0.510343731338021,
+      "in_univ": false
+    },
+    {
+      "pool": "9PDP3Ch3GJPpoDQizhQCXVHF8ZkmXG3FxaKAkrStxm7S",
+      "proto": "pump",
+      "pred_n": 9,
+      "usd": 0.5146083394763142,
+      "in_univ": false
+    },
+    {
+      "pool": "CnPgBPoN5xE8jMdGeEedF8SWnUxjN5tT5LbdU9McJUKA",
+      "proto": "pump",
+      "pred_n": 8,
+      "usd": 23.13906783367548,
+      "in_univ": false
+    },
+    {
+      "pool": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "proto": "dlmm",
+      "pred_n": 8,
+      "usd": 2.9926471074950847,
+      "in_univ": true
+    },
+    {
+      "pool": "GE6QEGU9cwvVQzLjtzQVKDLAUZKyaKRTGFzWAtF893Xh",
+      "proto": "dlmm",
+      "pred_n": 8,
+      "usd": 2.43672859727884,
+      "in_univ": false
+    },
+    {
+      "pool": "5Z26xSPnkhcUrLKcwV1eYoaRVBvLgET32PYpcgcChuHw",
+      "proto": "dlmm",
+      "pred_n": 8,
+      "usd": 3.577183621187556,
+      "in_univ": false
+    },
+    {
+      "pool": "JAU2eiAZ14ojLXrDASyourkAEFY3NHvy4pjDenCjUjcB",
+      "proto": "pump",
+      "pred_n": 8,
+      "usd": 0.3573583358578454,
+      "in_univ": false
+    },
+    {
+      "pool": "3mA4WnhESUZntZwaDE92wtQkZkYe8rfvP62gB4tSQ4ou",
+      "proto": "pump",
+      "pred_n": 8,
+      "usd": 0.18608927303906658,
+      "in_univ": false
+    },
+    {
+      "pool": "1r1N6D2mZNHfeE11MCHLsLGeKx8Mwq8oxkNRN85QJod",
+      "proto": "pump",
+      "pred_n": 8,
+      "usd": 0.10264929304844618,
+      "in_univ": false
+    },
+    {
+      "pool": "Egm1TSYFhYX5KApLAufAaDtQN2QoxNRPoq9f7uyZSr3M",
+      "proto": "pump",
+      "pred_n": 8,
+      "usd": 0.056346810216676806,
+      "in_univ": false
+    },
+    {
+      "pool": "6e3jZLtf4tQbWZm3f7A66jF8tfZn6MRQVrbDFgcNWarA",
+      "proto": "pump",
+      "pred_n": 7,
+      "usd": 34.7564497406096,
+      "in_univ": true
+    },
+    {
+      "pool": "CjYqBgLTTXLq5gn5bfYHEoKZsnANJ6Su2oVSpuZNo2yU",
+      "proto": "pump",
+      "pred_n": 7,
+      "usd": 1.6924071907053098,
+      "in_univ": false
+    },
+    {
+      "pool": "7FwojFcjBwsqDwybz6cLUDiasAqto5gbcpaTB4oMQmyS",
+      "proto": "pump",
+      "pred_n": 7,
+      "usd": 1.335994101389883,
+      "in_univ": false
+    },
+    {
+      "pool": "6gy3KjqjSe2eK62aRkPSpE1Ea7Nt66WLEHP4BYTLZoMY",
+      "proto": "pump",
+      "pred_n": 7,
+      "usd": 1.3857907685244844,
+      "in_univ": false
+    },
+    {
+      "pool": "Cgk5DWJc59TcWTQ1iaJ8Hn4bsVjKXJF2fCjPAZtMUSkV",
+      "proto": "dlmm",
+      "pred_n": 7,
+      "usd": 1.7212305085780342,
+      "in_univ": false
+    },
+    {
+      "pool": "8VHKSU5pij3V5DVKFQv1WceEzwKeZQpSZiCh9rja2G6N",
+      "proto": "pump",
+      "pred_n": 7,
+      "usd": 0.47483124868396265,
+      "in_univ": false
+    },
+    {
+      "pool": "D8pGWVN3vWeyexBtMZjyyPbcLhM1oeTEMibE9h3nNRYL",
+      "proto": "dlmm",
+      "pred_n": 7,
+      "usd": 0.8318285749224869,
+      "in_univ": false
+    },
+    {
+      "pool": "8pqwnUxrzaFPLMMtMeu5L7rptsGZxp87AHZ6QFQ3KdHG",
+      "proto": "pump",
+      "pred_n": 7,
+      "usd": 0.5979046312753145,
+      "in_univ": false
+    },
+    {
+      "pool": "3jM7jgX8V3E4ppDUq4XCT3CSkVAVGxs4hJHG1zewyAxR",
+      "proto": "pump",
+      "pred_n": 7,
+      "usd": 0.5671793828223483,
+      "in_univ": false
+    },
+    {
+      "pool": "9fZuMW6hLWiDxWDX2f3PCJkaAsnU4R5vCYfTUtoXvL2W",
+      "proto": "pump",
+      "pred_n": 7,
+      "usd": 0.6898964420944896,
+      "in_univ": false
+    },
+    {
+      "pool": "8abQ4TDjHFHRbigBRi3nPJxPrfYpjuBuptiq58vtZUHg",
+      "proto": "pump",
+      "pred_n": 7,
+      "usd": 0.08216613429208294,
+      "in_univ": false
+    },
+    {
+      "pool": "4R8CiMnJWDNoes3fQi1ccPFJygPXazaHaWpHrN3rZeNj",
+      "proto": "pump",
+      "pred_n": 6,
+      "usd": 2.044848619427888,
+      "in_univ": true
+    },
+    {
+      "pool": "BuyHXSuGsyyM3wu7PZz67xr8oh8UqF2N54vZHt1heWWY",
+      "proto": "pump",
+      "pred_n": 6,
+      "usd": 1.4296756184434758,
+      "in_univ": false
+    },
+    {
+      "pool": "FDrY5i5kuadZ1ik8gPS26qjj9Rw9mpufXMegGC2HNSP7",
+      "proto": "pump",
+      "pred_n": 6,
+      "usd": 1.377555893332174,
+      "in_univ": true
+    },
+    {
+      "pool": "Au5EKt6FC2iThGwxDMsVs3xiXQWGFcSibgNSYu6ZZXAT",
+      "proto": "pump",
+      "pred_n": 6,
+      "usd": 0.8123272504944599,
+      "in_univ": false
+    },
+    {
+      "pool": "C6mmpqKHaFNcmBMtBaSntvn5BBRwvsKfbekxbgLFCqAo",
+      "proto": "pump",
+      "pred_n": 6,
+      "usd": 0.5360816449193587,
+      "in_univ": false
+    },
+    {
+      "pool": "HGH5BxzYPkK74CGV3r6YVzzAqEwvDyxwbQ6LvYSJfXEM",
+      "proto": "pump",
+      "pred_n": 6,
+      "usd": 0.8648724286554174,
+      "in_univ": false
+    },
+    {
+      "pool": "6b3vR5ZyHoH6H7DffFAzuWhhfJboAcNzDWsrKTK91rCP",
+      "proto": "pump",
+      "pred_n": 6,
+      "usd": 0.816111665253866,
+      "in_univ": false
+    },
+    {
+      "pool": "AVcYSGKk3ee9FR9LifGGXErzUCoEm1uNMv83ajqcVJEW",
+      "proto": "pump",
+      "pred_n": 6,
+      "usd": 0.2618457004229485,
+      "in_univ": false
+    },
+    {
+      "pool": "GuvLkdVPaEdSUizVFSzuzqVupJSfhV89sX8ozgYR8Fpu",
+      "proto": "pump",
+      "pred_n": 6,
+      "usd": 0.11008655934257285,
+      "in_univ": false
+    },
+    {
+      "pool": "zxTpi4BtaWX3mgdAPoezkMD1hxx8CdeCfrqXMWvSCLX",
+      "proto": "dlmm",
+      "pred_n": 6,
+      "usd": 0.11467791269698126,
+      "in_univ": true
+    },
+    {
+      "pool": "8j1KDw6KTmi2gJ8uKPLrJ8v22kowuSAJpWbAfXQfuZwX",
+      "proto": "pump",
+      "pred_n": 6,
+      "usd": 0.08977752305932665,
+      "in_univ": false
+    },
+    {
+      "pool": "5vHYpRNJxnYGwP5QCBcha2q4h9EJFbksbnB5jJjHDdBs",
+      "proto": "pump",
+      "pred_n": 6,
+      "usd": 0.06662406484127548,
+      "in_univ": false
+    },
+    {
+      "pool": "2yNkdBEwdrNf75VAV7h7UVHArZSzm51wqEoDRZuKEyLB",
+      "proto": "pump",
+      "pred_n": 6,
+      "usd": 0.008687940878123442,
+      "in_univ": false
+    },
+    {
+      "pool": "DA4pM4xSDY4M9V4CgAKKBVH1pw1yscTQQa5nEkGHuKpt",
+      "proto": "pump",
+      "pred_n": 5,
+      "usd": 5.1710380981415405,
+      "in_univ": false
+    },
+    {
+      "pool": "Fs8b1WVxFcqToz7D3FooKXoPsCnFhbN8Kt18NHBcw1be",
+      "proto": "pump",
+      "pred_n": 5,
+      "usd": 3.905464576947633,
+      "in_univ": false
+    },
+    {
+      "pool": "8E3SNyk1UeC41rBFzamh5EcuB5aCJRkb9pLs9YP6NW1J",
+      "proto": "pump",
+      "pred_n": 5,
+      "usd": 3.4119882349953716,
+      "in_univ": false
+    },
+    {
+      "pool": "6zHtf3SYxwezT5NLNY3xdyegP5wfK6HizEgTm9f5Rxue",
+      "proto": "pump",
+      "pred_n": 5,
+      "usd": 2.337063197504017,
+      "in_univ": false
+    },
+    {
+      "pool": "FnzKY6x7entQ1eR3D225dQyT7ybfka4PskBMQhb8L3CC",
+      "proto": "pump",
+      "pred_n": 5,
+      "usd": 1.6074014222994175,
+      "in_univ": true
+    },
+    {
+      "pool": "5PGhKctym6odbHGo2tKMST2AjmJsb2uZBQrKkn4ZuFT5",
+      "proto": "pump",
+      "pred_n": 5,
+      "usd": 1.691805618588764,
+      "in_univ": true
+    },
+    {
+      "pool": "G2cpUAwChtRPHX4RbijBdG9SagjQWeTy7iw41mS8D6rU",
+      "proto": "pump",
+      "pred_n": 5,
+      "usd": 1.1749365392456226,
+      "in_univ": false
+    },
+    {
+      "pool": "4kJEwCpiGtvFRxm1RKYExsFCm1CsB8RwnUQv3LCQs5YG",
+      "proto": "pump",
+      "pred_n": 5,
+      "usd": 1.2902555641938056,
+      "in_univ": true
+    },
+    {
+      "pool": "FpL9XTgdrF2BELs8Uas5B99H1iuzEwHGu7PJhzwCkLh4",
+      "proto": "pump",
+      "pred_n": 5,
+      "usd": 0.756782269344976,
+      "in_univ": false
+    },
+    {
+      "pool": "AjsUAtnCUApP9kNExVPKZ6EFRe9G73DiY3NKcYGywewd",
+      "proto": "pump",
+      "pred_n": 5,
+      "usd": 0.27067527346080594,
+      "in_univ": false
+    },
+    {
+      "pool": "3364H2G3Kt536qgfV4az9HhN42i4owXGpcs4LuenHCBA",
+      "proto": "pump",
+      "pred_n": 5,
+      "usd": 0.31993994541253595,
+      "in_univ": false
+    },
+    {
+      "pool": "8uPCocPSLejVtwaesEWq3TzQRtsL4kwp3RhtxsEmfcn2",
+      "proto": "pump",
+      "pred_n": 5,
+      "usd": 0.13998127455957354,
+      "in_univ": false
+    },
+    {
+      "pool": "4HqMseDUzqtzauaoB6L63g6ztZtEt79gNiJckGKwUYcL",
+      "proto": "pump",
+      "pred_n": 5,
+      "usd": 0.031649505595195554,
+      "in_univ": false
+    },
+    {
+      "pool": "CEb6X26nd4ohRB3PkTDcpsD3VMsPVENmr4cMkkfN3PmX",
+      "proto": "pump",
+      "pred_n": 4,
+      "usd": 46.11926982691517,
+      "in_univ": false
+    },
+    {
+      "pool": "5BD1boMtzcLBxbigfzvQpuhDou6AyDGKtfwGLeTVNzAX",
+      "proto": "pump",
+      "pred_n": 4,
+      "usd": 10.697106076911172,
+      "in_univ": false
+    },
+    {
+      "pool": "8Eurrod8XXCY5XLrckkB7wsJhdQ5pJ8SXzgi3qaFqSVT",
+      "proto": "dlmm",
+      "pred_n": 4,
+      "usd": 10.2052315724886,
+      "in_univ": false
+    },
+    {
+      "pool": "2i2iULr7UwK1SDRB17T5FUtiMnFQL7fyy7rh69brZihc",
+      "proto": "pump",
+      "pred_n": 4,
+      "usd": 11.196539682743266,
+      "in_univ": true
+    },
+    {
+      "pool": "28bb8gosd8sfNLfHr7ejLgYkmC4eYg9mPS3ayTkRXG5k",
+      "proto": "pump",
+      "pred_n": 4,
+      "usd": 3.682594805382039,
+      "in_univ": false
+    },
+    {
+      "pool": "6qz7THwQvcjF3HyDGLuKaLBUk6EyJKeZXZMWLAeiwfjd",
+      "proto": "dlmm",
+      "pred_n": 4,
+      "usd": 3.123127949361342,
+      "in_univ": false
+    },
+    {
+      "pool": "2fmCtEWjnr6eyL5w2jQMoHXpVn6nZQMLTfbvcTkdyRx7",
+      "proto": "pump",
+      "pred_n": 4,
+      "usd": 2.275907756325534,
+      "in_univ": false
+    },
+    {
+      "pool": "2iLsLLDGFjXBJx1EqbeAfhK4zWsmuEXvnBy3r9RKKaKH",
+      "proto": "pump",
+      "pred_n": 4,
+      "usd": 0.9589614306446846,
+      "in_univ": false
+    },
+    {
+      "pool": "6hzXzKuUEJ1B4q1gZcivpbJacJASzh4zn9rFevoCu7G2",
+      "proto": "dlmm",
+      "pred_n": 4,
+      "usd": 1.3612680351593611,
+      "in_univ": false
+    },
+    {
+      "pool": "FVc7EaaSg9a5BYz2y3nuemmjvfq2BRWXopjjocA1G593",
+      "proto": "pump",
+      "pred_n": 4,
+      "usd": 1.2752928675065565,
+      "in_univ": false
+    },
+    {
+      "pool": "9GBtdfNazaqzLiyfXFMsqgECrmFtNnyoRBBsPoTQQVYY",
+      "proto": "pump",
+      "pred_n": 4,
+      "usd": 1.015210259167563,
+      "in_univ": false
+    },
+    {
+      "pool": "99orHi3NfTY5MH68KDZfHsD3bsV88w4EXvdB9mMZUDEv",
+      "proto": "dlmm",
+      "pred_n": 4,
+      "usd": 1.3124074246056516,
+      "in_univ": false
+    },
+    {
+      "pool": "5fsRHYDqXRtU6yCauu33qJPWy6DQnPv9Y4iBaBq8PAXh",
+      "proto": "pump",
+      "pred_n": 4,
+      "usd": 0.6492726320969865,
+      "in_univ": false
+    },
+    {
+      "pool": "3eDMKaWB8oozKHRfUG4pM8J31TzZxh6F39u4Pa3HGA8S",
+      "proto": "pump",
+      "pred_n": 4,
+      "usd": 0.5220019226622375,
+      "in_univ": false
+    },
+    {
+      "pool": "Eio6hAieGTAmKgfvbEfbnXke6o5kfEd74tqHm2Z9SFjf",
+      "proto": "dlmm",
+      "pred_n": 4,
+      "usd": 0.34983029687704437,
+      "in_univ": true
+    },
+    {
+      "pool": "Hz1EtXTGaFEtAWRgRNpDMFV6vnSZtQUY9UqmdM6vfKSS",
+      "proto": "dlmm",
+      "pred_n": 4,
+      "usd": 0.3311743492924133,
+      "in_univ": true
+    },
+    {
+      "pool": "AtNQriWPY8KgJp9Us3rM4ffayVa3yDE63hpPEW4TdeAF",
+      "proto": "pump",
+      "pred_n": 4,
+      "usd": 0.21005493284451154,
+      "in_univ": false
+    },
+    {
+      "pool": "AHhA4kUcKNbSBf3VvpB7fs2GNR75tDHj2d8LsuQUJkth",
+      "proto": "pump",
+      "pred_n": 4,
+      "usd": 0.15569735937484303,
+      "in_univ": false
+    },
+    {
+      "pool": "Gv8ivFcTJ9uhgN4HVY2ffbeZGFZkh2genySWKWzdy5nz",
+      "proto": "pump",
+      "pred_n": 4,
+      "usd": 0.05637963609074103,
+      "in_univ": false
+    },
+    {
+      "pool": "2ZHjAbJPeaJ1zF4dgKYpNjpCzYQ28ZqL3d9MQpxC8aXE",
+      "proto": "pump",
+      "pred_n": 4,
+      "usd": 0.06622626868229745,
+      "in_univ": false
+    },
+    {
+      "pool": "2e9nmKeaiiKzERySf7gcQKuhKHX7ZyHcPFsNHi1ZyMa2",
+      "proto": "pump",
+      "pred_n": 4,
+      "usd": 0.07432258529935332,
+      "in_univ": false
+    },
+    {
+      "pool": "9PYormkWiWYAALGWkNNBjSEqKk79HPoRaLgQhMfY4fuv",
+      "proto": "pump",
+      "pred_n": 4,
+      "usd": 0.057161018726489765,
+      "in_univ": false
+    },
+    {
+      "pool": "E6DPHuYV4s93FcFWUSxT39DLsJRFqMxrNyNUHnwur8tX",
+      "proto": "pump",
+      "pred_n": 4,
+      "usd": 0.03812937506583406,
+      "in_univ": false
+    },
+    {
+      "pool": "2gND8F7t8mTb4Mom1nYKsgCiw7iobi1CLJjMovnAHbth",
+      "proto": "pump",
+      "pred_n": 4,
+      "usd": 0.021337116129362874,
+      "in_univ": false
+    },
+    {
+      "pool": "9xeT2rshTsPfehqfMm7Pf5FM3nZfpaGuNjGJzBXNjJyZ",
+      "proto": "pump",
+      "pred_n": 4,
+      "usd": 0.03660260091898365,
+      "in_univ": false
+    },
+    {
+      "pool": "FaASBZQXaVd4pfVdZQS4DqyBUai1XeDgDpBZ7jnXXvpL",
+      "proto": "pump",
+      "pred_n": 4,
+      "usd": 0.010442996500671329,
+      "in_univ": false
+    },
+    {
+      "pool": "A5spKebnqwbvGp6G4qPfKJDBD3jahxkKs2CcB2xLn9oN",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 23.876508826398126,
+      "in_univ": false
+    },
+    {
+      "pool": "5SHjDACvwtox5nY8kpWNYyaceWjtTG8C6L821D9Gtpjf",
+      "proto": "dlmm",
+      "pred_n": 3,
+      "usd": 3.5094959201485807,
+      "in_univ": true
+    },
+    {
+      "pool": "9PYge8aBV119HoFWm8HBvaaSqPvJpu2kUwMV9imRnPAx",
+      "proto": "dlmm",
+      "pred_n": 3,
+      "usd": 3.437266198833543,
+      "in_univ": true
+    },
+    {
+      "pool": "CHsYj8JirK5bTwnRpNsKmQWo3fxreMBVBpcdyqJP5ED8",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 4.353866360644375,
+      "in_univ": false
+    },
+    {
+      "pool": "FkGtEz39xfjSer7qNnsU9sxaXEk8AQrGs3QBC6NugKUr",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 3.1563101028331073,
+      "in_univ": false
+    },
+    {
+      "pool": "7RBeDXsMn2x7ReyRf2sbHBybDVA1iD1piin2fFRRZMia",
+      "proto": "dlmm",
+      "pred_n": 3,
+      "usd": 1.9932166064670884,
+      "in_univ": false
+    },
+    {
+      "pool": "E3SotafntrgRg9XjppxqoJWSR4GUaJV7sA8u4a89rYo6",
+      "proto": "dlmm",
+      "pred_n": 3,
+      "usd": 1.2625455795341103,
+      "in_univ": true
+    },
+    {
+      "pool": "6FBLNQTYv3eEXB2BQrqJcAR3wQi2p3RsRCCHBxTnY39E",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 1.135794335852639,
+      "in_univ": false
+    },
+    {
+      "pool": "5UasDvVcUFN7ixAwqLMkAKPqPk4srMWuQwtDU4M7c3cy",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.815953933824765,
+      "in_univ": false
+    },
+    {
+      "pool": "7pXrWLwDVjLNhqSmEZ7DnpnMRzbwU85NXW4iX6zePAuJ",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.8636615429375728,
+      "in_univ": false
+    },
+    {
+      "pool": "99C6TUp7WgTvnwQVVhAbD8HbxPdo5LJCXr7VFCvTmJf1",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 1.2077025233997176,
+      "in_univ": false
+    },
+    {
+      "pool": "Eu8nSELtkNDgBpK2JH5msBDVgEV9QdMJBafwgA3WiVBm",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.6159969855795855,
+      "in_univ": false
+    },
+    {
+      "pool": "FzRrFykuvwYDqKVJWM7rnFEyU2e5EQND4jkwAWotjoSG",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.5706034497545881,
+      "in_univ": false
+    },
+    {
+      "pool": "31RyZamnb6B2s9jL8jt6boGgjTbtRrXzHnozTVYT1VbR",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.46574677346575943,
+      "in_univ": false
+    },
+    {
+      "pool": "3odkxoFB7KvujaRFoLbCQbbZv93R9njJr9KQTH5cKDKT",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.48017011306136226,
+      "in_univ": false
+    },
+    {
+      "pool": "CqC3Hz1VLgRtoy8Kcahif6vxAcYNyQVM7SWxLXCQAfcK",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.37870941943985836,
+      "in_univ": false
+    },
+    {
+      "pool": "9LGQ1Non71dvXiEGTRjtGNgVQgSKHhAmKn5cYNNWcrXh",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.5681862902770077,
+      "in_univ": false
+    },
+    {
+      "pool": "2fwy38cJcChCVySA9cd5SAFaEPtZQWN2ssFip43hnsHU",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.4953877548182437,
+      "in_univ": false
+    },
+    {
+      "pool": "HstoLjDpjZnQoqyjiLATx7zZMSrGs7iQzR95AM2v5vX9",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.2881658513479612,
+      "in_univ": false
+    },
+    {
+      "pool": "Ft63dVPKs7gHFKSGqcT2D2jBXr1vz7VPew84nFUNvkmi",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.2492418152077129,
+      "in_univ": false
+    },
+    {
+      "pool": "6EL3NruPyUSMqFBSFdqLQ1rDTHok4FKaSt1PX39Vuyef",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.33828792780092337,
+      "in_univ": false
+    },
+    {
+      "pool": "V5B9EQzpR4zBgtWmL6BhjFuuaQbTkgGNPUXHQbXp38R",
+      "proto": "dlmm",
+      "pred_n": 3,
+      "usd": 0.333224075161121,
+      "in_univ": false
+    },
+    {
+      "pool": "8DP158fwsDKcbZm2gLPR6D47bsckkBfPx6ch7G5a9yTU",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.2548082122197494,
+      "in_univ": false
+    },
+    {
+      "pool": "8R4DDi9X3RBLr876hhRJCv4Gvsy8d9SkABgb8YiHapo9",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.19428161696410318,
+      "in_univ": true
+    },
+    {
+      "pool": "451hyQBFEWuhoiVeMNkVHZXhK7GXsm27b4Q7x2BetTwp",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.2482459598246561,
+      "in_univ": false
+    },
+    {
+      "pool": "mSU9dtbAY5GyknG2phmM44Gzo1cuRhhncBM9koAadjZ",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.2849854768886795,
+      "in_univ": false
+    },
+    {
+      "pool": "J3itJ4AxEWCdE82gFjuENgvAW4Ny9k2bJL9yF3zRseTh",
+      "proto": "dlmm",
+      "pred_n": 3,
+      "usd": 0.16244017972848201,
+      "in_univ": false
+    },
+    {
+      "pool": "5sxAo2iD1SWo5QhM1Vw8RQtCstkoyszAdVn2suCExcE",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.16073106458441563,
+      "in_univ": false
+    },
+    {
+      "pool": "12bUqVJNRP9L7rrniKM8ZY4dnXu1p91mKmdWHL46f26Z",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.14684841049089212,
+      "in_univ": false
+    },
+    {
+      "pool": "7wJSkAxZbKUEGcZPRUxBiQzwkPdmsepRvsvcJuyBWGwU",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.1867820737371298,
+      "in_univ": false
+    },
+    {
+      "pool": "41rzTMB7JHPTyMXzrYwdqnBecJRhkb8KHYAjrQ9cYxJx",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.17565764612947257,
+      "in_univ": false
+    },
+    {
+      "pool": "AL8E3nwfLdMXpPrha9bhDgpRsTA9pymikjwp1BughfyK",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.11323046442169676,
+      "in_univ": false
+    },
+    {
+      "pool": "6oStMWdNFidPnRRvf4rtvy9f48PUJie5rAGw3sBkiXdN",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.09957720003769267,
+      "in_univ": false
+    },
+    {
+      "pool": "6LtBM9GxMtmff1VY6jEV5U3UrMCSGtSuquhfnwWTmTLi",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.09913030646147299,
+      "in_univ": false
+    },
+    {
+      "pool": "BetLT47eFXDZnjM1cmZhQ4oNJkYaPZYH5yv6atfPfAri",
+      "proto": "dlmm",
+      "pred_n": 3,
+      "usd": 0.1609114580661262,
+      "in_univ": true
+    },
+    {
+      "pool": "8ShBf8mx2hXsE7CfcGNYFEvoRfDYLPgkRvc1L4zRFtck",
+      "proto": "dlmm",
+      "pred_n": 3,
+      "usd": 0.16732979635226702,
+      "in_univ": false
+    },
+    {
+      "pool": "5DBix7JnjoP5c7WwDaijYyFxB64mnhbfQ9SqFzas3kvf",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.11185691642652941,
+      "in_univ": false
+    },
+    {
+      "pool": "2GSkn2q5ESS9LNgEz57UnJsd2AKGDq8t2BmkXefCEZrw",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.0887676777042787,
+      "in_univ": false
+    },
+    {
+      "pool": "FnMaX2AZiKxsNhzmsDXp1cQ8hxbrZ2C64aULjQPePUfU",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.05198090818974474,
+      "in_univ": false
+    },
+    {
+      "pool": "7o3bfXjeDL6Wzuwk1VR8nvEwSJTA2hHJhBgUA95nFDDa",
+      "proto": "dlmm",
+      "pred_n": 3,
+      "usd": 0.05189604637138083,
+      "in_univ": false
+    },
+    {
+      "pool": "CEWYUEUqdUYd9NTrPxuJMF8RyYtd4QJMYpXpEYfM24uP",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.06884769204652022,
+      "in_univ": false
+    },
+    {
+      "pool": "C4paYpcX5Q6hq7Rp7CBACFW76kZMUVMwC9ef1V9qmThJ",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.04820818045512967,
+      "in_univ": false
+    },
+    {
+      "pool": "GBFiFqkkMjQR3qfaSajVBnQh8b6bHa2qNzGH1ucbzA4j",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.040680639068546166,
+      "in_univ": false
+    },
+    {
+      "pool": "3VRdzjeSRySpcxXhB1egUpAmBZkx8JHY2RoyZghZbXW7",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.02207096031816427,
+      "in_univ": false
+    },
+    {
+      "pool": "FPXFctkRquxEuFZS5xZCT4XFQKxxmJdJKTx7hRHza8Mi",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.030619236736539025,
+      "in_univ": false
+    },
+    {
+      "pool": "FFcYgSSgWHforA9rXXkA48p8YFoz8TSW85Jpo3CQHDyS",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.023851539035034328,
+      "in_univ": false
+    },
+    {
+      "pool": "2NEpF8NLKPRcBni1Ako1cw7PgkxFH2fepgULEPtc9UHm",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.03513874054797181,
+      "in_univ": false
+    },
+    {
+      "pool": "DFLiowyAnpc1MebvKDeF2C9owGoXW6hV4h4RBRwPVE1N",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.015549937204915938,
+      "in_univ": false
+    },
+    {
+      "pool": "446FCtEZqBC444Pp9HL1hT3VyBK7oKy76SNbznqeJkM9",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.01005031364906679,
+      "in_univ": false
+    },
+    {
+      "pool": "5s9pTL6CxERtEKUVtxPnufiX8WEiL8hrEoSjMBR1LySy",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.02387640976346536,
+      "in_univ": false
+    },
+    {
+      "pool": "9wWjUKaZU3bELU25C35qFvf97xjy9yBqJ5ZYqqNeAvoX",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.018368115688782338,
+      "in_univ": false
+    },
+    {
+      "pool": "nrPP4xWxvzjFTiSXaHusTij2Pzq1hnL25BtTfU4f66Q",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.003991424128007124,
+      "in_univ": false
+    },
+    {
+      "pool": "GFqFLMzYrjfft33Nkdi3rKNFJqfPPeMMmRuzYuuH2DEf",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": 0.006470414387377291,
+      "in_univ": false
+    },
+    {
+      "pool": "H7Y2prMahqQUrWB7cgPMmbvuc33CN96AVYkTQxAeBxfG",
+      "proto": "pump",
+      "pred_n": 3,
+      "usd": -0.0018925766341983837,
+      "in_univ": false
+    },
+    {
+      "pool": "EdiBbPhWogYP7wXZpnrobwnXaVEzzqK63qbC9P97eUbd",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 55.29626658688135,
+      "in_univ": false
+    },
+    {
+      "pool": "4MjpgAT7H8GmWsZDUaeGUNZwjur8n8sKCSPHHjQRE4sm",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 48.816537079851855,
+      "in_univ": true
+    },
+    {
+      "pool": "GiRNCYDdT5mcCeXUWresqVpicnjhwujHwGpwFZVeEiEV",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 22.96753065442423,
+      "in_univ": true
+    },
+    {
+      "pool": "FDtu6W24K2iyW9Ce9NsTyVSmSGjxj2hHrTkKc2xFTxSL",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 9.3053597934606,
+      "in_univ": false
+    },
+    {
+      "pool": "3dcwhqJp6JBTJPq8ga335HWgSQVS7uQmdmeX7iGjMNpj",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 7.34196622531501,
+      "in_univ": true
+    },
+    {
+      "pool": "ovtwEHG1eLuqagpSz8QXxfwrsUNKx58hejKjhWjxoeD",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 8.170648921562684,
+      "in_univ": true
+    },
+    {
+      "pool": "BX6Hwed4eccX7DkXCLR67kQvwaEWTRHgSCrGRUrTdrof",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 2.4493372828581563,
+      "in_univ": false
+    },
+    {
+      "pool": "7FnF4ZKepZtSrfuxvoHW9wNGbwjynSfPdmmjKttPyiqe",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 2.300046047787194,
+      "in_univ": false
+    },
+    {
+      "pool": "4SQ8yjAsNdaPf6WKD1ojq5byMYKsHarY7t3zWXNDZ24F",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 2.272444297249313,
+      "in_univ": false
+    },
+    {
+      "pool": "5tTcBK3CqT8kRjhF1Er2esA7i7NtQEbxNun8V3KUhLGF",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 1.7300660427290075,
+      "in_univ": false
+    },
+    {
+      "pool": "fAeDy2q7ZjZZZFt6Q1FtbHaCU5dtLEPmYcwcwfAexNA",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 2.235888196859814,
+      "in_univ": false
+    },
+    {
+      "pool": "Fex8CSkNXfaxAPRqQARKGchYAMVfwDg28sfmBXXGkNGX",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 1.9113939511596676,
+      "in_univ": false
+    },
+    {
+      "pool": "F9Wj19vEd2N3HxtLd1CZ2DSfkBCCA7SJD9NBmZPMDpKu",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 1.015320242776576,
+      "in_univ": false
+    },
+    {
+      "pool": "DMAFL613XTipuA3jFNYczavWT7XsiYf9cR3qmRMZQhB6",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 1.6314947265322859,
+      "in_univ": false
+    },
+    {
+      "pool": "6EMsVK7dnX9oBDpHAeKJ1ccdJVEgZkNR1QcF5phzCwjS",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 1.2419027670986673,
+      "in_univ": false
+    },
+    {
+      "pool": "2YTdAkr7YxyWZk5GmU3ihhVzYYR8xj8fRRNReJukHe6N",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.8703154544157502,
+      "in_univ": false
+    },
+    {
+      "pool": "XhSSHSCcSumAfJ658R9UjrKuVYZ5G6abh2oPNFkc8hd",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.8834015782165239,
+      "in_univ": false
+    },
+    {
+      "pool": "8pwHuRhi5zUiQAtgs3S3nDyHsSbnaDEyPbiQSFfZkPYs",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.8055982419273654,
+      "in_univ": false
+    },
+    {
+      "pool": "BcKSMKJLV1skQTNDaGFXS6QvEv7N99bWWr8spzUUbQae",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.7618640690842814,
+      "in_univ": false
+    },
+    {
+      "pool": "B3Me7MhVX5XPb4UHpnvYiac8KaTu26uxPzi36GksoUL9",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.6758911195419308,
+      "in_univ": true
+    },
+    {
+      "pool": "FbkX1h2YTs171cEMa4GrV7XbAiQt5zSmV2CjfYWxXJDP",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.6541162353068266,
+      "in_univ": false
+    },
+    {
+      "pool": "8CwbEPexYQzHYP4G1LPwTE1YQredRFTCbT5myipHY2Fw",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.6240701564627086,
+      "in_univ": false
+    },
+    {
+      "pool": "38b1mET7FFgfoAzaBun8rPQqH2qFmThaWfdzoPbPyYHe",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.4487945767732974,
+      "in_univ": false
+    },
+    {
+      "pool": "xXBAgoiBewHnJoiKSZ8Js1oHDKQ1ikLNLPeqsb6jv4w",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.409435118067974,
+      "in_univ": false
+    },
+    {
+      "pool": "9bhDqt7NJYPR4EdEJzr7D1zGzbdC19UPkApjwGR4hMqy",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.38073957456548996,
+      "in_univ": false
+    },
+    {
+      "pool": "Hkpzf3yxNigDM5PLsuzH54ZUzgUYS2F5jXj52ZNS4F3Q",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.3904692645515229,
+      "in_univ": false
+    },
+    {
+      "pool": "FfzJWqv2jKYB2GH8ZAX3nzG1mgo9zzbY5LnDmyvSBJqm",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.3636572803702317,
+      "in_univ": false
+    },
+    {
+      "pool": "F124AvmW4EJow7tmAewLXFDte8B6EffEqXAy9LDMgPvJ",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.3350708577293299,
+      "in_univ": false
+    },
+    {
+      "pool": "EBuR12XJbSP3AoVayqUzdLnESyWEx68ZqTxsJ5xfvLZh",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.2940704664510424,
+      "in_univ": false
+    },
+    {
+      "pool": "A6c5Pt1U4m8WNMjnHKUEkCiBn8HoGzkvymD9UT5GVMbD",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.32085019376674817,
+      "in_univ": false
+    },
+    {
+      "pool": "7EJqZHD4TTk8B9BCjUwLtfssGbxiDAsrbFHT8YWgrE7U",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.4995025722102824,
+      "in_univ": false
+    },
+    {
+      "pool": "7M5cYPYqk7C4g4n7mCaKAZPkcxXcdLFuUGqGQpMdAgj1",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.23380693923887502,
+      "in_univ": false
+    },
+    {
+      "pool": "Fcs9SGVSfXrDGpm3gtbvQbYveQkc387ApvWSG2GMrsRs",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.21919968007313675,
+      "in_univ": false
+    },
+    {
+      "pool": "Dhpehn7AjxXhV8WmCSqw9oLQTDiCMA5yZ948KoGayF4T",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.2853697696232794,
+      "in_univ": false
+    },
+    {
+      "pool": "8Z67KtuJXMiWjSyubve83mqhAVT5Q5XRi7Fn7BJMwSbr",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.20838647662506601,
+      "in_univ": false
+    },
+    {
+      "pool": "DN42VQryMCmrh1uyaqUt6nTjNeJA4iHhLg96NaCuK9BT",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.17197561339384604,
+      "in_univ": false
+    },
+    {
+      "pool": "8uvhAiKGpBjgV7s3WrRK4vSZ8bFZoyMJ8rAuL56oWFke",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.17030389834973642,
+      "in_univ": false
+    },
+    {
+      "pool": "3Rp3GbiwnDpWd9kukDnXn9BWXHEwKHU3PpwVbvCDYk9E",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.21023145211447206,
+      "in_univ": false
+    },
+    {
+      "pool": "ErumQ1sg2WZ4mX6HWTJqdjm1Z8jp1takrDHHQJhDRsXa",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.1593036517823204,
+      "in_univ": false
+    },
+    {
+      "pool": "3KFCgJ5R3zshW8hTDbzjSrrKSRYmKvsMfhc4Vo4iddxD",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.14017694010239826,
+      "in_univ": true
+    },
+    {
+      "pool": "81GpCm4d13y8TozYtThabuSCLQN2o3bbrvDogXFPn8sA",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.15156190461907243,
+      "in_univ": true
+    },
+    {
+      "pool": "AjdBhvhbtGCmbDu1qoxdyuLSB9dbrDbje1XmGy9uSvit",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.19280256526501735,
+      "in_univ": false
+    },
+    {
+      "pool": "HJ37XtaYpkxkBjjho917FzgEJY5jcbKL19svmFRkfkHn",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.129456542104211,
+      "in_univ": false
+    },
+    {
+      "pool": "FCUzjGHPAmRthDGj2RZ9RooizC4xMdFtK7w513aJ6z53",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.10269743209714934,
+      "in_univ": false
+    },
+    {
+      "pool": "47cejBpGbaC4LptB2bZKAqXCev39TabptbWkPwhhnHs8",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.10633385894485435,
+      "in_univ": false
+    },
+    {
+      "pool": "5x3kp7bJiazk9iCtCE9tH6HAmGREGcB5M7r7ff516cYC",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.08857918926866043,
+      "in_univ": false
+    },
+    {
+      "pool": "BN7CfsGm6Vq9w8NibLZXRGW2tp5y2axwXuLAs85NGakf",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.09319114816625002,
+      "in_univ": false
+    },
+    {
+      "pool": "4kdxjt8pKEW4qV4ji4HANixwswDJw3Egn8L4x2BEWQqT",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.09358017704251731,
+      "in_univ": true
+    },
+    {
+      "pool": "4iApQb2JooRnyibY1P1xYGSw7GioR45Z6LLh6vRztFS5",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.0813064112902168,
+      "in_univ": false
+    },
+    {
+      "pool": "69US8enxpkXs8A2rZLTuigxSuJGU7iuBuccX7m8pbJ1S",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.15427539052997252,
+      "in_univ": false
+    },
+    {
+      "pool": "3NpBE88dkdp4Jjm3ge9RPmVpBWbqoiXZ75UVXso2erMm",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.08192082799510925,
+      "in_univ": false
+    },
+    {
+      "pool": "7xKAjaW9FTZWDZn7LkeGFxjV7cm16oDPMAACmqi28AFj",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.08366876857863954,
+      "in_univ": false
+    },
+    {
+      "pool": "EXXfbVutbuexDZtPw8pkSvWxLFoUMBHd544CAGkmtPZm",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.07011514091639083,
+      "in_univ": true
+    },
+    {
+      "pool": "C8Gr6AUuq9hEdSYJzoEpNcdjpojPZwqG5MtQbeouNNwg",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.077177730244312,
+      "in_univ": true
+    },
+    {
+      "pool": "DLZhgwhLVCQWucBVSmY7QwKgcDCQaVvNwQ3DnAoatYzy",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.05891306757551238,
+      "in_univ": false
+    },
+    {
+      "pool": "2N1KNuLSt167P6p9P8HYcisTvTTv4vYTM8QJBbtv1xYU",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.05891306757551238,
+      "in_univ": false
+    },
+    {
+      "pool": "EEGeNWT7hWThYgnLCr2dWEEba1zG7jtmaPb6zYsc9PTR",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.08866666465318002,
+      "in_univ": false
+    },
+    {
+      "pool": "GgoFghiA6Ca7YNmG6dRxwKQWkZhRK8ND47EREz46arot",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.06687255009959149,
+      "in_univ": false
+    },
+    {
+      "pool": "GYqytuXSiX3GaPuCkLMY4jeRR3mAtyAuQqhD32d45g5y",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.04588817009677608,
+      "in_univ": true
+    },
+    {
+      "pool": "6rhcmwYcbRHxCktWuXoaHv6xVHhNUiXccGpD7H1QHpQd",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.04579520656043802,
+      "in_univ": false
+    },
+    {
+      "pool": "2RFfRk4k9aUYq8VbGmC17RXcrrGDaYqACfDv8ZXdGxf8",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.04078130971654365,
+      "in_univ": false
+    },
+    {
+      "pool": "2NyAGSQGCnbGGRHQJyZ4yKXwwCbjkLLes1VWTqYKZp5c",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.05065747620696632,
+      "in_univ": false
+    },
+    {
+      "pool": "6HLorrkY3vqPsyTZDFvTGTnwnZsLM343Jxw6XvEPTKRt",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.02727428344869242,
+      "in_univ": false
+    },
+    {
+      "pool": "6nf2sSc5bNeb2y9rpeDqjuTuFQT1e1YMuYQhXusjcATh",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.034826229332398005,
+      "in_univ": false
+    },
+    {
+      "pool": "F2DUyoVic686Riv1tHLi5er7RP3HmDNcGp6XVk6xeZBV",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.03242804596239616,
+      "in_univ": false
+    },
+    {
+      "pool": "AT4aq5fq2sm74DQzjmLeFnjHPZfA7Fr1GpJpcg2jGWfA",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.030946728720258082,
+      "in_univ": false
+    },
+    {
+      "pool": "6Ph8HnZoCU11nqwnGgDgDWpc7gUCfG3Pbd5LFnz3bfs1",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.025318659456566115,
+      "in_univ": false
+    },
+    {
+      "pool": "2VyAdd964Za44eAyzouS28wiccMEbCTC29VDpcsikSs1",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.018683166152469916,
+      "in_univ": false
+    },
+    {
+      "pool": "DgAtRsVp1N3M76kpCVBfhHJWoTBy8Lf8iVWkipaNH5tk",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.024713027212604557,
+      "in_univ": false
+    },
+    {
+      "pool": "Dvi4B9Rj4m4DKVL5R2txZ4aB5teNndhyZ8fqtSjZRqHW",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.018915309033629396,
+      "in_univ": false
+    },
+    {
+      "pool": "9NQkNGqs2HNxUbCRn8nzzeYKyBd3bDcxWVDWpy7AYWpe",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.02875160868880497,
+      "in_univ": false
+    },
+    {
+      "pool": "DgrwyveYanRwA2mtAyKCGucuDmKU5NHZ6xrShYfVuGRH",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.01883496336828637,
+      "in_univ": false
+    },
+    {
+      "pool": "C42SM7RbXPbUvoSd8n49wKz7RVKCvusXb3MVcRkvB6iC",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.012965050792349811,
+      "in_univ": false
+    },
+    {
+      "pool": "FSxzqiwq7ZusobEQ4PcuVT3ZMUf2cMV8wFm7kCRdSqsr",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.009915723976974131,
+      "in_univ": false
+    },
+    {
+      "pool": "2krhgQXD7Ua51TteC18Z1yymqJdXM2u7p633MQPcoRBE",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.018716232035868707,
+      "in_univ": false
+    },
+    {
+      "pool": "4iVHkn5WhmGwrKb2fYFNPnTkqhwYTEEezvsju9YEBY76",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.010667644567553352,
+      "in_univ": false
+    },
+    {
+      "pool": "21xqMnWJdr3X8yoQHLtLyUfdRSN3GaX4Rrg7nWCeRfb1",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.010367784166296265,
+      "in_univ": false
+    },
+    {
+      "pool": "FMc8EikmcRWLCQEa8cyuTMtrA5ZB7NqTyiEkeHJGB9UN",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.016676293783313645,
+      "in_univ": false
+    },
+    {
+      "pool": "E6KYdioeX3fwcMTnBQmkasvQwAN5m7jXzZpBBx3xgsJ9",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.007206233190403802,
+      "in_univ": false
+    },
+    {
+      "pool": "HDhWhQCBrSh9xNWmNtsTi86eWj3yCoEiaRodjgNydo1b",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.009057662220911042,
+      "in_univ": true
+    },
+    {
+      "pool": "83Cj76bRrNeVrekrjJvsQ24guZfGVZ98RWNSQizNRRit",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.010743507181762223,
+      "in_univ": false
+    },
+    {
+      "pool": "CjTKhHo9jo7u7wR2wpyxyKYD35RsN2Tt1wzFFuCZvsor",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.006988361188660268,
+      "in_univ": false
+    },
+    {
+      "pool": "Cgnuirsk5dQ9Ka1Grnru7J8YW1sYncYUjiXvYxT7G4iZ",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.004242234343001446,
+      "in_univ": false
+    },
+    {
+      "pool": "BKKNMzA8sUCsRLA5twXBKZB8x3agWMn9EGeYNeLfeAC9",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.009581554012376448,
+      "in_univ": false
+    },
+    {
+      "pool": "9RQ2P3ygwSrx4mFQ6LcGRxRz8YjEBLvUfaRTkAwdmGwj",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.0039159104093088115,
+      "in_univ": false
+    },
+    {
+      "pool": "D3qNzA8TkLGgT3VG9JkQY7zwcz2FCtvEkZtH6Jf2kmzy",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.004227890874764757,
+      "in_univ": false
+    },
+    {
+      "pool": "GQU4GZjCPam77cpnCgfnavXDqMNiXgksnTidyhwfRAKN",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.0042200444632186414,
+      "in_univ": false
+    },
+    {
+      "pool": "51rnKftjq3ogcoa3dx4D4jbt4sz7j9vhXAGC2B2tVX6N",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.002633954586988403,
+      "in_univ": false
+    },
+    {
+      "pool": "359UV3H3g2ZVff14AnZTWGeKaykLGdd7Ze3Kar68n6xR",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.004695728878693936,
+      "in_univ": false
+    },
+    {
+      "pool": "6e7V9eegCHw997T72MxgwwJipZ6GJyZF8NvjkzT1rvpN",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.002425731332613058,
+      "in_univ": true
+    },
+    {
+      "pool": "3msVd34R5KxonDzyNSV5nT19UtUeJ2RF1NaQhvVPNLxL",
+      "proto": "dlmm",
+      "pred_n": 2,
+      "usd": 0.0015904501727543802,
+      "in_univ": false
+    },
+    {
+      "pool": "TCA9Qeiz8Pic5EgW7moZkRG1gTfu5fgCzGz3iWgq932",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.002168725182196799,
+      "in_univ": false
+    },
+    {
+      "pool": "68uugfmR91ZEbKJ4TK8hKJRhnSZV5vcvdcork4Ngzrwo",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 0.0011022761391074778,
+      "in_univ": false
+    },
+    {
+      "pool": "BkTVTiBnv5LzgmGLABLs18ZoKxi2kaQkqdVwApMNRHXE",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": -0.00045993185095971004,
+      "in_univ": false
+    },
+    {
+      "pool": "4d1zHqd7puCebM8jG8KmgK4rYLDc1gcY389WNm5s4xu8",
+      "proto": "pump",
+      "pred_n": 2,
+      "usd": 1.6209100530290927e-05,
+      "in_univ": false
+    },
+    {
+      "pool": "C1w3CtCQLkw4ng1EZuKbngkSL22dGYuMZL9PmwgRoo8L",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 40.56393889609699,
+      "in_univ": false
+    },
+    {
+      "pool": "3vnFSkGU2foSKWsbH5pEJ6HFstugb5YBELkRGgUdJAeA",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 20.358872774982927,
+      "in_univ": false
+    },
+    {
+      "pool": "2VNCZdYZep9z253D1b8taMbNs4t1sWp2cHcPpUqTNp5P",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 14.93228536897036,
+      "in_univ": false
+    },
+    {
+      "pool": "AmgggTfr1Uq8VFjq1eoGZ6KGpi7nMCwyGfYVEUgj3SgD",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 7.630075324144949,
+      "in_univ": false
+    },
+    {
+      "pool": "CwqkkPwKcTXAr4xYw8FKykBYY6x6iaJKrjJdNShiQp8A",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 6.00574372901765,
+      "in_univ": false
+    },
+    {
+      "pool": "7bSVnqtU2CWSby3jXzwKnEYGZKZMv6JTZBDVATeoMo2J",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 5.351283622200953,
+      "in_univ": false
+    },
+    {
+      "pool": "8LZK8W9Pp6GrMKCoTALS3AZ6eAX62uKv8bHPY57iXZkL",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 4.7582821557079304,
+      "in_univ": false
+    },
+    {
+      "pool": "5QkBobk1bMGSy2jX64UCXbk1sXKEQXGzHSYT4QH8ccHx",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 3.708480131317952,
+      "in_univ": false
+    },
+    {
+      "pool": "5veoxnNMJqi3EVq1Qz4CHqjzWDg6Fz9viYCNKNmVTw9B",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 3.109746077599528,
+      "in_univ": false
+    },
+    {
+      "pool": "Gc5hVCBydc6k3Z7oc2cQEW4GThFQi2Fqk5HfKABqa2q8",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 2.5340897239,
+      "in_univ": true
+    },
+    {
+      "pool": "ATr8xzyxi6cnHo6xxX7XFyAy51e6dtvJw3iXLHbizQGF",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 2.1357933249608427,
+      "in_univ": false
+    },
+    {
+      "pool": "F5Lb1Hamu7SBA3fPDwmajtACqaYNLrk4AQ8h8aL5936g",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 1.7507748794031914,
+      "in_univ": false
+    },
+    {
+      "pool": "GuPbekwP9MqB23CghhiMQZTaigPdUJooovo1neCErhM8",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 1.6890197908420457,
+      "in_univ": false
+    },
+    {
+      "pool": "2gXV31km1F58FVFrwvjVKkLisWPnoGP6MNAiNWbp3MZn",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 1.5728739953107398,
+      "in_univ": true
+    },
+    {
+      "pool": "Dw4kAH8LhdmgfW1cgyvnWSwSDqkt37jeY7pW4oFkbGTu",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 1.4650959086083029,
+      "in_univ": false
+    },
+    {
+      "pool": "ForWDAgkpGS5CnvDN8YBuEcDFtKtuhiu7CDm4bpn15TZ",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 1.4299381353191056,
+      "in_univ": false
+    },
+    {
+      "pool": "Gdf1Uo1KD1NNcdY7Hrm5kyJYvERVntcqbFSMsNtQH5DT",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 1.203377176643777,
+      "in_univ": false
+    },
+    {
+      "pool": "3uUBMpYCxSNkShpxNhMtaKy1EK3WMfD4m1eM87PC7i95",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 1.176197614579776,
+      "in_univ": false
+    },
+    {
+      "pool": "6Q8NqztQWeN22sqbNMrCw6qdXpNxggj63CctGPJhCXpM",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 1.0871719817705443,
+      "in_univ": false
+    },
+    {
+      "pool": "2FVCnPrpSf3fLWLBA83FrjV29V3ENMNQ16dptiXhBZKp",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 1.0638813552215756,
+      "in_univ": false
+    },
+    {
+      "pool": "87k9m3kW8Nt2kA5Goc9w3ubGHGmVj6YRx8BoGMqCsCJ7",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.9767931165935296,
+      "in_univ": false
+    },
+    {
+      "pool": "9Hr6NXw5WSffxNQnqxwZyhRw81uz3PpB7RF9J3i9nMt1",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.965660601601788,
+      "in_univ": false
+    },
+    {
+      "pool": "Co3KAoJ4JedvH5RXMJjHiadTDpiaTQ7aiPNV9Z7q3bAg",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.8931067080786466,
+      "in_univ": false
+    },
+    {
+      "pool": "5E3dXLXGwmTDCokA51WYYaKttjFZBwqCoyUHBUi5gt2m",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.8622781117850776,
+      "in_univ": false
+    },
+    {
+      "pool": "2ByqqKV3z8r68hB9kDoaDZnNixkwiwbpnj1hzCSpJAEo",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.802055034543091,
+      "in_univ": false
+    },
+    {
+      "pool": "F42tZnKPavq1VUcrL6ymhc6YqVpt84fWwgzbNTv2wb3W",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.798165271976925,
+      "in_univ": false
+    },
+    {
+      "pool": "qhJ7kLjrE68sbDF11CpwMt3P9rqiwZtretM5ZzeAX6o",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.7976655473925811,
+      "in_univ": true
+    },
+    {
+      "pool": "EXCA9emPnfS96yFUR3rWwx78vhh1eTxtFRMDjUHyD9HA",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.7279186155223535,
+      "in_univ": false
+    },
+    {
+      "pool": "27sFWDnATKH63T58vm93QpLD4LCPuGCTgdeQZotzUyWV",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.6919529956303245,
+      "in_univ": false
+    },
+    {
+      "pool": "8qwgwpdfbBMNhdG76bDmtvLeSqtG9cEwuGGy6wGKhTB9",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.6439785852638343,
+      "in_univ": true
+    },
+    {
+      "pool": "DU23tenZpRwKShfEAoHdxpmJBGvdwdk5TU466BFEBe8A",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.5719674201742924,
+      "in_univ": false
+    },
+    {
+      "pool": "G5jPCXo6TbnvW4Zt2yroHDZdZct1CaS6849vijqHbk1D",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.4991550849744614,
+      "in_univ": false
+    },
+    {
+      "pool": "FZAjdc1kStK4MrTdZ4wMaJhSbqs3U4LoCFejWj9a4uGC",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.4287681371191822,
+      "in_univ": false
+    },
+    {
+      "pool": "9xiLuqDSvN1pgyHSHCeRbrKFTe1DWbPAMJRm2usYgdaX",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.4253955366903781,
+      "in_univ": true
+    },
+    {
+      "pool": "DGHeYVBF81QNEoaoXdaGU1FBwzmgWV7ay46PHF4wbZgX",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.4253955366903781,
+      "in_univ": false
+    },
+    {
+      "pool": "BYm6He45rGfagFoUbo7Kd116HCo75j5bVK77uLwVRaxH",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.39034739821493986,
+      "in_univ": false
+    },
+    {
+      "pool": "HQVzP7hXhCoVjysnp6foFy5adCFiGj1cdwt8gppAPNBV",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.38166430756611647,
+      "in_univ": false
+    },
+    {
+      "pool": "AG9QB5WJ5mQn9FygzP6pyeaoUEXXotXYhd9HeutosF4",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.3549851034669557,
+      "in_univ": false
+    },
+    {
+      "pool": "BQTubfEPB96SJ9WQZA4gL9kTeqkj9ZbCVTJDNW9Xyume",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.3457748680995278,
+      "in_univ": false
+    },
+    {
+      "pool": "CrUBoeghFxA9tJ3w4xJq4djzVYS1XUCEkfoGMvj6Vptw",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.33339583375732185,
+      "in_univ": false
+    },
+    {
+      "pool": "Dvr7yVzpsjxoRpAjH7f1zt8C3oYxDKuwQmePMgT6Xcik",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.3217765493199065,
+      "in_univ": false
+    },
+    {
+      "pool": "F4eV7X2tk6SEkbg86T36mMbqCzdECKLKiXe3MNBvn7Zy",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.3217765493199065,
+      "in_univ": false
+    },
+    {
+      "pool": "9QPMfSvFMutRxr9F6cDw9jWSyV6hNdosbNEnRqUQ1uQK",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.24547591783548503,
+      "in_univ": false
+    },
+    {
+      "pool": "43wQydX3UuRKVief4bkPxNz31inxCwvBNY7s1C9rK1XD",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.23256710816468865,
+      "in_univ": false
+    },
+    {
+      "pool": "HXLJrPGmMYVepYDYy6iSeSCy5Q1f2L3NrTzkNaYmNQJA",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.21060307168237705,
+      "in_univ": false
+    },
+    {
+      "pool": "Eeg5fbYMozu5szkYz4KhxgLHg9h5vvuzL76R8mRpDR1H",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.20465192807997337,
+      "in_univ": false
+    },
+    {
+      "pool": "8j5pX8SQnTLQ5zU28gbcRmKrUKEYvrqdvEm4GEPxmqki",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.1904947283842093,
+      "in_univ": false
+    },
+    {
+      "pool": "EPS6U7kfBvBRRYUEk9YNUj6WNGfvBWQLATaN8mSimXqJ",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.18975134593247844,
+      "in_univ": false
+    },
+    {
+      "pool": "29WHUND1thF2GWApG8j9anS4DXxef7A6QdG4Wg8ybZVd",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.1875066108498581,
+      "in_univ": false
+    },
+    {
+      "pool": "FoyTFL8FxB9X4kvQnHxzyeazXkseSLn1wkP4T2Dsomvt",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.1823001079773312,
+      "in_univ": false
+    },
+    {
+      "pool": "4Cv4WeAdsMB4YiamJkyuCe1mqa5RGKL31JUL4bW2nDLV",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.18047623950786065,
+      "in_univ": false
+    },
+    {
+      "pool": "HPp2g6YTuWrmMtBSn26vM8mG6yFMGSGCMtXmfjiqsR8e",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.17401297308589483,
+      "in_univ": false
+    },
+    {
+      "pool": "CXu4nwGn43uXqSTqhA61RbuTVGXJtEgua6rGebnYqxne",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.14791995158671228,
+      "in_univ": false
+    },
+    {
+      "pool": "4BFSaknK7Rftvb5Mc2jLfhU1UXTdwZcEm8pEWAxwRuVo",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.14017243831586856,
+      "in_univ": false
+    },
+    {
+      "pool": "Cnpy6QdvCNjxJ6SVM6tyFkrmAVZB5xzJWrAYadfUKrou",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.13816282906219987,
+      "in_univ": false
+    },
+    {
+      "pool": "GUVnoF8DTbff4tJhM3e6qMwff8xuhgUgBtkb6BVpgD8w",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.13013974737528747,
+      "in_univ": false
+    },
+    {
+      "pool": "6a3A8ZpKMSsQQbFMJqZC6p9tfRAue9uLafQU9TXP2HLo",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.1299303899742323,
+      "in_univ": false
+    },
+    {
+      "pool": "FmHtFanmbHbcW7kvTcBJiK6AHcegqVTvzs6KUdqwCV3N",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.12305218841044913,
+      "in_univ": false
+    },
+    {
+      "pool": "6HSBtfqrKz4zxpVLyVTp7jbiY88BVYs61g2PNP4sJmMF",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.1212689633856857,
+      "in_univ": false
+    },
+    {
+      "pool": "JSybair5H4M73FHU3YjcnKu4kPz9LUBdV5mMhBekjDP",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.11462051948111704,
+      "in_univ": false
+    },
+    {
+      "pool": "J3hKH2nE88wRie1ShpE53Jd7KE12E2LMG7CNLb4BJFTN",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.10605033642874025,
+      "in_univ": false
+    },
+    {
+      "pool": "A9mRtFsbkQh9zcmYfn9zQM1RJHFGPps1VU7vBztTvs3z",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.09630809470160728,
+      "in_univ": false
+    },
+    {
+      "pool": "GqXbZ5GpMAGydxAtiDySRRTTt9CC2FHvVbsjWozL9Mwx",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.0953829548019222,
+      "in_univ": false
+    },
+    {
+      "pool": "FNP2CmLfeAuBjRqkX4dLgrTUqJLXLysuAwbwKJxeSR1s",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.09407606101892012,
+      "in_univ": false
+    },
+    {
+      "pool": "3mPBknn8nSB6m5QFgPpVnuK8nRfoA2pzVbPAVDmMG5Qj",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.0907996968411186,
+      "in_univ": false
+    },
+    {
+      "pool": "DyuoUpKyCWtXiprqkQs7XAcnLPquoXDVf2p58PgW8eC1",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.08520701455886753,
+      "in_univ": false
+    },
+    {
+      "pool": "7f6J8fGCUjBZGpj1T12hnPTWKf77JVkY3Ruq3KK6tV27",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.08402680239066017,
+      "in_univ": false
+    },
+    {
+      "pool": "9Gt3xw7Yg8zze1421swKV81RVJ7AvQuc4igEaURq2DDy",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.07766431343079411,
+      "in_univ": false
+    },
+    {
+      "pool": "9wQKvNYfC6HXALXotB7jHZgcsZQeDBDrpjJtfh3QMimK",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.07758859200434719,
+      "in_univ": false
+    },
+    {
+      "pool": "51AhFzj1wHv8Em7dNpfarA1fKP9u4iBY5YNkFS1r2kRK",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.0772656911832923,
+      "in_univ": false
+    },
+    {
+      "pool": "EZyszDEx1LZDt7TsSFV8xdPi49sDKC3mdfv2MVMEQLtU",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.07592766074674207,
+      "in_univ": false
+    },
+    {
+      "pool": "B3QKPLFQmioyC5yaAHtkRcrzrtbfdcpZTxcxhWd83Urk",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.071404056039982,
+      "in_univ": false
+    },
+    {
+      "pool": "4tCjdADJu6TpwPcispfAbuHDAA6TBVcZYFdYdaNijEVg",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.07083712714782378,
+      "in_univ": false
+    },
+    {
+      "pool": "FXmnXunTmFRLBkKCnGomwybPm8gvAmE5yZYnJhMfDAsk",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.06653398480646866,
+      "in_univ": false
+    },
+    {
+      "pool": "ExnPyJDdLsDd6KanLRHhBhYH2VWpN1WCpp9GzHuTGovm",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.06382349396641689,
+      "in_univ": false
+    },
+    {
+      "pool": "6oFWm7KPLfxnwMb3z5xwBoXNSPP3JJyirAPqPSiVcnsp",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.06354254055277127,
+      "in_univ": true
+    },
+    {
+      "pool": "6oQ9wVex4mKZti2GsGCfD8FWTMMC9PLQkztRU5cd6MK8",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.06266520042840215,
+      "in_univ": true
+    },
+    {
+      "pool": "4KhUNhhsBcUL6nJMGudT9xy1wa8sFncQzRPUZcNYj1gP",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.06147973034759533,
+      "in_univ": false
+    },
+    {
+      "pool": "9abbXL7rTz1GHitpJz7qdbcYNe8ATeXUW1po5RfMvT2t",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.058613771256812025,
+      "in_univ": false
+    },
+    {
+      "pool": "8NVFB1unNk9aDtL5hooF8Hahf2rt4GLPWx9ctEadikHg",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.05838068547643602,
+      "in_univ": false
+    },
+    {
+      "pool": "8XvAPJ41zCPNSge3PS7Rq327JaFecjesxvhePPA3WKuX",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.05637598855931629,
+      "in_univ": false
+    },
+    {
+      "pool": "EAgJp7MzSydDWviEZbvdkuZjtJiy1sEukuV8GcSGxPt3",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.05444660020387041,
+      "in_univ": true
+    },
+    {
+      "pool": "BCv5Ggg5563AYfkrErdXok2hKfjgUNtQ1A4yKuNbTjQ9",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.04684425321750574,
+      "in_univ": true
+    },
+    {
+      "pool": "BZJTiubWLruAhoBxCTgU3uVdvXFztsr4cKG7SZcxoQdC",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.04684425321750574,
+      "in_univ": false
+    },
+    {
+      "pool": "9zr2ofiyBMxUayZhsuLqFKtHGC5p6TCjcddp1NBAC8Cu",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.041543895334997936,
+      "in_univ": false
+    },
+    {
+      "pool": "GMFhonFPeHYuVTc6ZefwrftdBxmjuAEvvGWhiKZiFHcE",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.04072883089386625,
+      "in_univ": false
+    },
+    {
+      "pool": "9GD7vaaocPe8sQFriG4iMhLL6mWxmevTVnjpSbCHRBqc",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.04029310137100681,
+      "in_univ": false
+    },
+    {
+      "pool": "JCWhn7o8Lrj8Sf5c6caWngksVD2zb9eMEbQS4z619kFB",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.04029310137100681,
+      "in_univ": false
+    },
+    {
+      "pool": "CUCFjMtHpAuQGMj3qaYKVPb4H6yDAnTHqFKmDKZPqmLv",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.04014896446966933,
+      "in_univ": false
+    },
+    {
+      "pool": "6d2gSLXRA6GVBwef1osre2vo5Ap6pWotRRzXUdyD4QVn",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.039972936504426064,
+      "in_univ": false
+    },
+    {
+      "pool": "5LNNmrbMxGYhrT7JkFw6XZvaCYsVqBdchCW878yejqk8",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.039717959272380435,
+      "in_univ": false
+    },
+    {
+      "pool": "Hos5vTRBQQkbQkL25JoCqevuR2WxrFSQoFJMga17VRq6",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.036529772491708315,
+      "in_univ": false
+    },
+    {
+      "pool": "755G2BudG3kGjH3ThLUJE2eaMz8E1BBPtHP9pGitri5X",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.03627850789115049,
+      "in_univ": false
+    },
+    {
+      "pool": "FyDLGUywrTmyvdipRoa5zFqW8wnKbXTF7cX8dnQBeBHm",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.0358103631799233,
+      "in_univ": false
+    },
+    {
+      "pool": "3XBts12i7iJVsGZL7c9ccoyKCH6wh31PxZ8X3jCbChMy",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.035103737319547405,
+      "in_univ": false
+    },
+    {
+      "pool": "5yWyZZNckSUFcZbUvVBTXooP6ED89VxtVNSAEAUvw9UZ",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.034888215534600454,
+      "in_univ": false
+    },
+    {
+      "pool": "E33YqMskWcEUsd5YZyFv9AY9aKxaM2opVwbhR6Y8dcBc",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.034717607328603,
+      "in_univ": false
+    },
+    {
+      "pool": "ACLYWfgnAU8eQNd3Vte9425Y1ow3gTvLVSFWmRswvh1i",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.033555047917045444,
+      "in_univ": false
+    },
+    {
+      "pool": "51zC1se4m5wfyb5netQgEvFic12KJ2kDWV7kTskBAEfQ",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.03269020902753715,
+      "in_univ": false
+    },
+    {
+      "pool": "AtQ6AYNnpyngry46nwfK2Ffbd1xtNd4vAT3XkZio4x3S",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.03091013390753726,
+      "in_univ": false
+    },
+    {
+      "pool": "AG1EhPjsBrkxQWkViuLXF6pQnHwfr9f9sdNneeoykcEJ",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.030218898056504732,
+      "in_univ": true
+    },
+    {
+      "pool": "Eq3c4sHLBDHwUsc73q5jCZsB9aEdRsf2yiuHJQuNcCg7",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.0294793276820007,
+      "in_univ": false
+    },
+    {
+      "pool": "BdheyKvq8y4wFTKApFBgByCfiaDSJXbevBiEEdVQnao8",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.028324308281521444,
+      "in_univ": false
+    },
+    {
+      "pool": "2v9HXDWv9QCAwEPWsxuTThD5C1xQa4LnAena4CW1m9JP",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.027283727410060576,
+      "in_univ": false
+    },
+    {
+      "pool": "CGYxcqLiJEoYapZrU7uVGBGfEE15pXDV4mB9AQ8Fsuff",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.026639677586410112,
+      "in_univ": false
+    },
+    {
+      "pool": "8o981uFT8WPBkH9cQ1z7BFwHmredXbsSbrvcMaHwhg9e",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.026512979434091793,
+      "in_univ": false
+    },
+    {
+      "pool": "GVUkfnX7SjgKPVxu4CT1B3btggV4ZUd5DL7yTKVNhTEP",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.0259899593512132,
+      "in_univ": false
+    },
+    {
+      "pool": "2YudkuJwxBN62bAbCwewNSYdBuT6XaZmCF2be7oLMH1Q",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.025770383823596005,
+      "in_univ": false
+    },
+    {
+      "pool": "4uUZpgTTnksnD8cwAD3wxsxPcPpxcKvoYwyKHLDfmon1",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.02574052514674892,
+      "in_univ": false
+    },
+    {
+      "pool": "FkkbETZWmBFXqVHLxZHJAyML2YeEuAjfm2U7yywckQiQ",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.02532819815314687,
+      "in_univ": false
+    },
+    {
+      "pool": "889DzwP1jJGmhdNvzdR9bCmWCrJBHTWkhiBQ7q8S9YNW",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.024911093313264743,
+      "in_univ": false
+    },
+    {
+      "pool": "95h3sG12UTZZp7AxEaJhDtEMGS1KHhfaprtubYuZs1cq",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.02463520623993027,
+      "in_univ": false
+    },
+    {
+      "pool": "9htNhHVtWrPiRdcSyBZoAhtLRZ4NKxxNE8qdkDCZx57f",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.023194103372460972,
+      "in_univ": false
+    },
+    {
+      "pool": "AnL7ZGja9PQQJCUSPAPY32W3VaRmWkTeZquUZF2KYsW8",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.02263921032102074,
+      "in_univ": false
+    },
+    {
+      "pool": "BcAaxXZZ16t4emqCqsN81QvkvWNwSMhQUYcs5JoU5uRa",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.0224673943807506,
+      "in_univ": false
+    },
+    {
+      "pool": "9dyeuZaENy1TfKwkR4rV8mGZcAWWw4pkubyHBkUG85oZ",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.022443862756791996,
+      "in_univ": false
+    },
+    {
+      "pool": "DZ1ax24JxRUPguiY5di7fVrAqywemrAugBQcequAo8WT",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.022416307422003172,
+      "in_univ": false
+    },
+    {
+      "pool": "Eq9tFRMHQ2y7pu9Cp1J8WfQMtQWxCm6KqG3E8XqHAxUg",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.02237959731122436,
+      "in_univ": false
+    },
+    {
+      "pool": "FChTquRTQJo41RfmLENRQnTtKezz5ejkYWExP55uUsDb",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.020643784673637224,
+      "in_univ": false
+    },
+    {
+      "pool": "Gqu4cYaph3ghVD77NPMXawuaZpb1ZK8Rrc6DMPq6huSF",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.01986187407931464,
+      "in_univ": false
+    },
+    {
+      "pool": "ARuDcKq836fKDEPsSCRU6stFmWYKjHiNxEKQY1ytckoP",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.01975700863080206,
+      "in_univ": false
+    },
+    {
+      "pool": "A92Hz77n63sBi7cHSuQVBCUGDvZq8adsbjZgwkLUTBiD",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.019708148474324116,
+      "in_univ": false
+    },
+    {
+      "pool": "e2veMhFE3THTNVHRJRupzbiL1f5W2qoL3Me1viz2cRr",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.01944578284620514,
+      "in_univ": false
+    },
+    {
+      "pool": "HeUXc9jFQDxoWZP4agcpuNULUR8Aryn6UKrZDxWJgzwF",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.01932966712441216,
+      "in_univ": false
+    },
+    {
+      "pool": "6tDL16nwiD4DB3EH5iNyP1itpRRf5Wi3aLTrPE3V3Gct",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.01906045000229717,
+      "in_univ": false
+    },
+    {
+      "pool": "iBaJnp5Hcwp2CeE5nZj8D5dZWBpwHs6WjxryhC2UyyT",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.018701253663486947,
+      "in_univ": false
+    },
+    {
+      "pool": "Doq96cEAQwreo1JkSreLaJJdqBjzNEDR5fdNkQGgeEJs",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.017073463358875857,
+      "in_univ": false
+    },
+    {
+      "pool": "2ZijvvHAZC22v8gxytGEHMsQZxBhpjT69gr2Eqg15qYz",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.016715260637826,
+      "in_univ": false
+    },
+    {
+      "pool": "4UooykGwqn82f1bMMLYMuJrmtU9dEHdUJosFkLE4Adyt",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.01632808552546174,
+      "in_univ": false
+    },
+    {
+      "pool": "9XJveqmjkpEtje73y2DXLacfL52b5FJYRqKJQUKfxTjt",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.01596130020344041,
+      "in_univ": false
+    },
+    {
+      "pool": "3Mt1bpU3fnSXyPEm66HKKXyQTpLWrwYziPLqwTqK4ZT7",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.015159541267525884,
+      "in_univ": false
+    },
+    {
+      "pool": "49fUGSzbYWKSYVKFRde33Z3VUEhGJMXSSD4xAexGu6Jd",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.014852317388165412,
+      "in_univ": true
+    },
+    {
+      "pool": "5jYdJBnSrtFTmE6C2nVHmPxKjgSdGTAWw4LodTHUbE74",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.01454092087018756,
+      "in_univ": false
+    },
+    {
+      "pool": "GLpW4qcqkaD4TwT2p7QWgEsvKjdsoMAeMdBurHDpg72x",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.013630090823889402,
+      "in_univ": false
+    },
+    {
+      "pool": "JCZmJCfCRAmC7JG7zetqpBAi5YG2C3AhcUz4ozovRbEm",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.01243897884876344,
+      "in_univ": false
+    },
+    {
+      "pool": "34tu7kfp9W6qks6h6MAKgMS9wfDk3SsVwXf5H6Z2kd5k",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.012071328484800055,
+      "in_univ": false
+    },
+    {
+      "pool": "HfgjZDmexhFVD28Vkb1NbQwWeXP3uDcVTLPjSGHmRHhL",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.011990413363940465,
+      "in_univ": true
+    },
+    {
+      "pool": "BXVqA5Mrrpja1ZvUuh7FP4m2YiYo5ujoE2dNnZTVynbJ",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.011747901663633415,
+      "in_univ": false
+    },
+    {
+      "pool": "9u6gCwPRVmcf7P61ActRqJBhJrqZEftL6FpfsndhPNp",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.011622505286009995,
+      "in_univ": false
+    },
+    {
+      "pool": "DXAbc6Q3BzfnWbJKVdVyEdLfvMprMNtxb8iz36W2ttZj",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.011622505286009995,
+      "in_univ": false
+    },
+    {
+      "pool": "CDgphJ59919sA86YAtBVj6uuv9hwLbFERWS3eWCH2Upb",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.011415636138840174,
+      "in_univ": false
+    },
+    {
+      "pool": "5tSrXZVjZTFHMhmN1E71hixGy7WP69a7tJcf5LzcUrK6",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.01134095909672959,
+      "in_univ": false
+    },
+    {
+      "pool": "DoAsKMZsJ6qCobwLKRWsjhT7UKVnv4vfd5LiEJrksuxB",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.011002509130325943,
+      "in_univ": false
+    },
+    {
+      "pool": "CyPC41sSweLGBrcvbhW88gWMvtUviLSoPF6xt3umFCXK",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.01093410957004322,
+      "in_univ": false
+    },
+    {
+      "pool": "HdTXiwhqPTFFriGDndoaFAaPNGSERXSFUDirxj1m8N42",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.01092455424546968,
+      "in_univ": false
+    },
+    {
+      "pool": "CoqYNCGKpiGgLJJ6DntdbcvKmqTZBrxdvQDrxDCfb9GH",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.010669872845656122,
+      "in_univ": false
+    },
+    {
+      "pool": "C7hF6MvQwErhsf1KrFvnKzdArb9PsofFiwZdipo9c7cz",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.010563084081122196,
+      "in_univ": false
+    },
+    {
+      "pool": "5QpDQ6ddkv1ArytJQ991kh8doeXPrt9hHFWK2HmEToDm",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.01051032793120527,
+      "in_univ": false
+    },
+    {
+      "pool": "69mmpmsCRtGMjfo3iBAhGgL7EqAaZMLBWXs37WQGDEai",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.01051032793120527,
+      "in_univ": false
+    },
+    {
+      "pool": "6xBL2Vg3mp4qYV7Zfd4X1LWmVUeyN3PFKU73BFDfzWdX",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.010375721679222858,
+      "in_univ": false
+    },
+    {
+      "pool": "EErk5N1XarTuQxacRxE48Ljcs5WKzZrF1vHvRgSsk1sp",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.01021782864194238,
+      "in_univ": false
+    },
+    {
+      "pool": "CjfDA5idDFdjkih5bzewCZPFNo6WSFw6qcLvX8tUQLyA",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.010045401145550732,
+      "in_univ": false
+    },
+    {
+      "pool": "4pANrqEvjad4xEghrCbAAJfBm8KyNvYMKk1cuGW8erE4",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.010037813155686935,
+      "in_univ": false
+    },
+    {
+      "pool": "2AEYszUADsZD1kiWWVm75oageJ4rU6gc2kWVVbZB9qfA",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.009974570882831836,
+      "in_univ": false
+    },
+    {
+      "pool": "5rCf1DM8LjKTw4YqhnoLcngyZYeNnQqztScTogYHAS6",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.00994297481331072,
+      "in_univ": true
+    },
+    {
+      "pool": "29uQECrzUhgksgHmxaYtTBZbXq3uqQGk95XdhsPHAa28",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.009906339599789649,
+      "in_univ": false
+    },
+    {
+      "pool": "38CdHy924MyVdFaoFV1mrw2657UJ38g9sEu9Czp8TivF",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.009786911033082194,
+      "in_univ": false
+    },
+    {
+      "pool": "vgBVDHRJ2U6Q8nydwtVhZRj3WCL25Uz4XDF3sV8THKr",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.009498479397883714,
+      "in_univ": true
+    },
+    {
+      "pool": "GMAgSAK1BjsUuc4u4w3xxZGMuX2WNNPGc34y4d7NQ3BU",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.009135399440792974,
+      "in_univ": false
+    },
+    {
+      "pool": "CxakjwVvLftY4i6nYhdkdF23cWok88C89x7kGSPrmwKD",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.008886922589103062,
+      "in_univ": false
+    },
+    {
+      "pool": "iZn7TApuJA2V68Bq4DCEvoqCxUgaFzBroBKJLgF8fTc",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.008706242608661223,
+      "in_univ": false
+    },
+    {
+      "pool": "8sR2GLpTPyhHGq7dyL8TkX2waozPYDw4zQ3X3MxnEVwt",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.008391175871991504,
+      "in_univ": false
+    },
+    {
+      "pool": "FYKkMngiuWhFqpErhdXNg6yVdQQg4dKRxmqmrwTEMKnK",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.008214881173990262,
+      "in_univ": false
+    },
+    {
+      "pool": "G7ixPyiyNeggVf1VanSetFMNbVuVCPtimJmd9axfQqng",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.00808416162773922,
+      "in_univ": false
+    },
+    {
+      "pool": "bFsVzSMig72r5fBBTzXRpkvpbntKnj9VMrtA7EVwJrU",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.008049048025015059,
+      "in_univ": false
+    },
+    {
+      "pool": "6PXjRGZsHVmCyDeyMgAZFVtsCqZdHa2hNmpfuP5vV8gi",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.008036669490833627,
+      "in_univ": false
+    },
+    {
+      "pool": "Ak7hDCxDSocD2ZgJBCa1ZwLcuDQz5F6n747a7rQtpXE3",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.007993308955748648,
+      "in_univ": false
+    },
+    {
+      "pool": "7NWyQjusXtKVP88WBvvZJpF14MiyiwN8APV9qrQWUk57",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.007961830879232667,
+      "in_univ": false
+    },
+    {
+      "pool": "3A8JTM6Hb9ssmbgSBF7RhqUj1JziapYT4rm2dTpNwzyE",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.007847475682972371,
+      "in_univ": false
+    },
+    {
+      "pool": "GuFcST5mp6c4BnkfJB3Bx2LbFbzYNhqhbWYSo2LBLn5H",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.007428151937476896,
+      "in_univ": false
+    },
+    {
+      "pool": "H6F12gG57TBqUrErq9VoFJYgmDhbvqRPbj4MsbTG6fvy",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.007415682470321575,
+      "in_univ": false
+    },
+    {
+      "pool": "G6U3DjbgbVXAV7bh7CJeoUeh95iRHE577KNpsBSjKijo",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.007329128747698948,
+      "in_univ": false
+    },
+    {
+      "pool": "HsnYTEUAUoWGG7x84tKDT9C97JDuDSZuRv6fhMS17EEF",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.00679718311542719,
+      "in_univ": false
+    },
+    {
+      "pool": "He8uwopTiBi8Rm1iMFJpZpWXuHEfE3sD6FQEUtLBb2wq",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.006446875323346401,
+      "in_univ": false
+    },
+    {
+      "pool": "2ySwA2Suk8dCRTwdPUC79CBeL7sJRAqFLnVpP9GGGrKN",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.00632893526266544,
+      "in_univ": false
+    },
+    {
+      "pool": "EwGhoopqiijrQJQykZq2EZbUggibaEkiA54GMLt3LvGG",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.006129532751012427,
+      "in_univ": false
+    },
+    {
+      "pool": "GGHv342SHrQm8JiyuHvQtK9GiEXZFr5dSeQwLEAM2Vfc",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.00580366938746363,
+      "in_univ": false
+    },
+    {
+      "pool": "3PEYw5M2dtUGci63rRqaxqrqq496BovfiqnNZxgx8det",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.005725263489095035,
+      "in_univ": false
+    },
+    {
+      "pool": "FEHDrSrYrCrCyw8U6iVGM3p3GJxXwsXHrsoGVNTSjbAA",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.005652936738458944,
+      "in_univ": false
+    },
+    {
+      "pool": "3AJriMfHP8m8Eox8skUpobdC2FG6ZEFrrRXWbvXEMZ8U",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.005446863725791284,
+      "in_univ": false
+    },
+    {
+      "pool": "2RX1ZogEMsjv1YjMF3m5U1DN7gVCtSLaQHs27F17ECve",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.0054131571079368175,
+      "in_univ": true
+    },
+    {
+      "pool": "GxApoUoAz7DhL5EeH7DDCn5eBUjxRYAkRDKyU755k6xU",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.005383801035770211,
+      "in_univ": false
+    },
+    {
+      "pool": "91b1Q46q5dif6GNubbRfgMY3XgcuzTofhnssTdpG5Uqw",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.00526707479631108,
+      "in_univ": false
+    },
+    {
+      "pool": "8rBuz5hkqRZyoBgHcdTYZ6VQj3PZumZutibyFbbsV4SM",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.004934644369228331,
+      "in_univ": false
+    },
+    {
+      "pool": "8obGpjiUu7QTJHK58YHCoz5HxobmrVP2x5zpMZu3c4BT",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.004756091955388408,
+      "in_univ": false
+    },
+    {
+      "pool": "aRCaRJxZBW1vMBusNpvsyrZKgzXUhtyKuQVdmBYrfTm",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.004697576936263698,
+      "in_univ": false
+    },
+    {
+      "pool": "7E2cK3tb8DhSNaTqGJ5nmXjumqoL89Qv9ZCssAfFSEQc",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.004630896177903538,
+      "in_univ": false
+    },
+    {
+      "pool": "L77SLi2Kwh9EqFDtG1MUUDDShkvqq1ymdnQ59L4AvU4",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.004582243584809051,
+      "in_univ": false
+    },
+    {
+      "pool": "6UyJscTkCBSqfZxRxHnkKa37SE1pNa8tv9MXVbdTugGm",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.003943076857676677,
+      "in_univ": false
+    },
+    {
+      "pool": "6ELicDvGWaSYhUBFDQGckuRWZGP5du8bLuzWw3G7AQxD",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.003658122503107252,
+      "in_univ": false
+    },
+    {
+      "pool": "Bof2XL9zAbLZ15kzAXcXy39wDeZFgKwyvb3UVkv3FhsX",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.003658122503107252,
+      "in_univ": false
+    },
+    {
+      "pool": "Ap2PQRQS88iZWwCbg1z1PSdoF26WKGR4Ep49W8GiLnqy",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.0035028492138836553,
+      "in_univ": false
+    },
+    {
+      "pool": "4HTy7aTjPm5PTSEws2yWRDPX6gjWM6sC2dV5mv9u8JsH",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.003076928223724529,
+      "in_univ": false
+    },
+    {
+      "pool": "3fUj4dDSwgpJuzriE32KsgmGGowKNZpnt7T9AD1noZrV",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.002941435433983878,
+      "in_univ": false
+    },
+    {
+      "pool": "4CUDdZeQEpNWkduDCGL2DNTn26WPRCccYFMGJzSKzAFd",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.0028895806654526627,
+      "in_univ": false
+    },
+    {
+      "pool": "CTbcnW2QtYo2guvDfG1tHiTCgVgp5CgmUCiBavzmkJJY",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.0027693830950370995,
+      "in_univ": false
+    },
+    {
+      "pool": "4zQTE5nVDtykQavfRh2u5Fy6c9G2mzvX5n1qqAzAoswM",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.0026954163252170967,
+      "in_univ": false
+    },
+    {
+      "pool": "7LaiCzRbumUYpzunug3AWmi9QjAe1uXR43Tc2eSY2CJA",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.002588803446302886,
+      "in_univ": false
+    },
+    {
+      "pool": "GAuKYr99EgaEsSpjyHxhLHvkVXLZQ5XWGh8XQANRH9nY",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.002358492572383413,
+      "in_univ": false
+    },
+    {
+      "pool": "H7nxGJbGafpCf2rp8wzqTMkz8aboW5znhVQF18AxtuQp",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.002317506679235674,
+      "in_univ": false
+    },
+    {
+      "pool": "EkwUpMwHTenqhWqJJbML5Zx7gZE8auX8EX5d9GM4fgjq",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.0023141677860761024,
+      "in_univ": false
+    },
+    {
+      "pool": "71i8LZZReUvN5ZSGHnEcVM33SP5pCReiqkqdY815Gn2b",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.002087676783376469,
+      "in_univ": false
+    },
+    {
+      "pool": "GdQsi6AJjMAhBiigwUkickAsZj7Nyx5pi12TVzUPQFSa",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.0020603919465294503,
+      "in_univ": false
+    },
+    {
+      "pool": "E3H4To39g5m31DyVUGqr7shi4m3DpXUVLngBStfam7E8",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.002043881628101818,
+      "in_univ": false
+    },
+    {
+      "pool": "C7ZhjsZW5woxxsY7t8F47CQihnN8K8dxwsbjiZx6mHQY",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.001995285441598524,
+      "in_univ": false
+    },
+    {
+      "pool": "E2ChaGn4GAdoCF8UYVs3ZHYqQ3Ep5kr2DUYuaz6rUY9a",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.0019180288061921924,
+      "in_univ": false
+    },
+    {
+      "pool": "8Q5jAjkPxwV1ZmNGA36GRXoscFZJBAQDzm8QoGfg7C55",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.001850891953708791,
+      "in_univ": false
+    },
+    {
+      "pool": "F5KSCnNW912Jj2zs6srbKJQXechRkP8t3g7GrxDpJTtW",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.001849561144876371,
+      "in_univ": false
+    },
+    {
+      "pool": "GeUkx21Vc6yg63YZ1BdXY95ZATm9LeBYCgSN1uJ3o18S",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.0018374876714057544,
+      "in_univ": false
+    },
+    {
+      "pool": "Apo1KqU2DPHi7TrDbZEgqTf2EJbrCqAAq5eWg8DLgyS6",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.0018251782383210977,
+      "in_univ": false
+    },
+    {
+      "pool": "GXNdmFtdsrBSCzUY31KUfmpg3mJnakFZvR1agdkP3FQk",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.001763299079554378,
+      "in_univ": false
+    },
+    {
+      "pool": "8yjHDbq7bcnbEhh96MnU1ZkH5CKyZU5Kfa8qKqrsqEyf",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.0017269774051782028,
+      "in_univ": false
+    },
+    {
+      "pool": "JCLQiP7t1uxHiZHPotpUoVvPFFE48UxpkXHsVJJJvUrJ",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.0009604280312357768,
+      "in_univ": false
+    },
+    {
+      "pool": "5RcEW5GT6Vee3xDscH4oBxyG1PiM4BsLCZdH9YtJRVaR",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.0009329150947948744,
+      "in_univ": false
+    },
+    {
+      "pool": "B1GFLecDJbYgDDSkKQMDp8xz5TTiCgdW7ADDVqqSUUFe",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.0007997952504222689,
+      "in_univ": false
+    },
+    {
+      "pool": "Vy1F3H3UP1rnWUtF7Z3sbimt9YutSVdfH7cV4RtJJAN",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.0007277009165489923,
+      "in_univ": false
+    },
+    {
+      "pool": "6w89FNN96pQcJzQNQEUtULveiFuSZXYsdzWRXE7vm6cS",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.0006868721192306917,
+      "in_univ": false
+    },
+    {
+      "pool": "6DjR9shdfFZeSo8NuCGWK1XZkekwQ3ehg1QSQSruiDSg",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.0006728027429863416,
+      "in_univ": false
+    },
+    {
+      "pool": "gxPSdu1LPmf8a1oRhWXg8yioFkLDwfp7vZABnRnm8Mg",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.0006461308484672783,
+      "in_univ": false
+    },
+    {
+      "pool": "3Vj8miZuTSdonf4W1xLdYFatrXLm38CShrCi7NbZS5Ah",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.0006222951044064652,
+      "in_univ": false
+    },
+    {
+      "pool": "9FP4DcqbNgEs1kJy5VoLtCohgVrhLHjJ6YbFenumLZuw",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.0006177503043319731,
+      "in_univ": false
+    },
+    {
+      "pool": "4gB1Ca9p1XgTTCGDqFqdWNJKda2zaBGTq79U2FzdakMw",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.0006011836942359623,
+      "in_univ": false
+    },
+    {
+      "pool": "54Vp27uLaw4wNLo5n7r4fcC6zLamoQc28xBARjss4EUJ",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.0004214604924422581,
+      "in_univ": false
+    },
+    {
+      "pool": "DAErPzgiYQDhDwpMRgdvikXaZmnmznc3du3jy9i1AABk",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.0003973874227859797,
+      "in_univ": false
+    },
+    {
+      "pool": "G1CqRPhwdpqBKdaS22SbYRhS4Fd133cc6pbQWm67nHmh",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.0002989271704181949,
+      "in_univ": false
+    },
+    {
+      "pool": "CnK1jPqSuhbz1ZEHHhVmud3bkUQyHWsqvRuvW1wQGF9f",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.0002902063125265836,
+      "in_univ": false
+    },
+    {
+      "pool": "5hbf9JP8k5zdrZp9pokPypFQoBse5mGCmW6nqodurGcd",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 0.0002902063125265836,
+      "in_univ": true
+    },
+    {
+      "pool": "4ajoPsHVqBkmRcFshbJE6LN4KRKyFmQ95tiGKQg5ouC1",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 0.00013522378595963425,
+      "in_univ": false
+    },
+    {
+      "pool": "CAMeSHTRxCj1sfasppBjx83vAeQUDEwxj2V4874ffqAE",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 9.63485673231179e-05,
+      "in_univ": false
+    },
+    {
+      "pool": "FhdW3Y6Ea6hXKbkGkt5YSAVtDNd5qJ8USevMaPyEr45S",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 9.63485673231179e-05,
+      "in_univ": false
+    },
+    {
+      "pool": "7qt1qBnQ5CNNpMH1no6jYAzuyazP5QWXsUZB7dot5kga",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 2.4733321753984403e-05,
+      "in_univ": true
+    },
+    {
+      "pool": "AHRMPQnzrH1LbGsjmmhP1M3bFiPv1vPaMCFLUhUP26JR",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 2.4374587263595376e-05,
+      "in_univ": false
+    },
+    {
+      "pool": "6BwntYt3yFDAACLPwmZw2pDFzoLS5tA874JJSUDYu2oE",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": 1.4541444730156204e-05,
+      "in_univ": false
+    },
+    {
+      "pool": "9zGJZT4Xs4e2PzTmjsD8WrXeWNSuNZiKZ4VPRgHYG1KS",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": 8.478778072453388e-07,
+      "in_univ": false
+    },
+    {
+      "pool": "7cQNj1e87ikmaS7JsDQ68E4WWe2QzRWw7Dz3B8sLJHuA",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": -0.00011200283595025364,
+      "in_univ": false
+    },
+    {
+      "pool": "CV6mmjv7N5UwJ5PKgnEqVtxXasJ3pteuTKF3QYqX7QKw",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": -0.00016933022306328104,
+      "in_univ": false
+    },
+    {
+      "pool": "CTdoFBBjscUkqPqdYnuptWNKxaQHyi434VgC22ndcbmu",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": -0.0001822744516324292,
+      "in_univ": false
+    },
+    {
+      "pool": "Egb97zdySRZbN2T7K9kv7MpKYoBTKkUUyTGtnfeBXy52",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": -0.00023338470182245147,
+      "in_univ": false
+    },
+    {
+      "pool": "6dsND88mXMEaSf3UXwTmxV8U7p7UebiZN7gQA9UKMAat",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": -0.0003272665862268546,
+      "in_univ": false
+    },
+    {
+      "pool": "EEiHVc3iZ6K7xnVsgsDVQV2usBYfKuvLHC7S6PsUTLXp",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": -0.0008922142488743781,
+      "in_univ": false
+    },
+    {
+      "pool": "J9QCk2L78vG6evcCDmmYhVD9QLnLMz2s3M6bUa2mWE6U",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": -0.001204281854389001,
+      "in_univ": false
+    },
+    {
+      "pool": "FwwBTBNZNAnvFeo5MSL372tupj7tVs7ZnypxNX6g6Lzz",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": -0.002046499135718852,
+      "in_univ": false
+    },
+    {
+      "pool": "CcG3fyDZn6uXTV5p2TV9cceCA2YhE3bUMLeXGn6vZSNr",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": -0.002084828756926252,
+      "in_univ": true
+    },
+    {
+      "pool": "Amhjfj4YFEh7gndbQsemiR1ed15AuKqpHuvKiy8YMThn",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": -0.0022000225284530034,
+      "in_univ": false
+    },
+    {
+      "pool": "7ksvfxsMH1RoxMn7K3XzgjbVQp5CZMhtua6KM4NwWgRd",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": -0.002376517353353707,
+      "in_univ": false
+    },
+    {
+      "pool": "7YtmrbFt3Xs3utUmPb8Jbd9rdYXdLSfYKK3YDWXmdURn",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": -0.0027903758674857953,
+      "in_univ": false
+    },
+    {
+      "pool": "6JvqhoXKrX7nEmJt1RAqwuLdZURPEKzVUbtSzMtYNQyL",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": -0.0038176003466449658,
+      "in_univ": false
+    },
+    {
+      "pool": "BWVTxff57edk4bafm2XZa4RxeM5ayCdncL1ivpprkjnL",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": -0.0044734712648955705,
+      "in_univ": false
+    },
+    {
+      "pool": "HH4D2z7SkBtoS2DAwzs1XCwSRWYbk14KNueU1KhmZcEV",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": -0.0056252672958904265,
+      "in_univ": false
+    },
+    {
+      "pool": "3C5YE97HADPDxZehYq9Cis8AXr9aNyrUsczKzE1nDbW9",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": -0.005709821915805943,
+      "in_univ": true
+    },
+    {
+      "pool": "CBnBZf7o1hZ2eAiqyCSVKTXrbNF8BLkuNeX65mPpd41C",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": -0.006201941281304745,
+      "in_univ": false
+    },
+    {
+      "pool": "7LkLGUUwAASDy85V3YEogtkwdzDKEYFhADp41MXr6wZ",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": -0.006678681492290219,
+      "in_univ": false
+    },
+    {
+      "pool": "FCNReaEUk2NY7abPkFxZtpiH1u9fRVmuiu5QHUepbgf8",
+      "proto": "dlmm",
+      "pred_n": 1,
+      "usd": -0.01039971144594926,
+      "in_univ": false
+    },
+    {
+      "pool": "5kDJUWcUPnkJ5RZRMrMMhZVi4gK68NeUr9AiMbThVG8t",
+      "proto": "pump",
+      "pred_n": 1,
+      "usd": -0.014979571058686324,
+      "in_univ": false
+    }
+  ]
+}

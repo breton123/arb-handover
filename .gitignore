@@ -1,0 +1,22 @@
+# build outputs
+build/
+target/
+**/__pycache__/
+.venv/
+*.pyc
+# data and run outputs (fetch them; never commit)
+data/
+runs/
+*.parquet
+*.bin
+*.cap
+*.pcap
+journal*
+# secrets (never commit)
+*.env
+!*.env.example
+.deploy/
+keys.json
+wallet*.json
+tigris*.json
+credentials*.json

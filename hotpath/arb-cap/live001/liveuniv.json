@@ -1,0 +1,52 @@
+{
+  "path": "arb-cap\\live001\\liveuniv.bin",
+  "n": 7,
+  "n_dlmm": 3,
+  "n_pump": 4,
+  "overlap_tokens": 1,
+  "slot": 450085375,
+  "pools": [
+    {
+      "idx": 0,
+      "proto": "dlmm",
+      "pubkey": "DAErPzgiYQDhDwpMRgdvikXaZmnmznc3du3jy9i1AABk",
+      "sol_side": true
+    },
+    {
+      "idx": 1,
+      "proto": "pump",
+      "pubkey": "BRjMA8UALNp3diTKHfdeAn5riQrYPoaYez7KhYWD4oEs",
+      "sol_side": true
+    },
+    {
+      "idx": 2,
+      "proto": "dlmm",
+      "pubkey": "935RvJs2n5YRdhDFKngDLYqy2T1fJVK6CdSaBH29oscd",
+      "sol_side": true
+    },
+    {
+      "idx": 3,
+      "proto": "dlmm",
+      "pubkey": "zxTpi4BtaWX3mgdAPoezkMD1hxx8CdeCfrqXMWvSCLX",
+      "sol_side": true
+    },
+    {
+      "idx": 4,
+      "proto": "pump",
+      "pubkey": "EhpZ1P3YZeR7iFs6EV5dzcVughRt6qHj3ocEDycCZ9T",
+      "sol_side": true
+    },
+    {
+      "idx": 5,
+      "proto": "pump",
+      "pubkey": "9AbZ9CSysJfF9wERoNyiseGmED7LVZ4421WRyXwizd7q",
+      "sol_side": true
+    },
+    {
+      "idx": 6,
+      "proto": "pump",
+      "pubkey": "FUEAWLjj4uiWhNiCYTb8UiQnZk7yrVGYHT3EjzyEG7n2",
+      "sol_side": true
+    }
+  ]
+}

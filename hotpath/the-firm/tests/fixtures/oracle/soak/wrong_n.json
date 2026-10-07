@@ -1,0 +1,27 @@
+{
+  "kind": "pump",
+  "bucket": "kernel_bug",
+  "direction": 1,
+  "amount_in": 999,
+  "slot": 11,
+  "trigger_sig": "wrong_n_sell",
+  "s_before": {
+    "kind": "pump",
+    "reserve_base": 1000000,
+    "reserve_quote": 1000000,
+    "virtual_quote": 0,
+    "lp_fee_bps": 20,
+    "protocol_fee_bps": 0,
+    "creator_fee_bps": 0,
+    "disabled": 0
+  },
+  "published_s": {
+    "kind": "pump",
+    "reserve_base": 1000500,
+    "reserve_quote": 999500,
+    "lp_fee_bps": 20,
+    "protocol_fee_bps": 0,
+    "creator_fee_bps": 0,
+    "disabled": 0
+  }
+}

@@ -1,0 +1,21 @@
+[package]
+name = "route0"
+version = "0.1.0"
+edition = "2021"
+description = "EXEC-LIVE-001 — live route0 CPI executor"
+publish = false
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "route0"
+
+[dependencies]
+pinocchio = { version = "0.8", default-features = false }
+
+[profile.release]
+lto = true
+codegen-units = 1
+opt-level = "z"
+overflow-checks = false
+panic = "abort"
+strip = true

@@ -1,0 +1,832 @@
+{
+  "path": "C:\\Users\\louis\\Desktop\\TheMoneyMaker\\arb-cap\\live002\\liveuniv.bin",
+  "n": 102,
+  "counts": {
+    "pump": 30,
+    "dlmm": 25,
+    "orca": 11,
+    "clmm": 27,
+    "damm": 9
+  },
+  "tick_arrays": 13,
+  "slot": 450112763,
+  "ver": 2,
+  "pools": [
+    {
+      "idx": 0,
+      "kind": "pump",
+      "pubkey": "ENiVH49XwRM3Cu9n4Tp6CGynCFXf3Mz6CE3GRmVk1LH4",
+      "sol_side": true,
+      "usd": 4402.762359577806,
+      "has_ticks": 0
+    },
+    {
+      "idx": 1,
+      "kind": "dlmm",
+      "pubkey": "ET9QEc18XnEXNyz8ZuGkJfgSuDDqLDiA1U8bEpyuyLKC",
+      "sol_side": true,
+      "usd": 4227.995014197341,
+      "has_ticks": 0
+    },
+    {
+      "idx": 2,
+      "kind": "orca",
+      "pubkey": "Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE",
+      "sol_side": true,
+      "usd": 1019.3177297549818,
+      "has_ticks": 0
+    },
+    {
+      "idx": 3,
+      "kind": "pump",
+      "pubkey": "9PYormkWiWYAALGWkNNBjSEqKk79HPoRaLgQhMfY4fuv",
+      "sol_side": false,
+      "usd": 908.1732574546123,
+      "has_ticks": 0
+    },
+    {
+      "idx": 4,
+      "kind": "clmm",
+      "pubkey": "4RTiwuZd5E9AysFQXQXLPjzS68NcibhjVPd7Q4NztrpK",
+      "sol_side": true,
+      "usd": 890.24235238561,
+      "has_ticks": 1
+    },
+    {
+      "idx": 5,
+      "kind": "clmm",
+      "pubkey": "BUfN9pQnaddBTRfTR2mL8XQfu3VTgvF6GesV8YBYZKjv",
+      "sol_side": false,
+      "usd": 890.24235238561,
+      "has_ticks": 0
+    },
+    {
+      "idx": 6,
+      "kind": "dlmm",
+      "pubkey": "FtwzPjTqoFuy8aF8bMBi7QF7UxpdYN5n9YUH6R7DcHjB",
+      "sol_side": true,
+      "usd": 841.5824350777651,
+      "has_ticks": 0
+    },
+    {
+      "idx": 7,
+      "kind": "clmm",
+      "pubkey": "7a8xxAJBELDo6P9dikSYctdw6ce8F4mWr3ahcAD8Ao49",
+      "sol_side": false,
+      "usd": 734.8372530274942,
+      "has_ticks": 1
+    },
+    {
+      "idx": 8,
+      "kind": "clmm",
+      "pubkey": "76iTXFSTgk5JcopjZs5djSMnReZYXjTKDT3kCjeSwnba",
+      "sol_side": false,
+      "usd": 734.8372530274942,
+      "has_ticks": 0
+    },
+    {
+      "idx": 9,
+      "kind": "orca",
+      "pubkey": "AfrddTGYwCVEQB1gxCAhR8i48o6qtxYqksdVkeLudEhg",
+      "sol_side": true,
+      "usd": 664.8156034778973,
+      "has_ticks": 1
+    },
+    {
+      "idx": 10,
+      "kind": "dlmm",
+      "pubkey": "AG1EhPjsBrkxQWkViuLXF6pQnHwfr9f9sdNneeoykcEJ",
+      "sol_side": true,
+      "usd": 660.489478285277,
+      "has_ticks": 0
+    },
+    {
+      "idx": 11,
+      "kind": "clmm",
+      "pubkey": "6truu3rZuiB9rKQg4VYC3Dt3QwV7DgwGqXrYUcrvnDDE",
+      "sol_side": false,
+      "usd": 647.7791509051632,
+      "has_ticks": 1
+    },
+    {
+      "idx": 12,
+      "kind": "clmm",
+      "pubkey": "GfnPjYVcEdwamhGDNRystmEpNJZSBapzsnyDkqnpYFAj",
+      "sol_side": false,
+      "usd": 647.7791509051632,
+      "has_ticks": 0
+    },
+    {
+      "idx": 13,
+      "kind": "clmm",
+      "pubkey": "FB1sGTJLxpNSUfQXPchoZzSMfjHqqTE59C2BYve2ND8Q",
+      "sol_side": false,
+      "usd": 647.7791509051632,
+      "has_ticks": 0
+    },
+    {
+      "idx": 14,
+      "kind": "dlmm",
+      "pubkey": "FCn5zw4gAcfRpQgst5ThFuzBGXbbJ6RocVErgC4vJ9j1",
+      "sol_side": true,
+      "usd": 586.6541609817342,
+      "has_ticks": 0
+    },
+    {
+      "idx": 15,
+      "kind": "dlmm",
+      "pubkey": "HTvjzsfX3yU6BUodCjZ5vZkUrAxMDTrBs3CJaq43ashR",
+      "sol_side": true,
+      "usd": 558.8017901194688,
+      "has_ticks": 0
+    },
+    {
+      "idx": 16,
+      "kind": "dlmm",
+      "pubkey": "7Cy2nkr64XAbhDo8yqSnGuCmEUgAH9iQGzwLv2Fjehoz",
+      "sol_side": true,
+      "usd": 437.1721654897672,
+      "has_ticks": 0
+    },
+    {
+      "idx": 17,
+      "kind": "orca",
+      "pubkey": "HxrqS96uHco2a8LxTvUwb9e2tS963Ec6nYkvZso9TDii",
+      "sol_side": true,
+      "usd": 432.63106177308214,
+      "has_ticks": 1
+    },
+    {
+      "idx": 18,
+      "kind": "dlmm",
+      "pubkey": "AvPqWvQoEnC5aiFm3y3y1AkDyR8Dns8u4RL1VbKLXvtd",
+      "sol_side": true,
+      "usd": 388.81988389567965,
+      "has_ticks": 0
+    },
+    {
+      "idx": 19,
+      "kind": "orca",
+      "pubkey": "8Cak44ovew9E2xcKsvLGjHaKSLLcRXGri8BhENnLKRxG",
+      "sol_side": false,
+      "usd": 387.63242664752215,
+      "has_ticks": 0
+    },
+    {
+      "idx": 20,
+      "kind": "orca",
+      "pubkey": "4joyRY87Qs8mNFh9oyW9hnR5uFVgVusJiQWz2KwFVv2w",
+      "sol_side": false,
+      "usd": 370.316327917847,
+      "has_ticks": 0
+    },
+    {
+      "idx": 21,
+      "kind": "dlmm",
+      "pubkey": "zxTpi4BtaWX3mgdAPoezkMD1hxx8CdeCfrqXMWvSCLX",
+      "sol_side": true,
+      "usd": 369.92122547071824,
+      "has_ticks": 0
+    },
+    {
+      "idx": 22,
+      "kind": "dlmm",
+      "pubkey": "8PhQTNZ2Xc1nEmjbJ1g4smsxR2vYHWLkWQRG7ZTki9hQ",
+      "sol_side": true,
+      "usd": 333.4939420474219,
+      "has_ticks": 0
+    },
+    {
+      "idx": 23,
+      "kind": "dlmm",
+      "pubkey": "4XUd8NEuqGRoHBJFRmDCauZ15EokRMwP8UxcBQ3aoCsP",
+      "sol_side": true,
+      "usd": 290.7402109015586,
+      "has_ticks": 0
+    },
+    {
+      "idx": 24,
+      "kind": "damm",
+      "pubkey": "KKyUyWncRfakBZh2M318BFfdR6332WWu1NePd9amQtj",
+      "sol_side": false,
+      "usd": 289.776636008842,
+      "has_ticks": 0
+    },
+    {
+      "idx": 25,
+      "kind": "dlmm",
+      "pubkey": "Cse9CPxSbeZmHRZXFtSGEgauLa3K7epY9K8BGGVQrziY",
+      "sol_side": true,
+      "usd": 276.04728133233874,
+      "has_ticks": 0
+    },
+    {
+      "idx": 26,
+      "kind": "pump",
+      "pubkey": "4kJEwCpiGtvFRxm1RKYExsFCm1CsB8RwnUQv3LCQs5YG",
+      "sol_side": true,
+      "usd": 247.37917756930963,
+      "has_ticks": 0
+    },
+    {
+      "idx": 27,
+      "kind": "orca",
+      "pubkey": "6ash7NazTfoeszf7UkKufy8JLTZyaJJtCdkWvsjwpb1d",
+      "sol_side": true,
+      "usd": 241.18515142650804,
+      "has_ticks": 0
+    },
+    {
+      "idx": 28,
+      "kind": "dlmm",
+      "pubkey": "EAgJp7MzSydDWviEZbvdkuZjtJiy1sEukuV8GcSGxPt3",
+      "sol_side": true,
+      "usd": 240.4690713181709,
+      "has_ticks": 0
+    },
+    {
+      "idx": 29,
+      "kind": "clmm",
+      "pubkey": "38rXq2BuwdNcfnwydw6S2srpNK9N4gVzf39f69suPMsF",
+      "sol_side": true,
+      "usd": 221.23161435610794,
+      "has_ticks": 1
+    },
+    {
+      "idx": 30,
+      "kind": "clmm",
+      "pubkey": "7CziKv23BByEDYwsi5Mb3WHP7zw7pbWkaeBsf1icDscD",
+      "sol_side": false,
+      "usd": 221.23161435610794,
+      "has_ticks": 0
+    },
+    {
+      "idx": 31,
+      "kind": "clmm",
+      "pubkey": "4kbTGPg52e6HhqqmmDCrEa3sqUXq7QS3UgdYd4yhJYZm",
+      "sol_side": false,
+      "usd": 221.23161435610794,
+      "has_ticks": 0
+    },
+    {
+      "idx": 32,
+      "kind": "dlmm",
+      "pubkey": "oy9ymnwyE8aup5UR2os4wytCRbxjzAFwRWkrj5V2kJ3",
+      "sol_side": false,
+      "usd": 209.15045031258424,
+      "has_ticks": 0
+    },
+    {
+      "idx": 33,
+      "kind": "clmm",
+      "pubkey": "G4G5SzkbLFMhoSgHiQNeyJFt75sSDsL1rD8LVyT5xZbU",
+      "sol_side": false,
+      "usd": 197.24239207386194,
+      "has_ticks": 1
+    },
+    {
+      "idx": 34,
+      "kind": "clmm",
+      "pubkey": "BRTY36ijqntPEitsUpgDiQuaW3XM6x3jxhNAuNPVngAv",
+      "sol_side": false,
+      "usd": 197.24239207386194,
+      "has_ticks": 0
+    },
+    {
+      "idx": 35,
+      "kind": "pump",
+      "pubkey": "6e3jZLtf4tQbWZm3f7A66jF8tfZn6MRQVrbDFgcNWarA",
+      "sol_side": true,
+      "usd": 183.2988790864573,
+      "has_ticks": 0
+    },
+    {
+      "idx": 36,
+      "kind": "dlmm",
+      "pubkey": "5u7PMsDxbaALbV9viti9Y4pEBVJqWSSp69uEsXGtiANq",
+      "sol_side": true,
+      "usd": 173.1239515717383,
+      "has_ticks": 0
+    },
+    {
+      "idx": 37,
+      "kind": "pump",
+      "pubkey": "4R8CiMnJWDNoes3fQi1ccPFJygPXazaHaWpHrN3rZeNj",
+      "sol_side": true,
+      "usd": 168.79318509510313,
+      "has_ticks": 0
+    },
+    {
+      "idx": 38,
+      "kind": "dlmm",
+      "pubkey": "4MjpgAT7H8GmWsZDUaeGUNZwjur8n8sKCSPHHjQRE4sm",
+      "sol_side": true,
+      "usd": 147.23896885206221,
+      "has_ticks": 0
+    },
+    {
+      "idx": 39,
+      "kind": "dlmm",
+      "pubkey": "BetLT47eFXDZnjM1cmZhQ4oNJkYaPZYH5yv6atfPfAri",
+      "sol_side": false,
+      "usd": 139.88612936115277,
+      "has_ticks": 0
+    },
+    {
+      "idx": 40,
+      "kind": "dlmm",
+      "pubkey": "Hn3sKB3aWJM4D5FmvgL8CDNpcinrJWJkMiaQpNXZSSTK",
+      "sol_side": true,
+      "usd": 135.1513589270125,
+      "has_ticks": 0
+    },
+    {
+      "idx": 41,
+      "kind": "damm",
+      "pubkey": "4JQCzD1Hto2nHv9BriSD835a2hmVkcpeVKG8DLKRvL7w",
+      "sol_side": false,
+      "usd": 135.1513589270125,
+      "has_ticks": 0
+    },
+    {
+      "idx": 42,
+      "kind": "pump",
+      "pubkey": "FnzKY6x7entQ1eR3D225dQyT7ybfka4PskBMQhb8L3CC",
+      "sol_side": true,
+      "usd": 134.1934781756218,
+      "has_ticks": 0
+    },
+    {
+      "idx": 43,
+      "kind": "dlmm",
+      "pubkey": "GEgiZ7eU5CECb3RJMGBqjskjbxTmh5MuCBorMnMG48C",
+      "sol_side": true,
+      "usd": 128.19559472850025,
+      "has_ticks": 0
+    },
+    {
+      "idx": 44,
+      "kind": "pump",
+      "pubkey": "BE4FMb7bodXjbLUFjxDFwEdAPeLRD7411GUAqkRRrgwD",
+      "sol_side": false,
+      "usd": 128.19559472850025,
+      "has_ticks": 0
+    },
+    {
+      "idx": 45,
+      "kind": "clmm",
+      "pubkey": "3ucNos4NbumPLZNWztqGHNFFgkHeRMBQAVemeeomsUxv",
+      "sol_side": true,
+      "usd": 124.04735377053952,
+      "has_ticks": 1
+    },
+    {
+      "idx": 46,
+      "kind": "clmm",
+      "pubkey": "3Y695CuQ8AP4anbwAqiEBeQF9KxqHFr8piEwvw3UePnQ",
+      "sol_side": false,
+      "usd": 124.04735377053952,
+      "has_ticks": 0
+    },
+    {
+      "idx": 47,
+      "kind": "clmm",
+      "pubkey": "CARZM5mUu6rK9bV59H2wCUPZoJmradLdYgREciSXVq6F",
+      "sol_side": false,
+      "usd": 124.04735377053952,
+      "has_ticks": 0
+    },
+    {
+      "idx": 48,
+      "kind": "clmm",
+      "pubkey": "GYcD1eBDiAUzG7oU8z7vrfEuzUne27ZmJaYybUheuJXy",
+      "sol_side": false,
+      "usd": 120.32169783833298,
+      "has_ticks": 0
+    },
+    {
+      "idx": 49,
+      "kind": "dlmm",
+      "pubkey": "6yKySLgF92unCqhnQTTFbEcv1MQzAGsH6ywdumTCv5tz",
+      "sol_side": true,
+      "usd": 119.55553254575962,
+      "has_ticks": 0
+    },
+    {
+      "idx": 50,
+      "kind": "dlmm",
+      "pubkey": "Cgk5DWJc59TcWTQ1iaJ8Hn4bsVjKXJF2fCjPAZtMUSkV",
+      "sol_side": false,
+      "usd": 117.97102362875778,
+      "has_ticks": 0
+    },
+    {
+      "idx": 51,
+      "kind": "pump",
+      "pubkey": "2i2iULr7UwK1SDRB17T5FUtiMnFQL7fyy7rh69brZihc",
+      "sol_side": true,
+      "usd": 116.09890714429496,
+      "has_ticks": 0
+    },
+    {
+      "idx": 52,
+      "kind": "dlmm",
+      "pubkey": "Gc5hVCBydc6k3Z7oc2cQEW4GThFQi2Fqk5HfKABqa2q8",
+      "sol_side": true,
+      "usd": 108.0304433132791,
+      "has_ticks": 0
+    },
+    {
+      "idx": 53,
+      "kind": "dlmm",
+      "pubkey": "FzrKVa1f52XSJGvN32j2b3eC7YAttMb7Kif6LaayN5FQ",
+      "sol_side": true,
+      "usd": 106.21296477766448,
+      "has_ticks": 0
+    },
+    {
+      "idx": 54,
+      "kind": "clmm",
+      "pubkey": "4pCZCVEiYyT4efNdXUdL2tJF8VGMgiMXrZWq6FiNXhRw",
+      "sol_side": false,
+      "usd": 103.08017201537213,
+      "has_ticks": 1
+    },
+    {
+      "idx": 55,
+      "kind": "clmm",
+      "pubkey": "9EF8Jq2brNcdm9nfJz7PnrAELxVGyctjDiinYwEsmY3C",
+      "sol_side": false,
+      "usd": 103.08017201537213,
+      "has_ticks": 0
+    },
+    {
+      "idx": 56,
+      "kind": "clmm",
+      "pubkey": "9hGdsny7q6d3wYWe9M8qAuEnZaBjA5K43ZmNygkKPxPF",
+      "sol_side": false,
+      "usd": 103.08017201537213,
+      "has_ticks": 0
+    },
+    {
+      "idx": 57,
+      "kind": "clmm",
+      "pubkey": "7SdTGRr2mksF1Y3LrMCqA9KhYxjmwbbZLNGRCA9X76Zy",
+      "sol_side": true,
+      "usd": 101.89653857061643,
+      "has_ticks": 1
+    },
+    {
+      "idx": 58,
+      "kind": "clmm",
+      "pubkey": "5R3g9QYLwMhhHFRgkXuQryJbtNQTFUb9D2y9ruEZNpvb",
+      "sol_side": false,
+      "usd": 101.89653857061643,
+      "has_ticks": 0
+    },
+    {
+      "idx": 59,
+      "kind": "clmm",
+      "pubkey": "BS9uyGV6XmNnPkM4f3xgxCdQEaFv7RSKs6fwrpvYHxfL",
+      "sol_side": true,
+      "usd": 101.08423503300905,
+      "has_ticks": 1
+    },
+    {
+      "idx": 60,
+      "kind": "clmm",
+      "pubkey": "A8GKzV9BV8u3wLdj9e3gFiVSXYpxB6man6RX3b76NGZU",
+      "sol_side": false,
+      "usd": 101.08423503300905,
+      "has_ticks": 0
+    },
+    {
+      "idx": 61,
+      "kind": "clmm",
+      "pubkey": "6vt9CzvWfAu8piEXHKnmcvWP4i677JMHLPjrtU5GMtqv",
+      "sol_side": false,
+      "usd": 101.08423503300905,
+      "has_ticks": 0
+    },
+    {
+      "idx": 62,
+      "kind": "dlmm",
+      "pubkey": "B3Me7MhVX5XPb4UHpnvYiac8KaTu26uxPzi36GksoUL9",
+      "sol_side": true,
+      "usd": 99.98973813158993,
+      "has_ticks": 0
+    },
+    {
+      "idx": 63,
+      "kind": "pump",
+      "pubkey": "9ZiJwWMx6HanYdbibhMpmZ7oKXBrWuh9fc7ujDVUU8vs",
+      "sol_side": true,
+      "usd": 99.94124792876879,
+      "has_ticks": 0
+    },
+    {
+      "idx": 64,
+      "kind": "clmm",
+      "pubkey": "C7sYwCVirH4Whwnr82xefadPFyuZBpRA6bbsbx9bzXkB",
+      "sol_side": true,
+      "usd": 99.88333262126046,
+      "has_ticks": 1
+    },
+    {
+      "idx": 65,
+      "kind": "clmm",
+      "pubkey": "7oFF1w7u4sK8TL8Vyap89JQLptcBMwDL1aRuyakNAQNX",
+      "sol_side": false,
+      "usd": 99.88333262126046,
+      "has_ticks": 0
+    },
+    {
+      "idx": 66,
+      "kind": "pump",
+      "pubkey": "8qwgwpdfbBMNhdG76bDmtvLeSqtG9cEwuGGy6wGKhTB9",
+      "sol_side": true,
+      "usd": 98.69482276057731,
+      "has_ticks": 0
+    },
+    {
+      "idx": 67,
+      "kind": "dlmm",
+      "pubkey": "2RX1ZogEMsjv1YjMF3m5U1DN7gVCtSLaQHs27F17ECve",
+      "sol_side": true,
+      "usd": 98.3183691847435,
+      "has_ticks": 0
+    },
+    {
+      "idx": 68,
+      "kind": "dlmm",
+      "pubkey": "9xiLuqDSvN1pgyHSHCeRbrKFTe1DWbPAMJRm2usYgdaX",
+      "sol_side": true,
+      "usd": 96.26463008984157,
+      "has_ticks": 0
+    },
+    {
+      "idx": 69,
+      "kind": "pump",
+      "pubkey": "FDrY5i5kuadZ1ik8gPS26qjj9Rw9mpufXMegGC2HNSP7",
+      "sol_side": true,
+      "usd": 92.51704170654921,
+      "has_ticks": 0
+    },
+    {
+      "idx": 70,
+      "kind": "orca",
+      "pubkey": "9Vh6fqJjDkqSTZ8bDXseVxGb2yQEMkEhhtte2anQCHSf",
+      "sol_side": true,
+      "usd": 91.729489966462,
+      "has_ticks": 0
+    },
+    {
+      "idx": 71,
+      "kind": "orca",
+      "pubkey": "GsKfZZEhrp6KHe3DLLbrD1pft22B6BDB3cxzAbPXZjq9",
+      "sol_side": false,
+      "usd": 91.729489966462,
+      "has_ticks": 0
+    },
+    {
+      "idx": 72,
+      "kind": "orca",
+      "pubkey": "9RqDTfwCx2SgxsvKpspQHc38HUo3B6hRd3oR9JR966Ps",
+      "sol_side": false,
+      "usd": 91.729489966462,
+      "has_ticks": 0
+    },
+    {
+      "idx": 73,
+      "kind": "clmm",
+      "pubkey": "4NFvUKqknMpoe6CWTzK758B8ojVLzURL5pC6MtiaJ8TQ",
+      "sol_side": false,
+      "usd": 91.30353868494791,
+      "has_ticks": 0
+    },
+    {
+      "idx": 74,
+      "kind": "damm",
+      "pubkey": "3WZUnUVQwFVSod5dxk99g9PyQRhSTNkLdb3uYRt19Kw1",
+      "sol_side": false,
+      "usd": 88.90521039528727,
+      "has_ticks": 0
+    },
+    {
+      "idx": 75,
+      "kind": "orca",
+      "pubkey": "9TT3NbWogWjbQh7b3s1hfcqYF7VJHmg8uNcXDjtPRnh4",
+      "sol_side": true,
+      "usd": 81.0234881265038,
+      "has_ticks": 0
+    },
+    {
+      "idx": 76,
+      "kind": "pump",
+      "pubkey": "5PGhKctym6odbHGo2tKMST2AjmJsb2uZBQrKkn4ZuFT5",
+      "sol_side": true,
+      "usd": 74.85645683756562,
+      "has_ticks": 0
+    },
+    {
+      "idx": 77,
+      "kind": "orca",
+      "pubkey": "CN32jwmQBFHM4NYrgkxefihRK8boR8M9n4RUBvgLe816",
+      "sol_side": true,
+      "usd": 59.43841926308039,
+      "has_ticks": 1
+    },
+    {
+      "idx": 78,
+      "kind": "pump",
+      "pubkey": "HMzvsEEmtzHhvZNw9uwbaG85HCTmFnkbhzUx16cy7ca3",
+      "sol_side": true,
+      "usd": 57.63364134616771,
+      "has_ticks": 0
+    },
+    {
+      "idx": 79,
+      "kind": "pump",
+      "pubkey": "6MJsZiZDnxxqQEfo4A23ZUCsgPCWm4mPU6DjrPqWwS4u",
+      "sol_side": true,
+      "usd": 56.87284899337565,
+      "has_ticks": 0
+    },
+    {
+      "idx": 80,
+      "kind": "pump",
+      "pubkey": "HH4D2z7SkBtoS2DAwzs1XCwSRWYbk14KNueU1KhmZcEV",
+      "sol_side": true,
+      "usd": 55.57631876900977,
+      "has_ticks": 0
+    },
+    {
+      "idx": 81,
+      "kind": "pump",
+      "pubkey": "B1zosT5SqjsEGRSU1cGbSVJrkVYL9zzFXDa9cmZWRhZt",
+      "sol_side": true,
+      "usd": 48.6537711353566,
+      "has_ticks": 0
+    },
+    {
+      "idx": 82,
+      "kind": "pump",
+      "pubkey": "2fwy38cJcChCVySA9cd5SAFaEPtZQWN2ssFip43hnsHU",
+      "sol_side": true,
+      "usd": 45.56222542869557,
+      "has_ticks": 0
+    },
+    {
+      "idx": 83,
+      "kind": "pump",
+      "pubkey": "FVc7EaaSg9a5BYz2y3nuemmjvfq2BRWXopjjocA1G593",
+      "sol_side": true,
+      "usd": 45.4530202307072,
+      "has_ticks": 0
+    },
+    {
+      "idx": 84,
+      "kind": "pump",
+      "pubkey": "BJ6pFMwat4EG3UE6eSXY2Qtt8t74JAwioDE2T4WE233Y",
+      "sol_side": true,
+      "usd": 38.34839618042323,
+      "has_ticks": 0
+    },
+    {
+      "idx": 85,
+      "kind": "pump",
+      "pubkey": "8VHKSU5pij3V5DVKFQv1WceEzwKeZQpSZiCh9rja2G6N",
+      "sol_side": true,
+      "usd": 37.36538098636125,
+      "has_ticks": 0
+    },
+    {
+      "idx": 86,
+      "kind": "damm",
+      "pubkey": "2y6PCqa4fEp3jLiFdan9jVMw7LSK8F3gwsTfy8p7traE",
+      "sol_side": false,
+      "usd": 25.968238177995556,
+      "has_ticks": 0
+    },
+    {
+      "idx": 87,
+      "kind": "pump",
+      "pubkey": "EnS5nNpp4zndAkfVezNpvZ722jyd5ADnApdMkChMryWQ",
+      "sol_side": true,
+      "usd": 22.46547656051247,
+      "has_ticks": 0
+    },
+    {
+      "idx": 88,
+      "kind": "pump",
+      "pubkey": "4w2cysotX6czaUGmmWg13hDpY4QEMG2CzeKYEQyK9Ama",
+      "sol_side": true,
+      "usd": 19.004057913167575,
+      "has_ticks": 0
+    },
+    {
+      "idx": 89,
+      "kind": "pump",
+      "pubkey": "5wNu5QhdpRGrL37ffcd6TMMqZugQgxwafgz477rShtHy",
+      "sol_side": true,
+      "usd": 18.50279327415961,
+      "has_ticks": 0
+    },
+    {
+      "idx": 90,
+      "kind": "pump",
+      "pubkey": "8Q5jAjkPxwV1ZmNGA36GRXoscFZJBAQDzm8QoGfg7C55",
+      "sol_side": true,
+      "usd": 18.239761008613527,
+      "has_ticks": 0
+    },
+    {
+      "idx": 91,
+      "kind": "pump",
+      "pubkey": "FFcYgSSgWHforA9rXXkA48p8YFoz8TSW85Jpo3CQHDyS",
+      "sol_side": true,
+      "usd": 17.981739263189127,
+      "has_ticks": 0
+    },
+    {
+      "idx": 92,
+      "kind": "pump",
+      "pubkey": "Gf7sXMoP8iRw4iiXmJ1nq4vxcRycbGXy5RL8a8LnTd3v",
+      "sol_side": true,
+      "usd": 17.259945379199362,
+      "has_ticks": 0
+    },
+    {
+      "idx": 93,
+      "kind": "pump",
+      "pubkey": "DA4pM4xSDY4M9V4CgAKKBVH1pw1yscTQQa5nEkGHuKpt",
+      "sol_side": true,
+      "usd": 14.997370426467876,
+      "has_ticks": 0
+    },
+    {
+      "idx": 94,
+      "kind": "pump",
+      "pubkey": "72tZoSAHAutvD7dP2fNC56aASLxbPXro9jBPohZ8aAvY",
+      "sol_side": true,
+      "usd": 14.80141616267489,
+      "has_ticks": 0
+    },
+    {
+      "idx": 95,
+      "kind": "pump",
+      "pubkey": "Dh9pXjASR7oVBDx4SnV3h8gSyB9zVqXjUy83a7U24V8M",
+      "sol_side": false,
+      "usd": 14.516686074168476,
+      "has_ticks": 0
+    },
+    {
+      "idx": 96,
+      "kind": "pump",
+      "pubkey": "Bgf45Fjqeobgd5viMX8P8AfhiydRewEFKPd7nmcFNQRb",
+      "sol_side": false,
+      "usd": 12.532608244566351,
+      "has_ticks": 0
+    },
+    {
+      "idx": 97,
+      "kind": "damm",
+      "pubkey": "3jX6WuYTBdUmWoLChPq6jnU1fhdYxp8txi5wwETvkHJT",
+      "sol_side": false,
+      "usd": 9.477628655601556,
+      "has_ticks": 0
+    },
+    {
+      "idx": 98,
+      "kind": "damm",
+      "pubkey": "6jAVk8EveVus4Dfey6LNkaSjifZWcsugjWYpQesJRFXb",
+      "sol_side": false,
+      "usd": 5.166866631015498,
+      "has_ticks": 0
+    },
+    {
+      "idx": 99,
+      "kind": "damm",
+      "pubkey": "7LWeTej42aKgcsJBTtgK1vFV152G8hUgHJZehrKYX1VT",
+      "sol_side": false,
+      "usd": 3.748822104774797,
+      "has_ticks": 0
+    },
+    {
+      "idx": 100,
+      "kind": "damm",
+      "pubkey": "J3ASmssarchzNYMN7S7Wrpbq9Ex4BGN7obuSN4PNHK9H",
+      "sol_side": false,
+      "usd": 3.4772293415029765,
+      "has_ticks": 0
+    },
+    {
+      "idx": 101,
+      "kind": "damm",
+      "pubkey": "8Pm2kZpnxD3hoMmt4bjStX2Pw2Z9abpbHzZxMPqxPmie",
+      "sol_side": true,
+      "usd": 2.7034187138375807,
+      "has_ticks": 0
+    }
+  ]
+}

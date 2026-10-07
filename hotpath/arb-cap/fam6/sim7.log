@@ -1,0 +1,166 @@
+  wsol 50000000
+rpc 429 getMultipleAccounts backoff 2s
+rpc 429 getLatestBlockhash backoff 8s
+  created ATA 91JTJEbd.. 5j5ji1rFLnEW..
+rpc 429 getMultipleAccounts backoff 2s
+rpc 429 getMultipleAccounts backoff 2s
+rpc 429 getMultipleAccounts backoff 2s
+rpc 429 getMultipleAccounts backoff 2s
+rpc 429 getMultipleAccounts backoff 2s
+rpc 429 getTransaction backoff 8s
+rpc 429 getTransaction backoff 8s
+rpc 429 getTransaction backoff 8s
+rpc 429 getMultipleAccounts backoff 2s
+rpc 429 getMultipleAccounts backoff 2s
+rpc 429 getTransaction backoff 8s
+rpc 429 getMultipleAccounts backoff 2s
+  raw=964 b64=1288 wire=1232 margin=268
+  simulate err={'InstructionError': [2, 'IncorrectProgramId']} cu=34618 logs=22
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt invoke [1]
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo invoke [2]
+    Program log: Instruction: Swap2
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo invoke [3]
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo consumed 772 of 371804 compute units
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo success
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 112 of 368990 compute units
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb invoke [3]
+    Program log: Instruction: TransferChecked
+    Program log: Error: IncorrectProgramId
+    ...
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt failed: incorrect program id for instruction
+SIM7  dlmm-dlmm custom6=False cu=34618 raw=964 alt=False err={'InstructionError': [2, 'IncorrectProgramId']}
+  raw=1054 b64=1408 wire=1232 margin=178
+  simulate err={'InstructionError': [2, 'IncorrectProgramId']} cu=34843 logs=22
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt invoke [1]
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo invoke [2]
+    Program log: Instruction: Swap2
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo invoke [3]
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo consumed 772 of 371579 compute units
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo success
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 112 of 368765 compute units
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb invoke [3]
+    Program log: Instruction: TransferChecked
+    Program log: Error: IncorrectProgramId
+    ...
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt failed: incorrect program id for instruction
+SIM7  dlmm-pump custom6=False cu=34843 raw=1054 alt=True err={'InstructionError': [2, 'IncorrectProgramId']}
+rpc 429 getLatestBlockhash backoff 8s
+  raw=1058 b64=1412 wire=1232 margin=174
+  simulate err={'InstructionError': [2, 'IncorrectProgramId']} cu=129367 logs=49
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt invoke [1]
+    Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA invoke [2]
+    Program log: Instruction: BuyExactQuoteIn
+    Program 11111111111111111111111111111111 invoke [3]
+    Program 11111111111111111111111111111111 success
+    Program pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ invoke [3]
+    Program log: Instruction: GetFeesWithQuoteMint
+    Program pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ consumed 6023 of 347892 compute units
+    Program return: pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ FAAAAAAAAAAFAAAAAAAAAEEAAAAAAAAA
+    Program pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ success
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 105 of 336468 compute units
+    ...
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt failed: incorrect program id for instruction
+SIM7  pump-dlmm custom6=False cu=129367 raw=1058 alt=True err={'InstructionError': [2, 'IncorrectProgramId']}
+  raw=944 b64=1260 wire=1232 margin=288
+rpc 429 simulateTransaction backoff 8s
+  simulate err={'InstructionError': [2, {'Custom': 2006}]} cu=64414 logs=35
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt invoke [1]
+    Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA invoke [2]
+    Program log: Instruction: BuyExactQuoteIn
+    Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [3]
+    Program log: Create
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [4]
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 179 of 361245 compute units
+    Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+    Program 11111111111111111111111111111111 invoke [4]
+    Program 11111111111111111111111111111111 success
+    Program log: Initialize the associated token account
+    ...
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt failed: custom program error: 0x7d6
+SIM7  pump-pump custom6=False cu=64414 raw=944 alt=True err={'InstructionError': [2, {'Custom': 2006}]}
+  raw=1230 b64=1640 wire=1232 margin=2
+  simulate err={'InstructionError': [2, 'IncorrectProgramId']} cu=35175 logs=22
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt invoke [1]
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo invoke [2]
+    Program log: Instruction: Swap2
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo invoke [3]
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo consumed 772 of 371247 compute units
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo success
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 112 of 368433 compute units
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb invoke [3]
+    Program log: Instruction: TransferChecked
+    Program log: Error: IncorrectProgramId
+    ...
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt failed: incorrect program id for instruction
+SIM7  dlmm-dlmm-dlmm custom6=False cu=35175 raw=1230 alt=False err={'InstructionError': [2, 'IncorrectProgramId']}
+rpc 429 getLatestBlockhash backoff 8s
+  raw=792 b64=1056 wire=1232 margin=440
+  simulate err={'InstructionError': [2, 'IncorrectProgramId']} cu=32723 logs=19
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt invoke [1]
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo invoke [2]
+    Program log: Instruction: Swap2
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo invoke [3]
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo consumed 772 of 371385 compute units
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo success
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb invoke [3]
+    Program log: Instruction: TransferChecked
+    Program log: Error: IncorrectProgramId
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb consumed 1305 of 368582 compute units
+    Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb failed: incorrect program id for instruction
+    Program LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo consumed 27791 of 395068 compute units
+    ...
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt failed: incorrect program id for instruction
+SIM7  dlmm-dlmm-pump custom6=False cu=32723 raw=792 alt=True err={'InstructionError': [2, 'IncorrectProgramId']}
+  raw=1042 b64=1392 wire=1232 margin=190
+  simulate err={'InstructionError': [2, {'Custom': 2006}]} cu=59850 logs=35
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program ComputeBudget111111111111111111111111111111 invoke [1]
+    Program ComputeBudget111111111111111111111111111111 success
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt invoke [1]
+    Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA invoke [2]
+    Program log: Instruction: BuyExactQuoteIn
+    Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [3]
+    Program log: Create
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [4]
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 179 of 364309 compute units
+    Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+    Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+    Program 11111111111111111111111111111111 invoke [4]
+    Program 11111111111111111111111111111111 success
+    Program log: Initialize the associated token account
+    ...
+    Program CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt failed: custom program error: 0x7d6
+SIM7  pump-dlmm-dlmm custom6=False cu=59850 raw=1042 alt=True err={'InstructionError': [2, {'Custom': 2006}]}

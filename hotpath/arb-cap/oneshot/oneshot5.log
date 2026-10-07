@@ -1,0 +1,54 @@
+ok /home/louis/arb-exec/scripts/oneshot_live.py
+ok /home/louis/arb-exec/tests/exec_swqos_oneshot.c
+ok /home/louis/arb-exec/CMakeLists.txt
+[ 33%] Built target swqos_quic
+[ 66%] Building C object CMakeFiles/exec_swqos_oneshot.dir/tests/exec_swqos_oneshot.c.o
+[100%] Linking C executable exec_swqos_oneshot
+[100%] Built target exec_swqos_oneshot
+-rwxrwxr-x 1 louis louis 15652344 Sep 25 16:13 /home/louis/arb-exec/build/exec_swqos_oneshot
+ONESHOT#5  CORE010_FRAMED  wallet=HHNzjTABPAbPY5uEXU7NTvfmcD9RYTdXtLntyKAtpXLX sol=0.260231 cap=0.05 hurdle=525000 exec=38dsYLgt
+  wsol 50000000
+ARMED  follow /home/louis/captures/paper_orbit/opp_synced.jsonl from EOF
+  wait 30s seen=0 still armed
+  wait 60s seen=0 still armed
+  wait 90s seen=0 still armed
+  wait 120s seen=0 still armed
+  wait 150s seen=0 still armed
+  journal opt=466666666 gp=3027728 send=50000000 send_gp=610006 hurdle=525000 frame=framed delay_ns=1202285 SEND
+  opp pool=c7da8797 dir=1 ain=466666666 gp=3027728 gate=(50000000, 610006)
+DISARMED  setup_or_send_fail
+ok /home/louis/arb-exec/scripts/oneshot_live.py
+ok /home/louis/arb-exec/tests/exec_swqos_oneshot.c
+ok /home/louis/arb-exec/CMakeLists.txt
+[ 33%] Built target swqos_quic
+[ 66%] Building C object CMakeFiles/exec_swqos_oneshot.dir/tests/exec_swqos_oneshot.c.o
+[100%] Linking C executable exec_swqos_oneshot
+[100%] Built target exec_swqos_oneshot
+-rwxrwxr-x 1 louis louis 15652344 Sep 25 16:17 /home/louis/arb-exec/build/exec_swqos_oneshot
+ONESHOT#5  CORE010_FRAMED  wallet=HHNzjTABPAbPY5uEXU7NTvfmcD9RYTdXtLntyKAtpXLX sol=0.260231 cap=0.05 hurdle=525000 exec=38dsYLgt
+  wsol 50000000
+ARMED  follow /home/louis/captures/paper_orbit/opp_synced.jsonl from EOF
+  wait 30s seen=0 still armed
+  wait 60s seen=0 still armed
+  wait 90s seen=0 still armed
+  wait 120s seen=0 still armed
+  wait 150s seen=0 still armed
+  wait 180s seen=0 still armed
+  wait 210s seen=0 still armed
+  wait 240s seen=0 still armed
+  journal opt=23333333333 gp=27561126366 send=50000000 send_gp=76365832 hurdle=525000 frame=framed delay_ns=1630788 SEND
+  opp pool=d66a62ff dir=1 ain=23333333333 gp=27561126366 gate=(50000000, 76365832)
+ONESHOT_SWQOS rc=0 send_ns=6580 ready=4 conn=0 len=626
+
+swqos account enabled=true balance_lamports=99500000
+swqos slot 0 READY
+swqos slot 1 READY
+swqos slot 2 READY
+swqos slot 3 READY
+swqos quic up  dest=64.130.40.90:11000 ready=4/4 alpn=ultrasend/1
+swqos slot 0 DEAD (close)
+swqos slot 1 DEAD (close)
+swqos slot 2 DEAD (close)
+swqos slot 3 DEAD (close)
+
+DISARMED  stale_custom6

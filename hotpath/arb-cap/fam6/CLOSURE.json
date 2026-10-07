@@ -1,0 +1,37 @@
+{
+  "invariant": "supported venues => complete executable route closure",
+  "venues": [
+    "dlmm",
+    "pump"
+  ],
+  "n_pool_supported": 171,
+  "closed_2": 368,
+  "closed_3": 1162,
+  "seq": {
+    "dlmm-dlmm": 140,
+    "dlmm-pump": 99,
+    "pump-dlmm": 99,
+    "pump-pump": 30,
+    "dlmm-dlmm-dlmm": 700,
+    "dlmm-dlmm-pump": 231,
+    "dlmm-pump-dlmm": 0,
+    "dlmm-pump-pump": 0,
+    "pump-dlmm-dlmm": 231,
+    "pump-dlmm-pump": 0,
+    "pump-pump-dlmm": 0,
+    "pump-pump-pump": 0
+  },
+  "graph_missing": [
+    "dlmm-pump-dlmm",
+    "dlmm-pump-pump",
+    "pump-dlmm-pump",
+    "pump-pump-dlmm",
+    "pump-pump-pump"
+  ],
+  "note_missing": "0 means the typed mint graph has no such close, not an executor hole",
+  "family_stamp": "0=route0 5=typed-inverted 6=other supported 255=unsupported venue",
+  "executor": "ARBHOPS0 program_hops  hop_count=2|3  proto=DLMM|PUMP",
+  "our_exec": "38dsYLgt frozen \u2014 not upgraded",
+  "ix_len": 40,
+  "oneshot6": "untouched"
+}

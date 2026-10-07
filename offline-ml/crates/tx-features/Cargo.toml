@@ -1,0 +1,28 @@
+[package]
+name = "tx-features"
+version = "1.0.0"
+edition = "2021"
+description = "Allocation-free Solana framed-transaction feature encoder (framed-tx-v1)"
+publish = false
+
+[lib]
+name = "tx_features"
+crate-type = ["rlib", "staticlib", "cdylib"]
+
+[features]
+default = []
+# Independent reference parser. Test-only; not used by the hot path.
+reference = []
+# Timing helpers for the benchmark binary. Not used by encode_transaction_v1.
+bench-harness = []
+# Extra rdtsc stores inside encode. Off for the published benchmark.
+phase-profile = []
+
+[[bench]]
+name = "encode"
+harness = false
+required-features = ["bench-harness"]
+
+[dependencies]
+
+[dev-dependencies]

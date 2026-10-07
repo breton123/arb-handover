@@ -1,0 +1,25 @@
+{
+  "ts": "2026-09-25T21:30:00Z",
+  "bucket": "wrong_transaction_association",
+  "reason": "paper_s_prime_scored_against_bootstrap_auth",
+  "fields": ["active_id", "volatility", "bin_liquidity"],
+  "trigger_sig": "81ec9fa0bb7be14fd7f5ffa8156ecb043ecd188cbb6bc50ec7e0feade52614dd63b8c907a9462ce4bf3a2e7fb16d41320d7a2272070ac7d527c6466ff3bb2805",
+  "slot": 450476741,
+  "auth_slot": 450474933,
+  "pool": "GYqytuXSiX3GaPuCkLMY4jeRR3mAtyAuQqhD32d45g5y",
+  "idx": 26,
+  "kind": "dlmm",
+  "direction": 1,
+  "amount_in": 271400000,
+  "reported_fields": ["active_id", "volatility", "bin:2804"],
+  "s_prime": {
+    "active_id": 2804,
+    "vol_acc": 62024,
+    "touched": [{"id": 2804, "x": 419848545, "y": 1622865695}]
+  },
+  "published_s": {
+    "note": "bootstrap / unassociated AUTH at stream slot 450476741, not the trigger write set"
+  },
+  "verdict": "Not a kernel bug. Old gate keyed pending_shadow by pool_idx and popped the latest s_prime on every publish, including boot. Paper auth_slot 450474933 vs publish slot 450476741 (= bootstrap_slot). The predicted S' was never compared to that swap's Yellowstone write set. Gate is now keyed by txn_signature: boot and unassociated publishes do not score.",
+  "acceptance": "A sample counts only when Yellowstone txn_sig == paper sig_hex and predicted S' == next coherent S bit-exact."
+}

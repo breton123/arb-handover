@@ -1,0 +1,20 @@
+[package]
+name = "swqos_quic"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+name = "swqos_quic"
+crate-type = ["staticlib"]
+
+[dependencies]
+bs58 = "0.5"
+ed25519-dalek = "2"
+quinn = "0.11"
+rcgen = { version = "0.13", default-features = false, features = ["ring"] }
+rustls = { version = "0.23", default-features = false, features = ["ring", "std", "tls12"] }
+serde_json = "1"
+tokio = { version = "1", features = ["rt-multi-thread", "net", "time", "macros", "sync"] }
+ureq = "2"
+webpki-roots = "0.26"

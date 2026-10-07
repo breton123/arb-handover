@@ -1,0 +1,118 @@
+{
+  "ok": false,
+  "mode": "recover",
+  "program": "CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt",
+  "rows": [
+    {
+      "seq": "dlmm-dlmm",
+      "id": 0,
+      "ok": true,
+      "err": {
+        "InstructionError": [
+          2,
+          {
+            "Custom": 6
+          }
+        ]
+      },
+      "cu": 81777,
+      "raw": 964,
+      "alt": false,
+      "vector_ready": 1,
+      "race_ready": 1
+    },
+    {
+      "seq": "dlmm-pump",
+      "id": 1,
+      "ok": true,
+      "err": {
+        "InstructionError": [
+          2,
+          {
+            "Custom": 6
+          }
+        ]
+      },
+      "cu": 131550,
+      "raw": 837,
+      "alt": true,
+      "vector_ready": 1,
+      "race_ready": 1
+    },
+    {
+      "seq": "pump-dlmm",
+      "id": 152,
+      "ok": true,
+      "err": {
+        "InstructionError": [
+          2,
+          {
+            "Custom": 6
+          }
+        ]
+      },
+      "cu": 145414,
+      "raw": 841,
+      "alt": true,
+      "vector_ready": 1,
+      "race_ready": 1
+    },
+    {
+      "seq": "pump-pump",
+      "id": 260,
+      "ok": false,
+      "err": {
+        "InstructionError": [
+          2,
+          {
+            "Custom": 6053
+          }
+        ]
+      },
+      "cu": 71902,
+      "raw": 1040,
+      "alt": true,
+      "vector_ready": 1,
+      "race_ready": 0
+    },
+    {
+      "seq": "dlmm-dlmm-dlmm",
+      "id": 607,
+      "ok": false,
+      "err": {
+        "InstructionError": [
+          2,
+          "IncorrectProgramId"
+        ]
+      },
+      "cu": 34762,
+      "raw": 1230,
+      "alt": false,
+      "vector_ready": 1,
+      "race_ready": 0
+    },
+    {
+      "seq": "dlmm-dlmm-pump",
+      "id": 859,
+      "ok": false,
+      "reason": "oversize 1258"
+    },
+    {
+      "seq": "pump-dlmm-dlmm",
+      "id": 1341,
+      "ok": false,
+      "err": {
+        "InstructionError": [
+          2,
+          "IncorrectProgramId"
+        ]
+      },
+      "cu": 165798,
+      "raw": 828,
+      "alt": true,
+      "vector_ready": 1,
+      "race_ready": 0
+    }
+  ],
+  "min_profit": 1000000000
+}

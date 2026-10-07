@@ -1,0 +1,22 @@
+{
+  "gate": "dir1-impossible-profit",
+  "why": "BuyExactQuoteIn is 24 B (spendable + min_base=1). 26-meta CPI: gvol/uvol inserted after creator_auth. Same pair as dir0 Custom(6). Entire path + profit guard.",
+  "err": {"InstructionError": [2, {"Custom": 6}]},
+  "unitsConsumed": 139817,
+  "tx_len": 626,
+  "margin": 606,
+  "tiny_in": 10000000,
+  "min_profit": 1000000000,
+  "path": {
+    "OUR_EXEC": true,
+    "pump_buy_exact_quote_in": true,
+    "transfers": true,
+    "dlmm_swap2": true,
+    "wsol_returned": true,
+    "profit_guard": true
+  },
+  "buy_data": "c62e1552b4d9e870 + 10000000 + 1",
+  "gvol": "C2aFPdENg4A2HQsmrd5rTw5TaYBX5Ku887cWjbFKtZpw",
+  "alt": "A3y4efDfkbJGF4QJtScfQAwubm2BzpTauAbZ8ohAHMgn",
+  "our_exec": "38dsYLgtLkHKDMYNBemkEM3WkvZSUo3RvxZSm7eMDj4K"
+}

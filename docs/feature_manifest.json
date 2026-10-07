@@ -1,0 +1,1275 @@
+{
+  "encoder_schema": "framed-tx-v2",
+  "feature_schema": "txflat-v2",
+  "gate_columns": [
+    "rel_market_writable",
+    "rel_market_readonly",
+    "rel_venue_program",
+    "relevant"
+  ],
+  "id_columns": [
+    "master_tx_id",
+    "slot",
+    "entry_index",
+    "tx_index",
+    "signature",
+    "pack_id"
+  ],
+  "ix_slot_rule": "first top-level instructions whose program is not ComputeBudget, in order",
+  "ix_slots": 8,
+  "label_columns": [
+    "arb_label",
+    "arb_target",
+    "label_quality",
+    "unknown_reasons",
+    "n_covering_live",
+    "n_covering_oracle",
+    "min_cover_rank_live",
+    "min_cover_rank_oracle",
+    "n_profitable_routes",
+    "n_profitable_routes_seen_in_train",
+    "profitable_routes",
+    "best_net_profit",
+    "pack_target"
+  ],
+  "meta_columns": [
+    "block_time",
+    "encode_status",
+    "n_occurrences",
+    "n_occ_top_level",
+    "n_occ_inner",
+    "n_occ_attributed",
+    "trigger_keys",
+    "n_eligible_live",
+    "n_eligible_oracle",
+    "pair_sample",
+    "eligible_live",
+    "pack_rank",
+    "builder_rank",
+    "pack_program_id",
+    "pack_family_id",
+    "pack_layer",
+    "pack_base",
+    "pack_account_set_id",
+    "pack_route_ids"
+  ],
+  "pack_catalog_schema": "candidate-library-v1",
+  "pack_feature_schema": "packflat-v2",
+  "pack_features": [
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "categorical",
+      "name": "pack_layer_code"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "hash",
+      "name": "pack_program_hash"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "hash",
+      "name": "pack_family_hash"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_family_prefix_bytes"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_family_data_len"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_family_account_count"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_route_count"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_hops_min"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_hops_max"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_hops_sum"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_routes_2hop"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_routes_3hop"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_routes_4hop"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_routes_5plus_hop"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_distinct_route_patterns"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_legs_clmm"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_legs_dlmm"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_legs_other_family"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_legs_orca_whirlpool"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_legs_raydium_clmm"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_legs_meteora_dlmm"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_legs_other_program"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_pool_count"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_venue_sequence_count"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_account_count"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_writable_known"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_writable_conservative"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_estimated_message_bytes"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_estimated_cu"
+    },
+    {
+      "dtype": "int64",
+      "group": "static",
+      "kind": "numeric",
+      "name": "pack_dynamic_requirements"
+    },
+    {
+      "dtype": "int64",
+      "group": "train_meta",
+      "kind": "numeric",
+      "name": "pack_library_rank"
+    },
+    {
+      "dtype": "int64",
+      "group": "train_meta",
+      "kind": "numeric",
+      "name": "pack_selection_gain"
+    },
+    {
+      "dtype": "int64",
+      "group": "train_meta",
+      "kind": "numeric",
+      "name": "pack_train_covered_txs"
+    },
+    {
+      "dtype": "int64",
+      "group": "train_meta",
+      "kind": "numeric",
+      "name": "pack_train_new_txs"
+    },
+    {
+      "dtype": "int64",
+      "group": "train_meta",
+      "kind": "numeric",
+      "name": "pack_train_cumulative_txs"
+    },
+    {
+      "dtype": "int64",
+      "group": "train_meta",
+      "kind": "numeric",
+      "name": "pack_train_key_txs"
+    },
+    {
+      "dtype": "int64",
+      "group": "train_meta",
+      "kind": "numeric",
+      "name": "pack_new_route_ids"
+    },
+    {
+      "dtype": "int64",
+      "group": "train_meta",
+      "kind": "numeric",
+      "name": "pack_new_pools"
+    },
+    {
+      "dtype": "int64",
+      "group": "train_meta",
+      "kind": "numeric",
+      "name": "pack_new_venue_sequences"
+    },
+    {
+      "dtype": "int64",
+      "group": "train_meta",
+      "kind": "numeric",
+      "name": "pack_new_hop_counts"
+    },
+    {
+      "dtype": "int64",
+      "group": "train_meta",
+      "kind": "numeric",
+      "name": "pack_shared_accounts"
+    },
+    {
+      "dtype": "int64",
+      "group": "train_meta",
+      "kind": "numeric",
+      "name": "pack_route_support_min"
+    },
+    {
+      "dtype": "int64",
+      "group": "train_meta",
+      "kind": "numeric",
+      "name": "pack_route_support_sum"
+    }
+  ],
+  "relevance_schema": "relevance-v1",
+  "tx_features": [
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "categorical",
+      "name": "version"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "uses_alt"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "raw_len"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "signature_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "required_signature_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "readonly_signed_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "readonly_unsigned_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "static_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "total_account_reference_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "static_writable_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "static_readonly_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "static_signer_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "instruction_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "unique_program_reference_count"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "total_instruction_account_refs"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "unique_instruction_account_refs"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "reused_account_ref_count"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "total_instruction_data_bytes"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "max_instruction_data_len"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "min_instruction_data_len"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "alt_lookup_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "alt_loaded_writable_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "alt_loaded_readonly_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "compute_budget_instruction_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "compute_budget_unknown_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "compute_budget_malformed_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "compute_budget_first_index"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "compute_budget_last_index"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "compute_budget_flags"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "requested_cu_limit"
+    },
+    {
+      "dtype": "uint64",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "requested_cu_price"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "requested_heap_bytes"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "requested_loaded_accounts_data_size"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "deprecated_requested_units"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "deprecated_additional_fee"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "max_account_usage_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "max_writable_account_usage_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "instructions_with_shared_accounts"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "instructions_with_shared_writable_accounts"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "accounts_used_by_multiple_instructions"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "writable_accounts_used_by_multiple_instructions"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "adjacent_pairs_sharing_account"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "adjacent_pairs_sharing_writable"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "program_repeated"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "repeated_program_invocation_count"
+    },
+    {
+      "dtype": "uint64",
+      "group": "identity",
+      "kind": "hash",
+      "name": "program_sequence_fingerprint"
+    },
+    {
+      "dtype": "uint64",
+      "group": "structural",
+      "kind": "hash",
+      "name": "instruction_structure_fingerprint"
+    },
+    {
+      "dtype": "uint64",
+      "group": "structural",
+      "kind": "hash",
+      "name": "topology_fingerprint"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "non_cb_instruction_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "alt_program_instruction_count"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "config_mask"
+    },
+    {
+      "dtype": "uint64",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "config_priority_fee_lamports"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "config_compute_unit_limit"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "config_loaded_accounts_data_size"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "config_heap_size"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix0_present"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "categorical",
+      "name": "ix0_program_ref_kind"
+    },
+    {
+      "dtype": "uint64",
+      "group": "identity",
+      "kind": "hash",
+      "name": "ix0_program_hash"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix0_data_len"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix0_data_len_class"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix0_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix0_signer_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix0_writable_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix0_alt_account_ref_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix0_reused_account_count"
+    },
+    {
+      "dtype": "uint8",
+      "group": "raw",
+      "kind": "numeric",
+      "name": "ix0_prefix1"
+    },
+    {
+      "dtype": "uint64",
+      "group": "raw",
+      "kind": "hash",
+      "name": "ix0_prefix8"
+    },
+    {
+      "dtype": "uint64",
+      "group": "structural",
+      "kind": "hash",
+      "name": "ix0_structural_family_hash"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix1_present"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "categorical",
+      "name": "ix1_program_ref_kind"
+    },
+    {
+      "dtype": "uint64",
+      "group": "identity",
+      "kind": "hash",
+      "name": "ix1_program_hash"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix1_data_len"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix1_data_len_class"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix1_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix1_signer_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix1_writable_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix1_alt_account_ref_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix1_reused_account_count"
+    },
+    {
+      "dtype": "uint8",
+      "group": "raw",
+      "kind": "numeric",
+      "name": "ix1_prefix1"
+    },
+    {
+      "dtype": "uint64",
+      "group": "raw",
+      "kind": "hash",
+      "name": "ix1_prefix8"
+    },
+    {
+      "dtype": "uint64",
+      "group": "structural",
+      "kind": "hash",
+      "name": "ix1_structural_family_hash"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix2_present"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "categorical",
+      "name": "ix2_program_ref_kind"
+    },
+    {
+      "dtype": "uint64",
+      "group": "identity",
+      "kind": "hash",
+      "name": "ix2_program_hash"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix2_data_len"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix2_data_len_class"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix2_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix2_signer_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix2_writable_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix2_alt_account_ref_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix2_reused_account_count"
+    },
+    {
+      "dtype": "uint8",
+      "group": "raw",
+      "kind": "numeric",
+      "name": "ix2_prefix1"
+    },
+    {
+      "dtype": "uint64",
+      "group": "raw",
+      "kind": "hash",
+      "name": "ix2_prefix8"
+    },
+    {
+      "dtype": "uint64",
+      "group": "structural",
+      "kind": "hash",
+      "name": "ix2_structural_family_hash"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix3_present"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "categorical",
+      "name": "ix3_program_ref_kind"
+    },
+    {
+      "dtype": "uint64",
+      "group": "identity",
+      "kind": "hash",
+      "name": "ix3_program_hash"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix3_data_len"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix3_data_len_class"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix3_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix3_signer_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix3_writable_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix3_alt_account_ref_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix3_reused_account_count"
+    },
+    {
+      "dtype": "uint8",
+      "group": "raw",
+      "kind": "numeric",
+      "name": "ix3_prefix1"
+    },
+    {
+      "dtype": "uint64",
+      "group": "raw",
+      "kind": "hash",
+      "name": "ix3_prefix8"
+    },
+    {
+      "dtype": "uint64",
+      "group": "structural",
+      "kind": "hash",
+      "name": "ix3_structural_family_hash"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix4_present"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "categorical",
+      "name": "ix4_program_ref_kind"
+    },
+    {
+      "dtype": "uint64",
+      "group": "identity",
+      "kind": "hash",
+      "name": "ix4_program_hash"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix4_data_len"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix4_data_len_class"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix4_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix4_signer_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix4_writable_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix4_alt_account_ref_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix4_reused_account_count"
+    },
+    {
+      "dtype": "uint8",
+      "group": "raw",
+      "kind": "numeric",
+      "name": "ix4_prefix1"
+    },
+    {
+      "dtype": "uint64",
+      "group": "raw",
+      "kind": "hash",
+      "name": "ix4_prefix8"
+    },
+    {
+      "dtype": "uint64",
+      "group": "structural",
+      "kind": "hash",
+      "name": "ix4_structural_family_hash"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix5_present"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "categorical",
+      "name": "ix5_program_ref_kind"
+    },
+    {
+      "dtype": "uint64",
+      "group": "identity",
+      "kind": "hash",
+      "name": "ix5_program_hash"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix5_data_len"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix5_data_len_class"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix5_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix5_signer_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix5_writable_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix5_alt_account_ref_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix5_reused_account_count"
+    },
+    {
+      "dtype": "uint8",
+      "group": "raw",
+      "kind": "numeric",
+      "name": "ix5_prefix1"
+    },
+    {
+      "dtype": "uint64",
+      "group": "raw",
+      "kind": "hash",
+      "name": "ix5_prefix8"
+    },
+    {
+      "dtype": "uint64",
+      "group": "structural",
+      "kind": "hash",
+      "name": "ix5_structural_family_hash"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix6_present"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "categorical",
+      "name": "ix6_program_ref_kind"
+    },
+    {
+      "dtype": "uint64",
+      "group": "identity",
+      "kind": "hash",
+      "name": "ix6_program_hash"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix6_data_len"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix6_data_len_class"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix6_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix6_signer_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix6_writable_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix6_alt_account_ref_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix6_reused_account_count"
+    },
+    {
+      "dtype": "uint8",
+      "group": "raw",
+      "kind": "numeric",
+      "name": "ix6_prefix1"
+    },
+    {
+      "dtype": "uint64",
+      "group": "raw",
+      "kind": "hash",
+      "name": "ix6_prefix8"
+    },
+    {
+      "dtype": "uint64",
+      "group": "structural",
+      "kind": "hash",
+      "name": "ix6_structural_family_hash"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix7_present"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "categorical",
+      "name": "ix7_program_ref_kind"
+    },
+    {
+      "dtype": "uint64",
+      "group": "identity",
+      "kind": "hash",
+      "name": "ix7_program_hash"
+    },
+    {
+      "dtype": "uint32",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix7_data_len"
+    },
+    {
+      "dtype": "uint8",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix7_data_len_class"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix7_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix7_signer_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix7_writable_account_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix7_alt_account_ref_count"
+    },
+    {
+      "dtype": "uint16",
+      "group": "structural",
+      "kind": "numeric",
+      "name": "ix7_reused_account_count"
+    },
+    {
+      "dtype": "uint8",
+      "group": "raw",
+      "kind": "numeric",
+      "name": "ix7_prefix1"
+    },
+    {
+      "dtype": "uint64",
+      "group": "raw",
+      "kind": "hash",
+      "name": "ix7_prefix8"
+    },
+    {
+      "dtype": "uint64",
+      "group": "structural",
+      "kind": "hash",
+      "name": "ix7_structural_family_hash"
+    }
+  ]
+}

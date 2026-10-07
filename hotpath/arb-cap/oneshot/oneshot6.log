@@ -1,0 +1,318 @@
+ok /home/louis/arb-exec/scripts/oneshot_live.py
+ok /home/louis/arb-exec/tests/exec_swqos_racer.c
+ok /home/louis/arb-exec/CMakeLists.txt
+[ 33%] Built target swqos_quic
+[ 66%] Building C object CMakeFiles/exec_swqos_racer.dir/tests/exec_swqos_racer.c.o
+[100%] Linking C executable exec_swqos_racer
+[100%] Built target exec_swqos_racer
+ONESHOT#6  RESIDENT  wallet=HHNzjTABPAbPY5uEXU7NTvfmcD9RYTdXtLntyKAtpXLX sol=0.248213 cap=0.05 hurdle=525000 exec=38dsYLgt
+  wsol 50000000
+  plane_routes=46 resident_bh=1 racer=/home/louis/arb-cap/oneshot/swqos.sock
+ARMED  follow /home/louis/captures/paper_orbit/opp_synced.jsonl from EOF
+rpc 429 getLatestBlockhash backoff 15s
+  wait 30s seen=0 still armed
+rpc 429 getLatestBlockhash backoff 15s
+  wait 60s seen=0 still armed
+  wait 90s seen=0 still armed
+  wait 120s seen=0 still armed
+rpc 429 getLatestBlockhash backoff 15s
+  wait 150s seen=0 still armed
+rpc 429 getLatestBlockhash backoff 15s
+  wait 180s seen=0 still armed
+  wait 210s seen=0 still armed
+rpc 429 getLatestBlockhash backoff 15s
+  wait 240s seen=0 still armed
+rpc 429 getLatestBlockhash backoff 15s
+  wait 270s seen=0 still armed
+rpc 429 getLatestBlockhash backoff 15s
+  wait 300s seen=0 still armed
+rpc 429 getLatestBlockhash backoff 15s
+rpc 429 getLatestBlockhash backoff 15s
+  wait 330s seen=0 still armed
+  wait 360s seen=0 still armed
+rpc 429 getLatestBlockhash backoff 15s
+ok /home/louis/arb-exec/scripts/oneshot_live.py
+ok /home/louis/arb-exec/tests/exec_swqos_racer.c
+ok /home/louis/arb-exec/CMakeLists.txt
+[ 33%] Built target swqos_quic
+[ 66%] Building C object CMakeFiles/exec_swqos_racer.dir/tests/exec_swqos_racer.c.o
+[100%] Linking C executable exec_swqos_racer
+[100%] Built target exec_swqos_racer
+oneshot already running
+  wait 390s seen=0 still armed
+rpc 429 getLatestBlockhash backoff 15s
+  wait 420s seen=0 still armed
+rpc 429 getLatestBlockhash backoff 15s
+rpc 429 getLatestBlockhash backoff 15s
+  wait 450s seen=0 still armed
+ok /home/louis/arb-exec/scripts/oneshot_live.py
+ok /home/louis/arb-exec/tests/exec_swqos_racer.c
+ok /home/louis/arb-exec/CMakeLists.txt
+[ 33%] Built target swqos_quic
+[ 66%] Building C object CMakeFiles/exec_swqos_racer.dir/tests/exec_swqos_racer.c.o
+[100%] Linking C executable exec_swqos_racer
+[100%] Built target exec_swqos_racer
+ONESHOT#6  RESIDENT  wallet=HHNzjTABPAbPY5uEXU7NTvfmcD9RYTdXtLntyKAtpXLX sol=0.248213 cap=0.05 hurdle=525000 exec=38dsYLgt
+  wsol 50000000
+  plane_routes=46 resident_bh=1 racer=/home/louis/arb-cap/oneshot/swqos.sock
+ARMED  follow /home/louis/captures/paper_orbit/opp_synced.jsonl from EOF
+  wait 30s seen=0 still armed
+  wait 60s seen=0 still armed
+  wait 90s seen=0 still armed
+  wait 120s seen=0 still armed
+  wait 150s seen=0 still armed
+  wait 180s seen=0 still armed
+  wait 210s seen=0 still armed
+  wait 240s seen=0 still armed
+  wait 270s seen=0 still armed
+  wait 300s seen=0 still armed
+  wait 330s seen=0 still armed
+  wait 360s seen=0 still armed
+  wait 390s seen=0 still armed
+  wait 420s seen=0 still armed
+  wait 450s seen=0 still armed
+  wait 480s seen=0 still armed
+  wait 510s seen=0 still armed
+  wait 540s seen=0 still armed
+  wait 570s seen=0 still armed
+  wait 600s seen=0 still armed
+  wait 630s seen=0 still armed
+  wait 660s seen=0 still armed
+  wait 690s seen=0 still armed
+  wait 720s seen=0 still armed
+  wait 750s seen=0 still armed
+  wait 780s seen=0 still armed
+  wait 810s seen=0 still armed
+  wait 840s seen=0 still armed
+rpc 429 getLatestBlockhash backoff 2s
+  wait 870s seen=0 still armed
+rpc 429 getLatestBlockhash backoff 2s
+  wait 900s seen=0 still armed
+  wait 930s seen=0 still armed
+  wait 960s seen=0 still armed
+  wait 990s seen=0 still armed
+  wait 1020s seen=0 still armed
+  wait 1050s seen=0 still armed
+  wait 1080s seen=0 still armed
+  wait 1110s seen=0 still armed
+  wait 1140s seen=0 still armed
+  wait 1170s seen=0 still armed
+  wait 1200s seen=0 still armed
+  wait 1230s seen=0 still armed
+  wait 1260s seen=0 still armed
+  wait 1290s seen=0 still armed
+  wait 1320s seen=0 still armed
+  wait 1350s seen=0 still armed
+  wait 1380s seen=0 still armed
+  wait 1410s seen=0 still armed
+  wait 1440s seen=0 still armed
+  wait 1470s seen=0 still armed
+  wait 1500s seen=0 still armed
+  wait 1530s seen=0 still armed
+  wait 1560s seen=0 still armed
+  wait 1590s seen=0 still armed
+  wait 1620s seen=0 still armed
+  wait 1650s seen=0 still armed
+  wait 1680s seen=0 still armed
+  wait 1710s seen=0 still armed
+  wait 1740s seen=0 still armed
+  wait 1770s seen=0 still armed
+  wait 1800s seen=0 still armed
+  wait 1830s seen=0 still armed
+  wait 1860s seen=0 still armed
+  wait 1890s seen=0 still armed
+  wait 1920s seen=0 still armed
+  wait 1950s seen=0 still armed
+  wait 1980s seen=0 still armed
+  wait 2010s seen=0 still armed
+  wait 2040s seen=0 still armed
+  wait 2070s seen=0 still armed
+  wait 2100s seen=0 still armed
+  wait 2130s seen=0 still armed
+  wait 2160s seen=0 still armed
+  wait 2190s seen=0 still armed
+  wait 2220s seen=0 still armed
+  wait 2250s seen=0 still armed
+  wait 2280s seen=0 still armed
+  wait 2310s seen=0 still armed
+  wait 2340s seen=0 still armed
+  wait 2370s seen=0 still armed
+  wait 2400s seen=0 still armed
+  wait 2430s seen=0 still armed
+  wait 2460s seen=0 still armed
+  wait 2490s seen=0 still armed
+  wait 2520s seen=0 still armed
+  wait 2550s seen=0 still armed
+  wait 2580s seen=0 still armed
+  wait 2610s seen=0 still armed
+  wait 2640s seen=0 still armed
+  wait 2670s seen=0 still armed
+  wait 2700s seen=0 still armed
+  wait 2730s seen=0 still armed
+  wait 2760s seen=0 still armed
+  wait 2790s seen=0 still armed
+  wait 2820s seen=0 still armed
+  wait 2850s seen=0 still armed
+  wait 2880s seen=0 still armed
+  wait 2910s seen=0 still armed
+  wait 2940s seen=0 still armed
+  wait 2970s seen=0 still armed
+  wait 3000s seen=0 still armed
+  wait 3030s seen=0 still armed
+  wait 3060s seen=0 still armed
+  wait 3090s seen=0 still armed
+  wait 3120s seen=0 still armed
+  wait 3150s seen=0 still armed
+  wait 3180s seen=0 still armed
+  wait 3210s seen=0 still armed
+  wait 3240s seen=0 still armed
+  wait 3270s seen=0 still armed
+  wait 3300s seen=0 still armed
+  wait 3330s seen=0 still armed
+  wait 3360s seen=0 still armed
+  wait 3390s seen=0 still armed
+  wait 3420s seen=0 still armed
+  wait 3450s seen=0 still armed
+  wait 3480s seen=0 still armed
+  wait 3510s seen=0 still armed
+  wait 3540s seen=0 still armed
+  wait 3570s seen=0 still armed
+Terminated
+ok /home/louis/arb-exec/scripts/oneshot_live.py
+ok /home/louis/arb-exec/tests/exec_swqos_racer.c
+ok /home/louis/arb-exec/CMakeLists.txt
+[ 33%] Built target swqos_quic
+[ 66%] Building C object CMakeFiles/exec_swqos_racer.dir/tests/exec_swqos_racer.c.o
+[100%] Linking C executable exec_swqos_racer
+[100%] Built target exec_swqos_racer
+ONESHOT#6  RESIDENT  wallet=HHNzjTABPAbPY5uEXU7NTvfmcD9RYTdXtLntyKAtpXLX sol=0.248213 cap=0.05 hurdle=525000 exec=38dsYLgt
+  wsol 50000000
+  plane_routes=46 resident_bh=1 racer=/home/louis/arb-cap/oneshot/swqos.sock
+ARMED  follow /home/louis/captures/paper_orbit/opp_synced.jsonl from EOF
+  wait 30s seen=0 still armed
+  wait 60s seen=0 still armed
+  wait 90s seen=0 still armed
+  wait 120s seen=0 still armed
+  wait 150s seen=0 still armed
+  wait 180s seen=0 still armed
+  wait 210s seen=0 still armed
+  wait 240s seen=0 still armed
+  wait 270s seen=0 still armed
+  wait 300s seen=0 still armed
+  wait 330s seen=0 still armed
+  wait 360s seen=0 still armed
+  wait 390s seen=0 still armed
+  wait 420s seen=0 still armed
+  wait 450s seen=0 still armed
+  wait 480s seen=0 still armed
+  wait 510s seen=0 still armed
+  wait 540s seen=0 still armed
+  wait 570s seen=0 still armed
+  wait 600s seen=0 still armed
+  wait 630s seen=0 still armed
+  wait 660s seen=0 still armed
+  wait 690s seen=0 still armed
+  wait 720s seen=0 still armed
+  wait 750s seen=0 still armed
+  wait 780s seen=0 still armed
+  wait 810s seen=0 still armed
+  wait 840s seen=0 still armed
+  wait 870s seen=0 still armed
+  wait 900s seen=0 still armed
+  wait 930s seen=0 still armed
+  wait 960s seen=0 still armed
+  wait 990s seen=0 still armed
+  wait 1020s seen=0 still armed
+  wait 1050s seen=0 still armed
+  wait 1080s seen=0 still armed
+  wait 1110s seen=0 still armed
+  wait 1140s seen=0 still armed
+  wait 1170s seen=0 still armed
+  wait 1200s seen=0 still armed
+  wait 1230s seen=0 still armed
+  wait 1260s seen=0 still armed
+  wait 1290s seen=0 still armed
+  wait 1320s seen=0 still armed
+  wait 1350s seen=0 still armed
+  wait 1380s seen=0 still armed
+  wait 1410s seen=0 still armed
+  wait 1440s seen=0 still armed
+  wait 1470s seen=0 still armed
+  wait 1500s seen=0 still armed
+  wait 1530s seen=0 still armed
+  wait 1560s seen=0 still armed
+  wait 1590s seen=0 still armed
+  wait 1620s seen=0 still armed
+  wait 1650s seen=0 still armed
+  wait 1680s seen=0 still armed
+  wait 1710s seen=0 still armed
+  wait 1740s seen=0 still armed
+  wait 1770s seen=0 still armed
+  wait 1800s seen=0 still armed
+  wait 1830s seen=0 still armed
+  wait 1860s seen=0 still armed
+  wait 1890s seen=0 still armed
+  wait 1920s seen=0 still armed
+  wait 1950s seen=0 still armed
+  wait 1980s seen=0 still armed
+  wait 2010s seen=0 still armed
+  wait 2040s seen=0 still armed
+  wait 2070s seen=0 still armed
+  wait 2100s seen=0 still armed
+  wait 2130s seen=0 still armed
+  wait 2160s seen=0 still armed
+  wait 2190s seen=0 still armed
+  wait 2220s seen=0 still armed
+  wait 2250s seen=0 still armed
+  wait 2280s seen=0 still armed
+  wait 2310s seen=0 still armed
+  wait 2340s seen=0 still armed
+  wait 2370s seen=0 still armed
+  wait 2400s seen=0 still armed
+  wait 2430s seen=0 still armed
+  wait 2460s seen=0 still armed
+  wait 2490s seen=0 still armed
+  wait 2520s seen=0 still armed
+  wait 2550s seen=0 still armed
+  wait 2580s seen=0 still armed
+  wait 2610s seen=0 still armed
+  wait 2640s seen=0 still armed
+  wait 2670s seen=0 still armed
+  wait 2700s seen=0 still armed
+  wait 2730s seen=0 still armed
+  wait 2760s seen=0 still armed
+  wait 2790s seen=0 still armed
+  wait 2820s seen=0 still armed
+  wait 2850s seen=0 still armed
+  wait 2880s seen=0 still armed
+  wait 2910s seen=0 still armed
+  wait 2940s seen=0 still armed
+  wait 2970s seen=0 still armed
+  wait 3000s seen=0 still armed
+  wait 3031s seen=0 still armed
+  wait 3061s seen=0 still armed
+  wait 3091s seen=0 still armed
+  wait 3121s seen=0 still armed
+  wait 3151s seen=0 still armed
+  wait 3181s seen=0 still armed
+  wait 3211s seen=0 still armed
+  wait 3241s seen=0 still armed
+  wait 3271s seen=0 still armed
+  wait 3301s seen=0 still armed
+  wait 3331s seen=0 still armed
+  wait 3361s seen=0 still armed
+  wait 3391s seen=0 still armed
+  wait 3421s seen=0 still armed
+  wait 3451s seen=0 still armed
+  wait 3481s seen=0 still armed
+  wait 3511s seen=0 still armed
+  wait 3541s seen=0 still armed
+  wait 3571s seen=0 still armed
+  wait 3601s seen=0 still armed
+  wait 3631s seen=0 still armed
+  skip not CORE010_FRAMED class=framed race_ready=1
+  wait 3661s seen=0 still armed
+  wait 3691s seen=0 still armed
+  wait 3721s seen=0 still armed
+  wait 3751s seen=0 still armed
+Terminated

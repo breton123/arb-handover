@@ -1,0 +1,91 @@
+# PUMP-ORACLE-001 held-out corpus
+# Reference-bank poststate is geyser published_s where source=geyser.
+# Incomplete AUTH (missing virtual) is FALLBACK_REQUIRED, not identity.
+# Do not invert fail-closed exact-out just to raise coverage.
+
+CASE id=scoreboard_a28f_incomplete source=geyser pre_complete=0 expect=FALLBACK_REQUIRED
+SLOT 450505766
+TXINDEX 0
+SIGHEX a28fc91ff45ce999fdd4896b6f22285716fc3981ef73edc97f63949a8b5605736d9d49e4ed944cefaea7382d4961cd2eabeba3cb8758fd719d06088c2191ef06
+POOLPRE rb=76677658655105 rq=299444518561 vq=0 lp=20 proto=5 cr=5 inc=1
+POOLPOST rb=76681480056253 rq=299428751103 vq=0 lp=20 proto=5 cr=5 inc=2
+TOKENPRE amt=76677658655105 wsol=0 inc=1
+TOKENPRE amt=299444518561 wsol=1 inc=1
+TOKENPOST amt=76681480056253 wsol=0 inc=2
+TOKENPOST amt=299428751103 wsol=1 inc=2
+IX kind=sell ain=3821401148 dir=1 pool=0 vb=0 vq=1
+END
+
+CASE id=scoreboard_a28f_certified_v source=geyser pre_complete=1 expect=FAST_CUSTOM_EXACT
+SLOT 450505766
+TXINDEX 0
+SIGHEX a28fc91ff45ce999fdd4896b6f22285716fc3981ef73edc97f63949a8b5605736d9d49e4ed944cefaea7382d4961cd2eabeba3cb8758fd719d06088c2191ef06
+POOLPRE rb=76677658655105 rq=299444518561 vq=17584505254 lp=20 proto=5 cr=5 inc=1
+POOLPOST rb=76681480056253 rq=299428751103 vq=17584505254 lp=20 proto=5 cr=5 inc=2
+TOKENPRE amt=76677658655105 wsol=0 inc=1
+TOKENPRE amt=299444518561 wsol=1 inc=1
+TOKENPOST amt=76681480056253 wsol=0 inc=2
+TOKENPOST amt=299428751103 wsol=1 inc=2
+IX kind=sell ain=3821401148 dir=1 pool=0 vb=0 vq=1
+END
+
+CASE id=scoreboard_9a32_wrong_assoc source=geyser pre_complete=1 expect=FALLBACK_REQUIRED
+SLOT 450503433
+TXINDEX 0
+SIGHEX 9a327b044567c150e24e3852f5baf73d20b60916e4e6b75a39130abf9f568f53ca36c072d7b444c519868955142bb18177d2fdb4a0d4e8683419a3f55200be0e
+POOLPRE rb=35453427037142 rq=24845397888382 vq=0 lp=20 proto=5 cr=5 inc=1
+POOLPOST rb=35393004332529 rq=24888899604600 vq=0 lp=20 proto=5 cr=5 inc=1
+IX kind=dlmm ain=86779616 dir=0 pool=0
+END
+
+CASE id=sdk_vector2_sell source=sdk pre_complete=1 expect=FAST_CUSTOM_EXACT
+SLOT 2
+TXINDEX 0
+POOLPRE rb=630516942543821 rq=758566722754392 vq=0 lp=15 proto=38 cr=29 inc=1
+POOLPOST rb=631183448831507 rq=757766905986314 vq=0 lp=15 proto=38 cr=29 inc=2
+TOKENPRE amt=630516942543821 wsol=0 inc=1
+TOKENPRE amt=758566722754392 wsol=1 inc=1
+TOKENPOST amt=631183448831507 wsol=0 inc=2
+TOKENPOST amt=757766905986314 wsol=1 inc=2
+IX kind=sell ain=666506287686 dir=1 pool=0 vb=0 vq=1
+END
+
+CASE id=spec_wrap_sync_sell source=spec pre_complete=1 expect=FAST_CUSTOM_EXACT
+SLOT 9
+TXINDEX 4
+POOLPRE rb=1000000 rq=1000000 vq=0 lp=20 proto=0 cr=0 inc=1
+POOLPOST rb=1000100 rq=999902 vq=0 lp=20 proto=0 cr=0 inc=2
+TOKENPRE amt=1000 wsol=0 mint=1 inc=1
+TOKENPRE amt=0 native=0 wsol=1 mint=2 inc=1
+TOKENPRE amt=1000000 wsol=0 mint=1 inc=1
+TOKENPRE amt=1000000 wsol=1 mint=2 inc=1
+TOKENPOST amt=900 wsol=0 mint=1 inc=2
+TOKENPOST amt=1098 native=1000 wsol=1 mint=2 inc=2
+TOKENPOST amt=1000100 wsol=0 mint=1 inc=2
+TOKENPOST amt=999902 wsol=1 mint=2 inc=2
+SYSPRE lam=5000 inc=1
+SYSPOST lam=4000 inc=2
+IX kind=sys ain=1000 ss=0 dst=1
+IX kind=sync src=1
+IX kind=sell ain=100 dir=1 pool=0 src=0 dst=1 vb=2 vq=3
+END
+
+CASE id=unknown_pump_disc source=spec pre_complete=1 expect=UNKNOWN
+SLOT 3
+TXINDEX 0
+POOLPRE rb=1000000 rq=1000000 vq=0 lp=20 proto=5 cr=0 inc=1
+POOLPOST rb=1000000 rq=1000000 vq=0 lp=20 proto=5 cr=0 inc=1
+IX kind=other ain=1 dir=1 pool=0
+END
+
+CASE id=token2022_extensions source=spec pre_complete=1 expect=UNKNOWN
+SLOT 4
+TXINDEX 0
+POOLPRE rb=1000000 rq=1000000 vq=0 lp=20 proto=0 cr=0 inc=1
+POOLPOST rb=1000000 rq=1000000 vq=0 lp=20 proto=0 cr=0 inc=1
+TOKENPRE amt=10 ext=1 inc=1
+TOKENPRE amt=0 inc=1
+TOKENPOST amt=10 ext=1 inc=1
+TOKENPOST amt=0 inc=1
+IX kind=xfer ain=1 src=0 dst=1
+END

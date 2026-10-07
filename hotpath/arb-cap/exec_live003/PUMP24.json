@@ -1,0 +1,51 @@
+{
+  "modal_n": 24,
+  "instruction": "sell",
+  "discriminator": "33e685a4017f83ad",
+  "pair_pump": "BRjMA8UALNp3diTKHfdeAn5riQrYPoaYez7KhYWD4oEs",
+  "pair_sell_sig": "2mp43MFRqQ2c9SwG",
+  "accounts": {
+    "21_pool_v2": {
+      "role": "pool_v2",
+      "derivation": "PDA seeds [\"pool-v2\", base_mint] program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+      "observed": "GQy76sRyN9GfBZUhK7nQ7BayWBaxGf6j7jNd9o2yQKKJ",
+      "owner": null,
+      "writable": false,
+      "varies_by": "base_mint (per pool)"
+    },
+    "22_fee_recipient": {
+      "role": "fee_recipient",
+      "derivation": "not a pool PDA; one of 8 official buyback recipients (BREAKING_FEE_RECIPIENT.md)",
+      "observed_on_pair": "5cjcW9wExnJJiqgLjq7DEG75Pm6JBgE1hNv4B2vHXUW6",
+      "authorized_any_of": [
+        "5YxQFdt3Tr9zJLvkFccqXVUwhdTWJQc1fFg2YPbxvxeD",
+        "9M4giFFMxmFGXtc3feFzRai56WbBqehoSeRE5GK7gf7",
+        "GXPFM2caqTtQYC2cJ5yJRi9VDkpsYZXzYdwYpGnLmtDL",
+        "3BpXnfJaUTiwXnJNe7Ej1rcbzqTTQUvLShZaWazebsVR",
+        "5cjcW9wExnJJiqgLjq7DEG75Pm6JBgE1hNv4B2vHXUW6",
+        "EHAAiTxcdDwQ3U4bU6YcMsQGaekdzLS3B5SmYo46kJtL",
+        "5eHhjP8JaYkz83CWwvGU2uMUXefd3AazWGx4gpcuEEYD",
+        "A7hAgCzFw14fejgCp387JUJRMNyz4j89JKnhtKU8piqW"
+      ],
+      "owner": "pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ",
+      "writable": false,
+      "token_program": null,
+      "varies_by": "chosen recipient among the 8; not by pool/config otherwise"
+    },
+    "23_fee_recipient_quote": {
+      "role": "fee_recipient_quote",
+      "derivation": "ATA(fee_recipient, quote_mint, quote_token_program)",
+      "observed_on_pair": "GYH1Gae1wJytMSvMvw8JVcv7nuAbxi8i9erNVbERnzXd",
+      "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "writable": true,
+      "mint": "So11111111111111111111111111111111111111112",
+      "token_program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "varies_by": "quote mint + chosen recipient; route0 quote is always WSOL"
+    }
+  },
+  "n23_note": "n=23 omits pool_v2 when coin_creator is default or inverted SOL-base pools. Route0 PAIR_PUMP is n=24.",
+  "abi": {
+    "PUMP_N": 24,
+    "total_metas": 60
+  }
+}

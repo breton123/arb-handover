@@ -1,0 +1,19 @@
+[package]
+name = "tx-features-cli"
+version = "1.0.0"
+edition = "2021"
+description = "Historical JSONL adapter for the framed-tx-v1 encoder"
+publish = false
+
+[[bin]]
+name = "tx-features"
+path = "src/main.rs"
+
+[dependencies]
+tx-features = { path = "../tx-features", features = ["bench-harness"] }
+clap = { version = "4.5", features = ["derive"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+arrow-array = "55"
+arrow-schema = "55"
+parquet = { version = "55", features = ["snap"] }

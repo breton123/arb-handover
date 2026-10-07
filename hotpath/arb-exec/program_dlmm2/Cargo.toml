@@ -1,0 +1,21 @@
+[package]
+name = "dlmm2"
+version = "0.1.0"
+edition = "2021"
+description = "FAM-6 — atomic DLMM→DLMM. Does not replace OUR_EXEC."
+publish = false
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "dlmm2"
+
+[dependencies]
+pinocchio = { version = "0.8", default-features = false }
+
+[profile.release]
+lto = true
+codegen-units = 1
+opt-level = "z"
+overflow-checks = false
+panic = "abort"
+strip = true

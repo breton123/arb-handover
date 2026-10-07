@@ -1,0 +1,102 @@
+syntax = "proto3";
+
+package searcher;
+
+import "bundle.proto";
+import "packet.proto";
+
+import "google/protobuf/timestamp.proto";
+
+message SlotList {
+    repeated uint64 slots = 1;
+}
+
+message SendBundleRequest {
+    bundle.Bundle bundle = 1;
+
+    // FLOWRA EXTENSION ??? dry run. The bundle is simulated against the leader's bank and the
+    // full report is returned inline, but it never enters the auction and is never broadcast.
+    // Nothing is spent and nothing can land, so a searcher can verify a pricing formula against
+    // live on-chain state as often as it likes. Ignored by (and absent from) upstream Jito.
+    bool simulate_only = 2;
+}
+
+message SendBundleResponse {
+    // server uuid for the bundle
+    string uuid = 1;
+
+    // FLOWRA EXTENSION ??? populated only when the request set `simulate_only`.
+    // True if every transaction executed cleanly.
+    bool simulated_ok = 2;
+    // Bundle-level failure reason, as JSON; empty when `simulated_ok`.
+    string simulation_err = 3;
+    // Per-transaction detail in bundle order: logs, units consumed, token balances, and the
+    // pre/post state of every account the transaction write-locks.
+    repeated bundle.SimulatedTransaction simulation = 4;
+    // Set when simulation could not be run at all (RPC unavailable) ??? the bundle was neither
+    // proven good nor proven bad.
+    bool simulation_skipped = 5;
+}
+
+message SubscribeBundleResultsRequest {}
+
+message PendingTxSubscriptionRequest {
+    // list of accounts to subscribe to
+    // NOTE: the block-engine will only forward transactions that write lock the provided accounts here.
+    repeated string accounts = 1;
+}
+
+message PendingTxNotification {
+    // server-side timestamp the transactions were generated at (for debugging/profiling purposes)
+    google.protobuf.Timestamp server_side_ts = 1;
+    // expiration time of the packet
+    google.protobuf.Timestamp expiration_time = 2;
+    // list of pending transactions
+    repeated packet.Packet transactions = 3;
+}
+
+message NextScheduledLeaderRequest {}
+
+message NextScheduledLeaderResponse {
+    // the current slot the backend is on
+    uint64 current_slot = 1;
+
+    // the slot and identity of the next leader
+    uint64 next_leader_slot = 2;
+    string next_leader_identity = 3;
+}
+
+message ConnectedLeadersRequest {}
+
+message ConnectedLeadersResponse {
+    map<string, SlotList> connected_validators = 1;
+}
+
+message GetTipAccountsRequest {}
+
+message GetTipAccountsResponse {
+    repeated string accounts = 1;
+}
+
+service SearcherService {
+    // RPC endpoint to subscribe to pending transactions. Clients can provide a list of base58 encoded accounts.
+    // Any transactions that write-lock the provided accounts will be streamed to the searcher.
+    rpc SubscribePendingTransactions (PendingTxSubscriptionRequest) returns (stream PendingTxNotification) {}
+
+    rpc SendBundle (SendBundleRequest) returns (SendBundleResponse) {}
+
+    // Streams the terminal fate of every bundle this searcher submits: rejected at simulation
+    // (with the program's own error and logs), lost the auction, superseded by a bundle already
+    // carrying one of its signatures, accepted, or processed in a block. Wire-compatible with
+    // Jito's rpc of the same name.
+    rpc SubscribeBundleResults (SubscribeBundleResultsRequest) returns (stream bundle.BundleResult) {}
+
+    // Returns the next scheduled leader connected to the block engine.
+    rpc GetNextScheduledLeader (NextScheduledLeaderRequest) returns (NextScheduledLeaderResponse) {}
+
+    // Returns information on connected leader slots
+    rpc GetConnectedLeaders (ConnectedLeadersRequest) returns (ConnectedLeadersResponse) {}
+
+    // Returns the tip accounts searchers shall transfer funds to for the leader to claim.
+    rpc GetTipAccounts (GetTipAccountsRequest) returns (GetTipAccountsResponse) {}
+}

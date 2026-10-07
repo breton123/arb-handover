@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+
+package shared;
+
+message Header {
+    google.protobuf.Timestamp ts = 1;
+}
+
+message Heartbeat {
+    uint64 count = 1;
+}
+
+message Socket {
+    string ip = 1;
+    int64 port = 2;
+}
+
+message PbpPolicy {
+    bool allow_aggressive_mev = 1;
+    repeated string searcher_whitelist = 2;
+    repeated string address_blacklist = 3;
+    repeated string program_blacklist = 4;
+    repeated string program_allowlist = 5;
+    repeated string force_priority_searchers = 6;
+    repeated CategoryQuota category_quotas = 7;
+    repeated InstructionRule instruction_blacklist = 8;
+}
+
+message CategoryQuota {
+    string name = 1;
+    uint32 pct = 2;
+    repeated string program_ids = 3;
+}
+
+message InstructionRule {
+    string program_id = 1;
+    repeated string data_prefixes = 2;
+}
+
+message ProvidePbpPolicyResponse {
+    bool accepted = 1;
+    string policy_digest = 2;
+}

@@ -1,0 +1,84 @@
+read  /home/louis/captures/shredstream-20260923-231015.cap
+read  /home/louis/captures/shredstream-20260923-231544.cap
+read  /home/louis/captures/shredstream-20260923-231941.cap
+read  /home/louis/captures/shredstream-20260923-232412.cap
+read  /home/louis/captures/shredstream-20260923-232831.cap
+read  /home/louis/captures/shredstream-20260923-233304.cap
+read  /home/louis/captures/shredstream-20260923-233720.cap
+read  /home/louis/captures/shredstream-20260923-234139.cap
+read  /home/louis/captures/shredstream-20260923-234545.cap
+read  /home/louis/captures/shredstream-20260923-234956.cap
+read  /home/louis/captures/shredstream-20260923-235414.cap
+read  /home/louis/captures/shredstream-20260923-235818.cap
+read  /home/louis/captures/shredstream-20260924-000215.cap
+read  /home/louis/captures/shredstream-20260924-000609.cap
+read  /home/louis/captures/shredstream-20260924-000953.cap
+read  /home/louis/captures/shredstream-20260924-001409.cap
+read  /home/louis/captures/shredstream-20260924-001754.cap
+read  /home/louis/captures/shredstream-20260924-002201.cap
+read  /home/louis/captures/shredstream-20260924-002616.cap
+read  /home/louis/captures/shredstream-20260924-003055.cap
+read  /home/louis/captures/shredstream-20260924-003534.cap
+read  /home/louis/captures/shredstream-20260924-004028.cap
+read  /home/louis/captures/shredstream-20260924-004444.cap
+read  /home/louis/captures/shredstream-20260924-004924.cap
+read  /home/louis/captures/shredstream-20260924-005353.cap
+read  /home/louis/captures/shredstream-20260924-005811.cap
+read  /home/louis/captures/shredstream-20260924-010215.cap
+read  /home/louis/captures/shredstream-20260924-010650.cap
+read  /home/louis/captures/shredstream-20260924-011030.cap
+read  /home/louis/captures/shredstream-20260924-011459.cap
+read  /home/louis/captures/shredstream-20260924-011947.cap
+read  /home/louis/captures/shredstream-20260924-012423.cap
+read  /home/louis/captures/shredstream-20260924-012908.cap
+read  /home/louis/captures/shredstream-20260924-013348.cap
+read  /home/louis/captures/shredstream-20260924-013806.cap
+read  /home/louis/captures/shredstream-20260924-014236.cap
+read  /home/louis/captures/shredstream-20260924-014722.cap
+read  /home/louis/captures/shredstream-20260924-015207.cap
+read  /home/louis/captures/shredstream-20260924-015633.cap
+read  /home/louis/captures/shredstream-20260924-020111.cap
+read  /home/louis/captures/shredstream-20260924-020533.cap
+read  /home/louis/captures/shredstream-20260924-021015.cap
+read  /home/louis/captures/shredstream-20260924-021454.cap
+read  /home/louis/captures/shredstream-20260924-021947.cap
+universe DLMM+Pump   pools=23  routes=72
+universe +CLMM       pools=31  routes=174
+universe +CPMM       pools=39  routes=320
+universe +DAMM       pools=47  routes=510
+universe +Orca       pools=55  routes=744
+CAP-009  n_ids=6  tsc_hz=4194082866
+shred_ok           74688597
+framed             625580
+apply_ok           625580
+eval_ok            625580
+opp_valid          625580
+signed             625580
+leader_stub        625580
+framed_dlmm         22473
+framed_pump         296468
+framed_clmm         10799
+framed_cpmm         10371
+framed_damm         276546
+framed_orca         8923
+rel_ids2..6        5342080 5866737 6045571 6727547 6908007
+
+classifier  (all shreds, hist p50/p99 cycles)
+IDs   n            p50    p99    mean
+2     74688597       340    460    332
+3     74688597       380    588    402
+4     74688597       460    676    454
+5     74688597       548    796    542
+6     74688597       588    884    581
+
+actionable -> opp     n=625580  p50=28800 ns  p99=47907 ns  p999=50080 ns
+actionable -> signed  n=625580  p50=43651 ns  p99=62978 ns  p999=66023 ns
+
+Universe            Pools  Routes      p50     p99    p999
+DLMM+Pump             23      72    2974 ns   3304 ns   6989 ns
++CLMM                 31     174    4736 ns   5768 ns   8982 ns
++CPMM                 39     320    6348 ns   7630 ns  10705 ns
++DAMM                 47     510    7871 ns  10284 ns  12297 ns
++Orca                 55     744    9513 ns  12998 ns  14540 ns
+STOP  eval p50 scaled with universe. Diagnose.
+STOP  p50 left 20us-class. Diagnose before adding venues.

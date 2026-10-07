@@ -1,0 +1,27 @@
+{
+  "kind": "pump",
+  "bucket": "wrong_transaction_association",
+  "direction": 0,
+  "amount_in": 86779616,
+  "slot": 450503433,
+  "trigger_sig": "9a327b044567c150e24e3852f5baf73d20b60916e4e6b75a39130abf9f568f53ca36c072d7b444c519868955142bb18177d2fdb4a0d4e8683419a3f55200be0e",
+  "pool": "Bof2XL9zAbLZ15kzAXcXy39wDeZFgKwyvb3UVkv3FhsX",
+  "s_before": {
+    "kind": "pump",
+    "reserve_base": 35453427037142,
+    "reserve_quote": 24845397888382,
+    "lp_fee_bps": 20,
+    "protocol_fee_bps": 5,
+    "creator_fee_bps": 5,
+    "disabled": 0
+  },
+  "published_s": {
+    "kind": "pump",
+    "reserve_base": 35393004332529,
+    "reserve_quote": 24888899604600,
+    "lp_fee_bps": 20,
+    "protocol_fee_bps": 5,
+    "creator_fee_bps": 5,
+    "disabled": 0
+  }
+}

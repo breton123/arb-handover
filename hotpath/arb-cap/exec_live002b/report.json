@@ -1,0 +1,359 @@
+{
+  "wallet": "HHNzjTABPAbPY5uEXU7NTvfmcD9RYTdXtLntyKAtpXLX",
+  "our_exec": "38dsYLgtLkHKDMYNBemkEM3WkvZSUo3RvxZSm7eMDj4K",
+  "our_exec_executable": true,
+  "alt": "A3y4efDfkbJGF4QJtScfQAwubm2BzpTauAbZ8ohAHMgn",
+  "tx_len": 626,
+  "wire_max": 1232,
+  "margin": 606,
+  "tiny_in": 10000,
+  "min_profit": 1000000000,
+  "optional_none": {
+    "bitmap": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "host_fee": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo"
+  },
+  "fee_cfg": "5PHirr8joyTMp9JMm6nW7hNDVyEYdkzDqazxPD7RaTjx",
+  "fee_recipient": "5cjcW9wExnJJiqgLjq7DEG75Pm6JBgE1hNv4B2vHXUW6",
+  "fee_recipient_quote": "GYH1Gae1wJytMSvMvw8JVcv7nuAbxi8i9erNVbERnzXd",
+  "logical_order_unchanged": true,
+  "missing": [
+    {
+      "i": 32,
+      "name": "pump_creator_auth",
+      "pubkey": "F2Ne1XNs5f7LQNBdfB5WE69AGunwjAa6akdVGfVXiZxY",
+      "exists": false,
+      "owner": null,
+      "dlen": 0
+    },
+    {
+      "i": 33,
+      "name": "pump_global_vol",
+      "pubkey": "GQy76sRyN9GfBZUhK7nQ7BayWBaxGf6j7jNd9o2yQKKJ",
+      "exists": false,
+      "owner": null,
+      "dlen": 0
+    },
+    {
+      "i": 34,
+      "name": "pump_user_vol",
+      "pubkey": "GWMcD1Hj5DY8eXK61TQUQBCKRutww1uJD8wAEMfHwhhc",
+      "exists": false,
+      "owner": null,
+      "dlen": 0
+    }
+  ],
+  "accounts": [
+    {
+      "i": 0,
+      "name": "authority",
+      "pubkey": "HHNzjTABPAbPY5uEXU7NTvfmcD9RYTdXtLntyKAtpXLX",
+      "exists": true,
+      "owner": "11111111111111111111111111111111",
+      "dlen": 0
+    },
+    {
+      "i": 1,
+      "name": "user_quote",
+      "pubkey": "4oxQXFMdj5wsBqCn9M4wnP48c3aMhCZnAS3zdSXHWNB6",
+      "exists": true,
+      "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "dlen": 165
+    },
+    {
+      "i": 2,
+      "name": "user_base",
+      "pubkey": "8tna1fc2r5fGHvYJAgKAJ61pg7pyiCps36se9gGTwQWA",
+      "exists": true,
+      "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "dlen": 170
+    },
+    {
+      "i": 3,
+      "name": "token_program",
+      "pubkey": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "exists": true,
+      "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "dlen": 36
+    },
+    {
+      "i": 4,
+      "name": "system_program",
+      "pubkey": "11111111111111111111111111111111",
+      "exists": true,
+      "owner": "NativeLoader1111111111111111111111111111111",
+      "dlen": 21
+    },
+    {
+      "i": 5,
+      "name": "ata_program",
+      "pubkey": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+      "exists": true,
+      "owner": "BPFLoader2111111111111111111111111111111111",
+      "dlen": 105032
+    },
+    {
+      "i": 6,
+      "name": "memo_program",
+      "pubkey": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr",
+      "exists": true,
+      "owner": "BPFLoader2111111111111111111111111111111111",
+      "dlen": 74800
+    },
+    {
+      "i": 7,
+      "name": "dlmm_program",
+      "pubkey": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+      "exists": true,
+      "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "dlen": 36
+    },
+    {
+      "i": 8,
+      "name": "dlmm_event_auth",
+      "pubkey": "D1ZN9Wj1fRSUQfCjhvnu1hqDMT7hzjzBBpi12nVniYD6",
+      "exists": true,
+      "owner": "11111111111111111111111111111111",
+      "dlen": 0
+    },
+    {
+      "i": 9,
+      "name": "dlmm_lb_pair",
+      "pubkey": "DAErPzgiYQDhDwpMRgdvikXaZmnmznc3du3jy9i1AABk",
+      "exists": true,
+      "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+      "dlen": 904
+    },
+    {
+      "i": 10,
+      "name": "dlmm_bitmap",
+      "pubkey": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+      "exists": true,
+      "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "dlen": 36
+    },
+    {
+      "i": 11,
+      "name": "dlmm_reserve_x",
+      "pubkey": "FHqRhBnUvfwWw7Z7jv1uQozyXTe8NQk2XyriqtoQVtKm",
+      "exists": true,
+      "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "dlen": 165
+    },
+    {
+      "i": 12,
+      "name": "dlmm_reserve_y",
+      "pubkey": "AKof5E5wD5urqThcUauhPrVtPPCBeUYwfhxj2xbpNmPM",
+      "exists": true,
+      "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "dlen": 165
+    },
+    {
+      "i": 13,
+      "name": "dlmm_oracle",
+      "pubkey": "8PJt4dPCQpQ3v64nnpCQRuvG6TmNWWxs3JriTjxddECC",
+      "exists": true,
+      "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+      "dlen": 3232
+    },
+    {
+      "i": 14,
+      "name": "dlmm_host_fee",
+      "pubkey": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+      "exists": true,
+      "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "dlen": 36
+    },
+    {
+      "i": 15,
+      "name": "dlmm_token_x_mint",
+      "pubkey": "7GUnr7krtQhJwd6ASY2VUprd9t4c64zcgCsjdmZepump",
+      "exists": true,
+      "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "dlen": 405
+    },
+    {
+      "i": 16,
+      "name": "dlmm_token_y_mint",
+      "pubkey": "So11111111111111111111111111111111111111112",
+      "exists": true,
+      "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "dlen": 82
+    },
+    {
+      "i": 17,
+      "name": "dlmm_bin_0",
+      "pubkey": "FQPcARWxbMLse4rPL5DCi5ySULbkGvfSUr2dPpTUC9LB",
+      "exists": true,
+      "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+      "dlen": 10136
+    },
+    {
+      "i": 18,
+      "name": "dlmm_bin_1",
+      "pubkey": "FS5mQjcivuwSy6wfzKQvsWCjw4uht1cs8K8wRB42dtiQ",
+      "exists": true,
+      "owner": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+      "dlen": 10136
+    },
+    {
+      "i": 19,
+      "name": "pump_program",
+      "pubkey": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+      "exists": true,
+      "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "dlen": 36
+    },
+    {
+      "i": 20,
+      "name": "pump_event_auth",
+      "pubkey": "GS4CU59F31iL7aR2Q8zVS8DRrcRnXX1yjQ66TqNVQnaR",
+      "exists": true,
+      "owner": "11111111111111111111111111111111",
+      "dlen": 0
+    },
+    {
+      "i": 21,
+      "name": "pump_pool",
+      "pubkey": "BRjMA8UALNp3diTKHfdeAn5riQrYPoaYez7KhYWD4oEs",
+      "exists": true,
+      "owner": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+      "dlen": 301
+    },
+    {
+      "i": 22,
+      "name": "pump_global",
+      "pubkey": "ADyA8hdefvWN2dbGGWFotbzWxrAvLW83WG6QCVXvJKqw",
+      "exists": true,
+      "owner": "pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA",
+      "dlen": 949
+    },
+    {
+      "i": 23,
+      "name": "pump_fee_config",
+      "pubkey": "5PHirr8joyTMp9JMm6nW7hNDVyEYdkzDqazxPD7RaTjx",
+      "exists": true,
+      "owner": "pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ",
+      "dlen": 4097
+    },
+    {
+      "i": 24,
+      "name": "pump_fee_program",
+      "pubkey": "pfeeUxB6jkeY1Hxd7CsFCAjcbHA9rWtchMGdZ6VojVZ",
+      "exists": true,
+      "owner": "BPFLoaderUpgradeab1e11111111111111111111111",
+      "dlen": 36
+    },
+    {
+      "i": 25,
+      "name": "pump_base_mint",
+      "pubkey": "7GUnr7krtQhJwd6ASY2VUprd9t4c64zcgCsjdmZepump",
+      "exists": true,
+      "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "dlen": 405
+    },
+    {
+      "i": 26,
+      "name": "pump_quote_mint",
+      "pubkey": "So11111111111111111111111111111111111111112",
+      "exists": true,
+      "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "dlen": 82
+    },
+    {
+      "i": 27,
+      "name": "pump_pool_base",
+      "pubkey": "FK1n9CbrtSZi4MgCdaJDmeA2WzdticQNkzR3DZjvSGxt",
+      "exists": true,
+      "owner": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "dlen": 170
+    },
+    {
+      "i": 28,
+      "name": "pump_pool_quote",
+      "pubkey": "B5gyrrq2Bj76hhzZEN9v46mC4NBc4G869BPtKs21QepS",
+      "exists": true,
+      "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "dlen": 165
+    },
+    {
+      "i": 29,
+      "name": "pump_proto_fee",
+      "pubkey": "7hTckgnGnLQR6sdH7YkqFTAA7VwTfYFaZ6EhEsU3saCX",
+      "exists": true,
+      "owner": "11111111111111111111111111111111",
+      "dlen": 0
+    },
+    {
+      "i": 30,
+      "name": "pump_proto_fee_ata",
+      "pubkey": "X5QPJcpph4mBAJDzc4hRziFftSbcygV59kRb2Fu6Je1",
+      "exists": true,
+      "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "dlen": 165
+    },
+    {
+      "i": 31,
+      "name": "pump_creator_ata",
+      "pubkey": "75mhQAcZeGKiL3wcuuVjTjg2SHJewZuQpd59ukiG24yv",
+      "exists": true,
+      "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "dlen": 165
+    },
+    {
+      "i": 32,
+      "name": "pump_creator_auth",
+      "pubkey": "F2Ne1XNs5f7LQNBdfB5WE69AGunwjAa6akdVGfVXiZxY",
+      "exists": false,
+      "owner": null,
+      "dlen": 0
+    },
+    {
+      "i": 33,
+      "name": "pump_global_vol",
+      "pubkey": "GQy76sRyN9GfBZUhK7nQ7BayWBaxGf6j7jNd9o2yQKKJ",
+      "exists": false,
+      "owner": null,
+      "dlen": 0
+    },
+    {
+      "i": 34,
+      "name": "pump_user_vol",
+      "pubkey": "GWMcD1Hj5DY8eXK61TQUQBCKRutww1uJD8wAEMfHwhhc",
+      "exists": false,
+      "owner": null,
+      "dlen": 0
+    }
+  ],
+  "simulate": {
+    "err": {
+      "InstructionError": [
+        2,
+        {
+          "Custom": 6001
+        }
+      ]
+    },
+    "cu": 50130,
+    "logs": [
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program ComputeBudget111111111111111111111111111111 invoke [1]",
+      "Program ComputeBudget111111111111111111111111111111 success",
+      "Program 38dsYLgtLkHKDMYNBemkEM3WkvZSUo3RvxZSm7eMDj4K invoke [1]",
+      "Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA invoke [2]",
+      "Program log: Instruction: BuyExactQuoteIn",
+      "Program 11111111111111111111111111111111 invoke [3]",
+      "Program 11111111111111111111111111111111 success",
+      "Program log: AnchorError thrown in programs/pump-amm/src/instructions/swap/buy.rs:599. Error Code: ZeroBaseAmount. Error Number: 6001. Error Message: ZeroBaseAmount.",
+      "Program log: Left: 0",
+      "Program log: Right: 0",
+      "Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA consumed 42968 of 392838 compute units",
+      "Program pAMMBay6oceH9fJKBRHGP5D4bD4sWpmSwMn52FMfXEA failed: custom program error: 0x1771",
+      "Program 38dsYLgtLkHKDMYNBemkEM3WkvZSUo3RvxZSm7eMDj4K consumed 49830 of 399700 compute units",
+      "Program 38dsYLgtLkHKDMYNBemkEM3WkvZSUo3RvxZSm7eMDj4K failed: custom program error: 0x1771"
+    ],
+    "inner": 1,
+    "accepted": true
+  },
+  "note": "OUR_EXEC not on-chain until loader-v3 deploy. Packet-accept is the 002B gate."
+}

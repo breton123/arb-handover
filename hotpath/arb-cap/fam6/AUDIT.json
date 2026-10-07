@@ -1,0 +1,20 @@
+{
+  "compiled": 1530,
+  "searchable": 1530,
+  "state": 1530,
+  "executable": 1530,
+  "templates": 1530,
+  "alt_ata_ready": 0,
+  "RACE_READY": 0,
+  "EXEC_MISSING": 0,
+  "family255": 0,
+  "size_ok": 1530,
+  "size_over": 0,
+  "sim_custom6": [
+    "dlmm-dlmm",
+    "dlmm-pump",
+    "pump-dlmm"
+  ],
+  "program": "CnddPhKV1fnKE7ic5nSJcoVq2XFmQ9daE3tuqc2u6qTt",
+  "complete": false
+}

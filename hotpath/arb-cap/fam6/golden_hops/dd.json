@@ -1,0 +1,338 @@
+{
+  "seq": "dlmm-dlmm",
+  "id": 0,
+  "custom6": true,
+  "cu": 81777,
+  "alt": false,
+  "n_acc": 29,
+  "keys": [
+    "HHNzjTABPAbPY5uEXU7NTvfmcD9RYTdXtLntyKAtpXLX",
+    "4oxQXFMdj5wsBqCn9M4wnP48c3aMhCZnAS3zdSXHWNB6",
+    "EBXYGdhNHkmqC1MNmkU8qSig5Q2F3h42QE1whaku5iQv",
+    "4oxQXFMdj5wsBqCn9M4wnP48c3aMhCZnAS3zdSXHWNB6",
+    "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+    "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr",
+    "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "D1ZN9Wj1fRSUQfCjhvnu1hqDMT7hzjzBBpi12nVniYD6",
+    "ET9QEc18XnEXNyz8ZuGkJfgSuDDqLDiA1U8bEpyuyLKC",
+    "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "4PLsWBzvQghc2ao3abNJAkqwQGYHCTExyBmZHH4t3ELw",
+    "5CzjZm5gf953322794p83YQeG99siMPN3Wujf1UUTSiR",
+    "9AXKMoe7MsnhzpKkuReQejdMshPDbB2nJNabzrG4jWcj",
+    "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "2PENPmfgJfq6CG3k4byj4oWwHf8SerqakmYHMkUupump",
+    "So11111111111111111111111111111111111111112",
+    "5q9pSTmC4nezqVtsoKxz3ucp8rApQXq9VWzReY5pt9na",
+    "65qNFYojuT7do7VMsc1HB9aJp6c52hp1N9kXkBnmaBwE",
+    "4MjpgAT7H8GmWsZDUaeGUNZwjur8n8sKCSPHHjQRE4sm",
+    "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "94cexLAjz5v114B9GUa1cseRdUX58HZdKb4TxA7DrXUd",
+    "4djX7qQEo514o5DnCof5siuYiajTck55GXRKdHAdyugG",
+    "3pX6LdgLzPgELk5erxEGnA5Dj3BT2YwLBKHkZB42RJsW",
+    "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+    "2PENPmfgJfq6CG3k4byj4oWwHf8SerqakmYHMkUupump",
+    "So11111111111111111111111111111111111111112",
+    "3miNycPjjXCXDy7zxtQjq2XX2Q7hJqyrie8tR3MPd9kU",
+    "Eka9ttLFv2izG8kSViayTAbbZnnJee26TyyFTGap8toy"
+  ],
+  "shared": [
+    {
+      "role": "authority",
+      "pubkey": "HHNzjTABPAbPY5uEXU7NTvfmcD9RYTdXtLntyKAtpXLX",
+      "writable": true,
+      "signer": true,
+      "token_program": null,
+      "alt_or_static": "static"
+    },
+    {
+      "role": "user0",
+      "pubkey": "4oxQXFMdj5wsBqCn9M4wnP48c3aMhCZnAS3zdSXHWNB6",
+      "writable": true,
+      "signer": false,
+      "token_program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "alt_or_static": "alt"
+    },
+    {
+      "role": "user1",
+      "pubkey": "EBXYGdhNHkmqC1MNmkU8qSig5Q2F3h42QE1whaku5iQv",
+      "writable": true,
+      "signer": false,
+      "token_program": null,
+      "alt_or_static": "alt"
+    },
+    {
+      "role": "user2",
+      "pubkey": "4oxQXFMdj5wsBqCn9M4wnP48c3aMhCZnAS3zdSXHWNB6",
+      "writable": true,
+      "signer": false,
+      "token_program": null,
+      "alt_or_static": "alt"
+    },
+    {
+      "role": "tokenkeg",
+      "pubkey": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+      "writable": false,
+      "signer": false,
+      "token_program": null,
+      "alt_or_static": "static"
+    },
+    {
+      "role": "token2022",
+      "pubkey": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+      "writable": false,
+      "signer": false,
+      "token_program": null,
+      "alt_or_static": "static"
+    },
+    {
+      "role": "memo",
+      "pubkey": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr",
+      "writable": false,
+      "signer": false,
+      "token_program": null,
+      "alt_or_static": "static"
+    },
+    {
+      "role": "dlmm_prog",
+      "pubkey": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+      "writable": false,
+      "signer": false,
+      "token_program": null,
+      "alt_or_static": "static"
+    },
+    {
+      "role": "dlmm_event",
+      "pubkey": "D1ZN9Wj1fRSUQfCjhvnu1hqDMT7hzjzBBpi12nVniYD6",
+      "writable": false,
+      "signer": false,
+      "token_program": null,
+      "alt_or_static": "alt"
+    }
+  ],
+  "hops": [
+    {
+      "venue": "dlmm",
+      "direction": "swap2",
+      "pool": "ET9QEc18XnEXNyz8ZuGkJfgSuDDqLDiA1U8bEpyuyLKC",
+      "active_id": -518,
+      "bin0_index": -8,
+      "bin1_index": -7,
+      "bumps": {
+        "oracle": 255,
+        "bin0": 255,
+        "bin1": 255
+      },
+      "seeds": {
+        "oracle": [
+          "oracle",
+          "ET9QEc18XnEXNyz8ZuGkJfgSuDDqLDiA1U8bEpyuyLKC"
+        ],
+        "bin0": [
+          "bin_array",
+          "ET9QEc18XnEXNyz8ZuGkJfgSuDDqLDiA1U8bEpyuyLKC",
+          -8
+        ],
+        "bin1": [
+          "bin_array",
+          "ET9QEc18XnEXNyz8ZuGkJfgSuDDqLDiA1U8bEpyuyLKC",
+          -7
+        ]
+      },
+      "accounts": [
+        {
+          "role": "lb_pair",
+          "pubkey": "ET9QEc18XnEXNyz8ZuGkJfgSuDDqLDiA1U8bEpyuyLKC",
+          "writable": true,
+          "signer": false,
+          "token_program": null,
+          "alt_or_static": "alt"
+        },
+        {
+          "role": "bitmap",
+          "pubkey": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+          "writable": false,
+          "signer": false,
+          "token_program": null,
+          "alt_or_static": "static"
+        },
+        {
+          "role": "vault_x",
+          "pubkey": "4PLsWBzvQghc2ao3abNJAkqwQGYHCTExyBmZHH4t3ELw",
+          "writable": true,
+          "signer": false,
+          "token_program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+          "alt_or_static": "alt"
+        },
+        {
+          "role": "vault_y",
+          "pubkey": "5CzjZm5gf953322794p83YQeG99siMPN3Wujf1UUTSiR",
+          "writable": true,
+          "signer": false,
+          "token_program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "alt_or_static": "alt"
+        },
+        {
+          "role": "oracle",
+          "pubkey": "9AXKMoe7MsnhzpKkuReQejdMshPDbB2nJNabzrG4jWcj",
+          "writable": true,
+          "signer": false,
+          "token_program": null,
+          "alt_or_static": "alt"
+        },
+        {
+          "role": "host",
+          "pubkey": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+          "writable": false,
+          "signer": false,
+          "token_program": null,
+          "alt_or_static": "static"
+        },
+        {
+          "role": "mint_x",
+          "pubkey": "2PENPmfgJfq6CG3k4byj4oWwHf8SerqakmYHMkUupump",
+          "writable": false,
+          "signer": false,
+          "token_program": null,
+          "alt_or_static": "alt"
+        },
+        {
+          "role": "mint_y",
+          "pubkey": "So11111111111111111111111111111111111111112",
+          "writable": false,
+          "signer": false,
+          "token_program": null,
+          "alt_or_static": "alt"
+        },
+        {
+          "role": "bin0",
+          "pubkey": "5q9pSTmC4nezqVtsoKxz3ucp8rApQXq9VWzReY5pt9na",
+          "writable": true,
+          "signer": false,
+          "token_program": null,
+          "alt_or_static": "alt"
+        },
+        {
+          "role": "bin1",
+          "pubkey": "65qNFYojuT7do7VMsc1HB9aJp6c52hp1N9kXkBnmaBwE",
+          "writable": true,
+          "signer": false,
+          "token_program": null,
+          "alt_or_static": "alt"
+        }
+      ]
+    },
+    {
+      "venue": "dlmm",
+      "direction": "swap2",
+      "pool": "4MjpgAT7H8GmWsZDUaeGUNZwjur8n8sKCSPHHjQRE4sm",
+      "active_id": -649,
+      "bin0_index": -10,
+      "bin1_index": -9,
+      "bumps": {
+        "oracle": 253,
+        "bin0": 254,
+        "bin1": 255
+      },
+      "seeds": {
+        "oracle": [
+          "oracle",
+          "4MjpgAT7H8GmWsZDUaeGUNZwjur8n8sKCSPHHjQRE4sm"
+        ],
+        "bin0": [
+          "bin_array",
+          "4MjpgAT7H8GmWsZDUaeGUNZwjur8n8sKCSPHHjQRE4sm",
+          -10
+        ],
+        "bin1": [
+          "bin_array",
+          "4MjpgAT7H8GmWsZDUaeGUNZwjur8n8sKCSPHHjQRE4sm",
+          -9
+        ]
+      },
+      "accounts": [
+        {
+          "role": "lb_pair",
+          "pubkey": "4MjpgAT7H8GmWsZDUaeGUNZwjur8n8sKCSPHHjQRE4sm",
+          "writable": true,
+          "signer": false,
+          "token_program": null,
+          "alt_or_static": "alt"
+        },
+        {
+          "role": "bitmap",
+          "pubkey": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+          "writable": false,
+          "signer": false,
+          "token_program": null,
+          "alt_or_static": "static"
+        },
+        {
+          "role": "vault_x",
+          "pubkey": "94cexLAjz5v114B9GUa1cseRdUX58HZdKb4TxA7DrXUd",
+          "writable": true,
+          "signer": false,
+          "token_program": "TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb",
+          "alt_or_static": "alt"
+        },
+        {
+          "role": "vault_y",
+          "pubkey": "4djX7qQEo514o5DnCof5siuYiajTck55GXRKdHAdyugG",
+          "writable": true,
+          "signer": false,
+          "token_program": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+          "alt_or_static": "alt"
+        },
+        {
+          "role": "oracle",
+          "pubkey": "3pX6LdgLzPgELk5erxEGnA5Dj3BT2YwLBKHkZB42RJsW",
+          "writable": true,
+          "signer": false,
+          "token_program": null,
+          "alt_or_static": "alt"
+        },
+        {
+          "role": "host",
+          "pubkey": "LBUZKhRxPF3XUpBCjp4YzTKgLccjZhTSDM9YuVaPwxo",
+          "writable": false,
+          "signer": false,
+          "token_program": null,
+          "alt_or_static": "static"
+        },
+        {
+          "role": "mint_x",
+          "pubkey": "2PENPmfgJfq6CG3k4byj4oWwHf8SerqakmYHMkUupump",
+          "writable": false,
+          "signer": false,
+          "token_program": null,
+          "alt_or_static": "alt"
+        },
+        {
+          "role": "mint_y",
+          "pubkey": "So11111111111111111111111111111111111111112",
+          "writable": false,
+          "signer": false,
+          "token_program": null,
+          "alt_or_static": "alt"
+        },
+        {
+          "role": "bin0",
+          "pubkey": "3miNycPjjXCXDy7zxtQjq2XX2Q7hJqyrie8tR3MPd9kU",
+          "writable": true,
+          "signer": false,
+          "token_program": null,
+          "alt_or_static": "alt"
+        },
+        {
+          "role": "bin1",
+          "pubkey": "Eka9ttLFv2izG8kSViayTAbbZnnJee26TyyFTGap8toy",
+          "writable": true,
+          "signer": false,
+          "token_program": null,
+          "alt_or_static": "alt"
+        }
+      ]
+    }
+  ],
+  "semantic_match": true
+}

@@ -1,0 +1,29 @@
+{
+  "kind": "pump",
+  "bucket": "sdk_vector",
+  "direction": 1,
+  "amount_in": 666506287686,
+  "slot": 2,
+  "trigger_sig": "sdk_vector2_sell",
+  "n_cpi": 2,
+  "wsol": 1,
+  "s_before": {
+    "kind": "pump",
+    "reserve_base": 630516942543821,
+    "reserve_quote": 758566722754392,
+    "virtual_quote": 0,
+    "lp_fee_bps": 15,
+    "protocol_fee_bps": 38,
+    "creator_fee_bps": 29,
+    "disabled": 0
+  },
+  "published_s": {
+    "kind": "pump",
+    "reserve_base": 631183448831507,
+    "reserve_quote": 757766905986314,
+    "lp_fee_bps": 15,
+    "protocol_fee_bps": 38,
+    "creator_fee_bps": 29,
+    "disabled": 0
+  }
+}

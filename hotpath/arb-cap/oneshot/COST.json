@@ -1,0 +1,20 @@
+{
+  "from_four_attempts": {
+    "onchain_fee_each": 325000,
+    "formula": "CU_LIMIT(400000) * CU_PRICE(800000) / 1e6 + 5000",
+    "cu_used": [130910, 130901, 130905, 139824],
+    "if_charged_on_used": "800000 * cu / 1e6 + 5000 ≈ 110k–117k",
+    "swqos_prepaid_each": 150000,
+    "swqos_balance": "100100000 → 99650000 over four sends",
+    "all_in_per_attempt": 475000,
+    "old_hurdle": 305000,
+    "old_hurdle_shortfall": 170000,
+    "new_hurdle": 525000,
+    "new_hurdle_parts": {
+      "onchain_fee": 325000,
+      "swqos": 150000,
+      "safety": 50000
+    }
+  },
+  "note": "Hurdle 305k was below the 325k on-chain fee alone. SEND=0 until send_quote at 0.05 SOL clears 525k."
+}
