@@ -17,6 +17,7 @@ every file against its manifest sha256. `offline-ml/ml/weekly/fetch.py` does thi
 | `…/run-001/library` | the frozen candidate library (train window only), windows, val/test sweeps |
 | `…/run-001/prep/<partition>` | `ml-prep` output per partition: tx features, labels, transaction–pack pairs |
 | `…/run-001/bundles/pool-ev-v1` | **the paper-trading model bundle** |
+| `…/run-001/bundles/landing-v1` | **the landing head P(land)**, see [10-landing-head.md](10-landing-head.md) |
 | `campaigns/firedancer-week-20260925-stream-003-p000/partitions/<partition>` | raw transactions (`dataset/part-*.transactions.parquet`, CBOR records with resolved keys) and runtime data |
 
 Fetch commands (from `offline-ml/ml`):
@@ -24,6 +25,7 @@ Fetch commands (from `offline-ml/ml`):
 ```bash
 # the model bundle only (a few hundred MB at most)
 uv run --with boto3 python weekly/fetch.py --out ./data --credentials tigris.json --bundle pool-ev-v1
+uv run --with boto3 python weekly/fetch.py --out ./data --credentials tigris.json --bundle landing-v1
 
 # the prepared week (≈15 GB: library + 41 prepared partitions)
 uv run --with boto3 python weekly/fetch.py --out ./data/week/run-001 --credentials tigris.json
@@ -50,6 +52,8 @@ Raw transactions are about 34 GB per partition (1.39 TB for the week). Stream th
 | `/data/bsc/captures/firm-ml/week/run-001` | the fetched week: `library/`, `prep/<partition>/`, `extras/<partition>.parquet`, `labels/` (test-window trigger tables), `indexes/`, `markets/` |
 | `/data/bsc/captures/firm-ml/runs/v1-week-20260925-run-001` | the weekly notebook run: `metrics.json`, `models/`, `predictions/`, `plots/`, `experiments/` |
 | `/data/bsc/captures/firm-ml/bundles/pool-ev-v1` | the exported bundle (also on Tigris) |
+| `/data/bsc/captures/firm-ml/bundles/landing-v1` | the landing head bundle (also on Tigris) |
+| `/data/bsc/captures/firm-ml/week/run-001/population/<partition>.parquet` | landing-head population: landed and failed transactions naming a labelled pool, with outcome and static features (`extract_population.py`) |
 | `/data/bsc/captures/firm-ml/bin/uv` | uv; use `UV_CACHE_DIR=/data/bsc/captures/firm-ml/uv-cache` (the root disk is full) |
 | `/data/bsc/captures/orbitflare.env` | OrbitFlare credentials (owner only) |
 | `~/the-firm`, `~/arb-exec`, … | the original hot-path trees this repo snapshots |

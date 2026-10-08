@@ -100,6 +100,21 @@ produced it.
 - Score distribution on live transactions compared with offline (quantiles of P(arb), EV, share with candidates):
   report any shift larger than 10% at any decile.
 
+### M3b — Landing head (P(land) gate)
+
+Added after M3 found that only 19% of live decisions landed. Bundle `landing-v1`; full spec in
+[docs/10-landing-head.md](docs/10-landing-head.md).
+
+- Build its 35 static inputs and the causal fee-payer reputation in C, next to the arb features.
+- Score it with the same LightGBM path as M2.
+- Run policy C (`p_land ≥ 0.5`) next to your policy B (bad-payer gate), logging both.
+
+**Accept:** the L1–L4 criteria in docs/10 must all pass:
+- exact feature parity on the fixture window;
+- model parity to 1e-9;
+- exact reputation parity;
+- a 24-hour shadow comparison of B against C.
+
 ### M4 — Score the paper trades
 
 - Join the decision log to ground truth: (a) realised arbs on chain in the following transactions and slots

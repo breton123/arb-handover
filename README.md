@@ -28,7 +28,10 @@ Start with **[HANDOVER.md](HANDOVER.md)**: scope, milestones, targets and accept
 7. [docs/06-latency-eval.md](docs/06-latency-eval.md) — latency budget, measurement method, targets
 8. [docs/07-data-and-infra.md](docs/07-data-and-infra.md) — Tigris paths, the Frankfurt box, the model bundle, credentials
 9. [docs/08-results-so-far.md](docs/08-results-so-far.md) — what the offline work found
-10. [docs/09-leakage-audit.md](docs/09-leakage-audit.md) — how far to trust those results
+10. [docs/09-leakage-audit.md](docs/09-leakage-audit.md) — how far to trust those results (read the
+    selection-on-outcome correction)
+11. [docs/10-landing-head.md](docs/10-landing-head.md) — **new:** the P(land) model (`landing-v1`) that answers
+    the M3 finding of 19% landing, and how to integrate it
 
 ## Boundaries
 

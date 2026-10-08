@@ -11,6 +11,22 @@ No leakage was found. The test numbers are honest estimates for this week and th
 measurement caveats below. The model's skill comes mostly from **which pools produce arbs**, learned from the
 training window, and it **decays with staleness**, so live results will depend on how often it is retrained.
 
+## Missed: selection on outcome
+
+**Correction (8 Oct, after your M3 shadow run).** The verdict above holds for leakage *within* the dataset, but
+the audit missed a population leak. The training population contained only transactions that **committed and
+wrote a venue account**. Being in the population therefore already implied success. Live, the trader scores
+every transaction on the feed, including those that will fail, and none of these tests could see that because
+they all ran inside the same population. The live consequence: 19% of decisions landed, against 85% offline.
+
+None of the offline numbers transfer to live as `P(arb)`. Read them as `P(arb | landed)`. The fix has two parts:
+- the landing head [10-landing-head.md](10-landing-head.md) supplies `P(land)` now;
+- the labeller rerun will keep failed transactions in the population, so the next arb bundle is trained and
+  evaluated on what the trader actually sees.
+
+Any future audit must include the check this one lacked: **is the train/eval population defined by information
+the live system has at decision time?**
+
 ## Code review
 
 | Check | Result |
